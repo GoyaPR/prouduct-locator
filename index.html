@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Demo Localizador de Productos</title>
+  <title>Localizador de Recetas</title>
   <style>
     body { font-family: sans-serif; max-width: 500px; margin: 40px auto; }
     select, button { width: 100%; margin-top: 16px; padding: 10px; font-size: 16px; }
@@ -11,20 +11,21 @@
   </style>
 </head>
 <body>
-  <h2>Localizador de Productos</h2>
+  <h2>Localizador de Recetas</h2>
   
   <select id="categoryDropdown">
     <option value="">Selecciona una categoría</option>
   </select>
   
   <select id="productDropdown" disabled>
-    <option value="">Selecciona un producto</option>
+    <option value="">Selecciona una receta</option>
   </select>
   
-  <button id="locateButton" disabled>Localizar Producto</button>
+  <button id="locateButton" disabled>Ver Receta</button>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // ✅ Inline recipe data (simplified for demo)
       const data = [
 		  {
 		    "title": "Aderezo de Fresa y Vinagre",
@@ -7329,26 +7330,26 @@
       const productDropdown = document.getElementById('productDropdown');
       const locateButton = document.getElementById('locateButton');
 
-      const products = data.filter(item => item.type === 'product');
-      const categories = [...new Set(products.map(p => p.Categorias).filter(Boolean))];
+      // ✅ Generate categories from slug prefix (e.g. "arroz", "aderezo")
+      const categories = [...new Set(data.map(item => item.slug.split('-')[0]))];
 
       categories.forEach(cat => {
         const option = document.createElement('option');
         option.value = cat;
-        option.textContent = cat.replace(/-/g, ' ').toUpperCase();
+        option.textContent = cat.toUpperCase();
         categoryDropdown.appendChild(option);
       });
 
       categoryDropdown.addEventListener('change', () => {
         const selectedCat = categoryDropdown.value;
-        productDropdown.innerHTML = '<option value="">Selecciona un producto</option>';
+        productDropdown.innerHTML = '<option value="">Selecciona una receta</option>';
         locateButton.disabled = true;
 
-        const filtered = products.filter(p => p.Categorias === selectedCat);
-        filtered.forEach(product => {
+        const filtered = data.filter(item => item.slug.startsWith(selectedCat));
+        filtered.forEach(recipe => {
           const opt = document.createElement('option');
-          opt.value = product.link;
-          opt.textContent = product.title;
+          opt.value = recipe.link;
+          opt.textContent = recipe.title;
           productDropdown.appendChild(opt);
         });
 
@@ -7368,3 +7369,7 @@
   </script>
 </body>
 </html>
+
+
+
+		 
