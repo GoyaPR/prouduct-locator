@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Localizador de Productos</title>
+  <style>
+    body { font-family: sans-serif; max-width: 500px; margin: 40px auto; }
+    select, button { width: 100%; margin-top: 16px; padding: 10px; font-size: 16px; }
+    button:disabled, select:disabled { opacity: 0.6; }
+  </style>
+</head>
+<body>
+  <h2>Localizador de Productos</h2>
+  
+  <select id="categoryDropdown">
+    <option value="">Selecciona una categoría</option>
+  </select>
+  
+  <select id="productDropdown" disabled>
+    <option value="">Selecciona un producto</option>
+  </select>
+  
+  <button id="locateButton" disabled>Localizar Producto</button>
+
+  <script>
+    fetch('data.json')
+      .then(res => res.json())
+      .then(data => {
+        const categoryDropdown = document.getElementById('categoryDropdown');
+        const productDropdown = document.getElementById('productDropdown');
+        const locateButton = document.getElementById('locateButton');
+
+        const products = data.filter(item => item.type === 'product');
+        const categories = [...new Set(products.map(p => p.Categorias).filter(Boolean))];
+
+        categories.forEach(cat => {
+          const option = document.createElement('option');
+          option.value = cat;
+          option.textContent = cat.replace(/-/g, ' ').toUpperCase();
+          categoryDropdown.appendChild(option);
+        });
+
+        categoryDropdown.addEventListener('change', () => {
+          const selectedCat = categoryDropdown.value;
+          productDropdown.innerHTML = '<option value="">Selecciona un producto</option>';
+          locateButton.disabled = true;
+
+          const filtered = products.filter(p => p.Categorias === selectedCat);
+          filtered.forEach(product => {
+            const opt = document.createElement('option');
+            opt.value = product.link;
+            opt.textContent = product.title;
+            productDropdown.appendChild(opt);
+          });
+
+          productDropdown.disabled = filtered.length === 0;
+        });
+
+        productDropdown.addEventListener('change', () => {
+          locateButton.disabled = !productDropdown.value;
+        });
+
+        locateButton.addEventListener('click', (e) => {
+          e.preventDefault();
+          const url = productDropdown.value;
+          if (url) window.location.href = url;
+        });
+      })
+      .catch(err => console.error('❌ Error:', err));
+  </script>
+</body>
+</html>
