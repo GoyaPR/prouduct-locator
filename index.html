@@ -1220,10 +1220,10 @@
       locateButton.disabled = !productDropdown.value;
     });
 
-    // Handle button click
-    locateButton.addEventListener("click", () => {
-      alert(`Buscando: ${productDropdown.value} en la categoría ${categoryDropdown.value}`);
-    });
+    // 🔁 Redirect to demo URL on click
+  locateButton.addEventListener("click", () => {
+    window.location.href = "https://gpr2025.webflow.io/productos/1159";
+  });
   </script>
 
 </body>
