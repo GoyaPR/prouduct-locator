@@ -56,19 +56,23 @@
       box-shadow: 0 0 0 2px rgba(0,0,0,0.05);
     }
 
-    button {
-      background-color: var(--primary);
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-weight: 500;
-      transition: background-color 0.3s ease;
-    }
+ button {
+  background-color: #004f8a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
 
-    button:disabled {
-      background-color: var(--accent);
-      cursor: not-allowed;
-    }
+button:hover:not(:disabled) {
+  background-color: #003b65;
+}
+
+button:disabled {
+  background-color: #cfcfcf;
+  cursor: not-allowed;
+}
   </style>
 </head>
 <body>
