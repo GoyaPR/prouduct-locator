@@ -4,50 +4,1185 @@
   <meta charset="UTF-8">
   <title>Localizador de Productos</title>
   <style>
-    body {
-      font-family: sans-serif;
-      padding: 20px;
-      max-width: 600px;
-      margin: auto;
+    :root {
+      --primary: #1d1d1f;
+      --bg: #f8f8f8;
+      --card-bg: #ffffff;
+      --border: #dddddd;
+      --accent: #e0e0e0;
     }
-    select, button {
-      margin-top: 10px;
-      display: block;
+
+    body {
+      font-family: 'Inter', 'Helvetica Neue', sans-serif;
+      background-color: var(--bg);
+      padding: 40px 20px;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .card {
+      background-color: var(--card-bg);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       width: 100%;
-      padding: 8px;
+      max-width: 480px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: var(--primary);
+    }
+
+    select, button {
+      width: 100%;
+      padding: 12px 14px;
+      margin-bottom: 16px;
       font-size: 16px;
+      border-radius: 12px;
+      border: 1px solid var(--accent);
+      background-color: #fff;
+      appearance: none;
+      transition: border 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    select:focus, button:focus {
+      outline: none;
+      border-color: #aaa;
+      box-shadow: 0 0 0 2px rgba(0,0,0,0.05);
+    }
+
+    button {
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    button:disabled {
+      background-color: var(--accent);
+      cursor: not-allowed;
     }
   </style>
 </head>
 <body>
 
-  <h2>Localizador de Productos</h2>
+  <div class="card">
+    <h2>Localizador de Productos</h2>
 
-  <select id="categoryDropdown">
-    <option value="">Selecciona una categoría</option>
-  </select>
+    <select id="categoryDropdown">
+      <option value="">Selecciona una categoría</option>
+    </select>
 
-  <select id="productDropdown" disabled>
-    <option value="">Selecciona un producto</option>
-  </select>
+    <select id="productDropdown" disabled>
+      <option value="">Selecciona un producto</option>
+    </select>
 
-  <button id="locateButton" disabled>Localizar Producto</button>
+    <button id="locateButton" disabled>Localizar Producto</button>
+  </div>
 
   <script>
-    // Embedded JSON data (simplified for example — replace with full content if needed)
     const data = [
-      {
-        "category": "Aceites de Maiz y Vegetal",
-        "products": ["ACEITE DE MAIZ", "ACEITE VEGETAL", "ACEITE DE CANOLA"]
-      },
-      {
-        "category": "Aceites de Oliva",
-        "products": ["ACEITE OLIVA EXTRA VIRGEN", "ACEITE DE OLIVA PURO", "ACEITE DE OLIVA LIGHT"]
-      },
-      {
-        "category": "Aceitunas",
-        "products": ["ACEITUNAS MANZANILLA", "ALCAPARRAS", "ALCAPARRADO CON PIMIENTO"]
-      }
+
+  {
+    "category": "Aceites de Maiz y Vegetal",
+    "products": [
+      "ACEITE DE MAIZ",
+      "ACEITE DE MAIZ",
+      "ACEITE DE MAIZ",
+      "ACEITE DE MAIZ",
+      "ACEITE DE MAIZ",
+      "ACEITE VEGETAL",
+      "ACEITE VEGETAL",
+      "ACEITE VEGETAL",
+      "ACEITE VEGETAL",
+      "ACEITE VEGETAL",
+      "ACEITE VEGETAL",
+      "ACEITE DE CANOLA",
+      "ACEITE DE CANOLA",
+      "ACEITE DE CANOLA",
+      "ACEITE DE CANOLA"
+    ]
+  },
+  {
+    "category": "Aceites de Oliva",
+    "products": [
+      "ACEITE OLIVA EXTRA VIRGEN",
+      "ACEITE OLIVA EXTRA VIRGEN",
+      "ACEITE OLIVA EXTRA VIRGEN",
+      "ACEITE DE OLIVA EXTRA VIRGEN",
+      "ACEITE OLIVA EXTRA VIRGEN",
+      "ACEITE DE OLIVA EXTRA VIRGEN",
+      "ACEITE OLIVA EXTRA VIRGEN",
+      "ACEITE OLIVA EXTRA VIRGEN",
+      "ACEITE OLIVA UNICO",
+      "ACEITE OLIVA ORGANICO EXTRA VIRGEN",
+      "ACEITE DE OLIVA PURO",
+      "ACEITE DE OLIVA PURO",
+      "ACEITE DE OLIVA PURO",
+      "ACEITE DE OLIVA PURO",
+      "ACEITE DE OLIVA PURO",
+      "ACEITE DE OLIVA LIGHT",
+      "ACEITE DE OLIVA LIGHT",
+      "ACEITE DE OLIVA LIGHT",
+      "ACEITE DE OLIVA LIGHT",
+      "ACEITE DE OLIVA LIGHT"
+    ]
+  },
+  {
+    "category": "Aceitunas",
+    "products": [
+      "ACEITUNAS MANZANILLA",
+      "ACEITUNAS MANZANILLA",
+      "ACEITUNAS MANZANILLA",
+      "MANZANILLAS LISAS",
+      "ACEITUNAS MANZANILLA DESHUEZADAS",
+      "ACEITUNAS MANZANILLAS RELLENAS",
+      "ACEITUNAS MANZANILLAS RELLENAS",
+      "ACEITUNAS MANZANILLAS RELLENAS",
+      "ACEITUNAS MANZANILLAS RELLENAS",
+      "ACEITUNAS MANZANILLAS RELLENAS",
+      "ACEITUNAS REINAS RELLENAS",
+      "ACEITUNAS REINAS RELLENAS",
+      "ACEITUNAS MANZANILLAS LISAS",
+      "ACEITUNAS MANZANILLAS RELLENAS",
+      "ACEITUNAS JUMBO",
+      "ALCAPARRAS NONPAREILS BAJO EN SODIO",
+      "ALCAPARRAS CAPOTES BAJO EN SODIO",
+      "ALCAPARRAS NONPAREILS",
+      "ALCAPARRAS CAPOTES",
+      "ALCAPARRAS",
+      "ALCAPARRAS",
+      "ALCAPARRAS CAPOTES",
+      "ALCAPARRAS CAPOTES",
+      "ALCAPARRADO Y ACEITUNAS DESHUESADAS",
+      "ALCAPARRADO Y ACEITUNAS DESHUESADAS",
+      "ALCAPARRADO Y ACEITUNAS DESHUESADAS",
+      "ALCAPARRADO CON PIMIENTO",
+      "ALCAPARRADO CON PIMIENTO",
+      "ALCAPARRADO CON PIMIENTO",
+      "ALCAPARRADO CON PIMIENTO",
+      "ALCAPARRADO CON PIMIENTO",
+      "ACEITUNAS PICADAS",
+      "ACEITUNAS NEGRAS PICADAS",
+      "ALCAPARRADO CON PIMIENTOS",
+      "ALCAPARRADO CON PIMIENTOS",
+      "ACEITUNAS MANZANILLAS",
+      "ACEITUNAS MANZANILLAS RELLENAS",
+      "ACEITUNAS JUMBO",
+      "ACEITUNAS REINAS RELLENAS",
+      "CONDIMENTO",
+      "CONDIMENTO",
+      "CONDIMENTO",
+      "CONDIMENTO",
+      "ACEITUNAS RELLENAS SALMON AHUMADO",
+      "ACEITUNAS RELLENAS DE TUNA",
+      "ACEITUNAS RELLENAS DE ANCHOAS",
+      "ACEITUNAS RELLENAS HOT PEPPERS",
+      "ACEITUNAS NEGRAS PEQUENAS",
+      "ACEITUNAS NEGRAS GRANDES",
+      "ACEITUNAS NEGRAS MEDIANAS",
+      "ACEITUNAS NEGRAS EN RODAJAS",
+      "ACEITUNAS MANZANILLAS BAJO EN SODIO",
+      "ACEITUNAS MANZANILLA RELLENAS BAJO EN SODIO",
+      "ALCAPARRADO Y ACEITUNAS DESHUESADAS BAJO EN SODIO",
+      "CONDIMENTO BAJO EN SODIO",
+      "MEDITERRANEAN SALAD"
+    ]
+  },
+  {
+    "category": "Adobos",
+    "products": [
+      "ADOBO CON LIMON",
+      "ADOBO CON NARANJA AGRIA",
+      "ADOBO CON PIQUE",
+      "ADOBO CON COMINO",
+      "ADOBO CON COMINO",
+      "ADOBO CON COMINO",
+      "ADOBO SIN PIMIENTA",
+      "ADOBO CON PIMIENTA",
+      "ADOBO SIN PIMIENTA",
+      "ADOBO CON PIMIENTA",
+      "ADOBO CON PIMIENTA",
+      "ADOBO CON PIMIENTA",
+      "ADOBO SIN PIMIENTA",
+      "ADOBO SIN PIMIENTA",
+      "ADOBO CON NARANJA AGRIA",
+      "ADOBO CON LIMON",
+      "ADOBO LIGHT CON PIMIENTA",
+      "ADOBO LIGHT SIN PIMIENTA",
+      "ADOBO CON PIMIENTA",
+      "ADOBO SIN PIMIENTA",
+      "ADOBO CON COMINO",
+      "ADOBO CON AZAFRAN",
+      "ADOBO CON AZAFRAN",
+      "ADOBO LIGHT CON PIMIENTA",
+      "ADOBO LIGHT SIN PIMIENTA",
+      "ADOBO CON LIMON",
+      "ADOBO CON NARANJA",
+      "ADOBO CON CULANTRO Y ACHIOTE",
+      "ADOBO CON CULANTRO Y ACHIOTE"
+    ]
+  },
+  {
+    "category": "Agave",
+    "products": [
+      "AGAVE ORGANICO"
+    ]
+  },
+  {
+    "category": "Agua de Florida",
+    "products": [
+      "AGUA DE FLORIDA"
+    ]
+  },
+  {
+    "category": "Aguas de Coco",
+    "products": [
+      "AGUA DE COCO CON TROCITOS",
+      "AGUA DE COCO",
+      "AGUA DE COCO",
+      "AGUA DE COCO CON TROCITOS",
+      "AGUA DE COCO",
+      "AGUA DE COCO CON TROCITOS",
+      "AGUA DE COCO"
+    ]
+  },
+  {
+    "category": "Aji y Salsas Picantes",
+    "products": [
+      "AJIES ROJOS PICANTES",
+      "AJIES VERDES PICANTES",
+      "SALSA PICANTE",
+      "SALSA PICANTE",
+      "SALSA PICANTE"
+    ]
+  },
+  {
+    "category": "Ajo",
+    "products": [
+      "AJO PICADO SQUEEZE IT",
+      "AJO PICADO",
+      "AJO PICADO",
+      "AJO PICADO"
+    ]
+  },
+  {
+    "category": "Arroces",
+    "products": [
+      "ARROZ GRANO MEDIANO",
+      "ARROZ GRANO MEDIANO",
+      "ARROZ GRANO MEDIANO",
+      "ARROZ GRANO MEDIANO",
+      "ARROZ GRANO MEDIANO",
+      "ARROZ GRANO MEDIANO",
+      "ARROZ GRANO LARGO INTEGRAL",
+      "ARROZ INTEGRAL",
+      "ARROZ INTEGRAL",
+      "ARROZ INTEGRALG",
+      "JASMINE RICE",
+      "ARROZ TIPO VALENCIANO"
+    ]
+  },
+  {
+    "category": "Arroces Listos",
+    "products": [
+      "ARROZ ESTILO CONGRI",
+      "ARROZ AMARILLO INSTANTANEO",
+      "ARROZ MEXICANO INSTANTANEO",
+      "ARROZ INTEGRAL INSTANTANEO",
+      "ARROZ CON COCO",
+      "ARROZ CON HABICHUELAS PINTAS",
+      "ARROZ CON SABOR A POLLO",
+      "ARROZ FIESTA",
+      "ARROZ CON GANDULES",
+      "ARROZ AMARILLO",
+      "ARROZ MEXICANO",
+      "ARROZ PRIMAVERA",
+      "ARROZ CON HABICHUELAS NEGEGRAS",
+      "ARROZ CON HABICHUELAS COLORADAS",
+      "ARROZ CON QUESO Y BROCOLI",
+      "ARROZ CURRY",
+      "ARROZ CON POLLO",
+      "ARROZ ESPANOL",
+      "ARROZ AMARILLO CON COLORADAS"
+    ]
+  },
+  {
+    "category": "Arroz Canilla",
+    "products": [
+      "CANILLA DORADO PARBOILED",
+      "CANILLA DORADO PARBOILED",
+      "CANILLA DORADO PARBOILED",
+      "CANILLA DORADO PARBOILED",
+      "CANILLA ARROZ GRANO LARGO",
+      "CANILLA ARROZ GRANO LARGO",
+      "CANILLA ARROZ GRANO LARGO",
+      "CANILLA ARROZ GRANO LARGO",
+      "CANILLA ARROZ GRANO LARGO",
+      "CANILLA ARROZ GRANO LARGO",
+      "CANILLA ARROZ GRANO LARGO"
+    ]
+  },
+  {
+    "category": "Bacalaitos y Aitos",
+    "products": [
+      "AITOS CAMARONES",
+      "BACALAITOS DISPLAY",
+      "BACALAITOS"
+    ]
+  },
+  {
+    "category": "Carnes",
+    "products": [
+      "CHORIZOS",
+      "CHORIZOS",
+      "CHORIZOS MENOS SODIO",
+      "SALCHICHAS PICANTES",
+      "SALCHICHAS",
+      "JAMON ENLATADO",
+      "CORNED BEEF",
+      "JAMONILLA",
+      "POTTED MEAT",
+      "POTTED MEAT"
+    ]
+  },
+  {
+    "category": "Cherries",
+    "products": [
+      "RED PLAIN CHERRIES",
+      "RED PLAIN CHERRIES",
+      "RED CHERRIES CON TALLO",
+      "RED PLAIN CHERRIES"
+    ]
+  },
+  {
+    "category": "Chocolate",
+    "products": [
+      "CHOCOLATE"
+    ]
+  },
+  {
+    "category": "Crema de Coco y Leche Coco",
+    "products": [
+      "PINA COLADA MIX",
+      "CREMA DE COCO",
+      "CREMA DE COCO",
+      "CREMA DE COCO",
+      "LECHE DE COCO",
+      "LECHE DE COCO LIGHT",
+      "LECHE DE COCO",
+      "BEBIDA LECHE DE COCO"
+    ]
+  },
+  {
+    "category": "Cubitos",
+    "products": [
+      "CUBITOS DE POLLO BAJO EN SODIO",
+      "CUBITOS DE CARNE BAJO EN SODIO",
+      "CUBITOS DE POLLO",
+      "CUBITOS DE CARNE",
+      "CUBITOS EN POLVO POLLO Y TOMATE",
+      "CUBITOS DE POLLO",
+      "CUBITOS DE POLLO"
+    ]
+  },
+  {
+    "category": "Especias",
+    "products": [
+      "ANIS EN SEMILLA",
+      "CLAVOS DE ESPECIAS",
+      "PIMIENTA EN GRANO",
+      "AJO CON SAL",
+      "ANIS EN ESTRELLA",
+      "HOJAS DE LAUREL",
+      "CANELA EN RAMA",
+      "CHILI MOLIDO",
+      "JAMAICAN CURRY POWDER",
+      "COMINO SEMILLAS",
+      "COMINO MOLIDO",
+      "AJO MOLIDO",
+      "CANELA MOLIDA",
+      "CEBOLLA POLVO",
+      "OREGANO EN HOJA",
+      "AJO EN POLVO",
+      "COMINO MOLIDO",
+      "CEBOLLA EN POLVO",
+      "HOJA DE LAUREL",
+      "PIMIENTA MOLIDA",
+      "ACHIOTE",
+      "ACHIOTE"
+    ]
+  },
+  {
+    "category": "Fideos",
+    "products": [
+      "FIDEOS",
+      "FIDEOS FIDELINI",
+      "CABELLO DE ANGEL FINO",
+      "CABELLO DE ANGEL FINO",
+      "FIDEOS GRUESOS"
+    ]
+  },
+  {
+    "category": "Frutas",
+    "products": [
+      "PERAS MITADES",
+      "MELOCOTONES REBANADOS",
+      "MELOCOTONES MITADES",
+      "MELOCOTONES REBANADOS",
+      "MELOCOTONES MITADES",
+      "COCTEL DE FRUTAS",
+      "COCTEL DE FRUTAS",
+      "PINA EN REBANADAS",
+      "PINA EN TROZOS",
+      "PINA MOLIDA",
+      "CASCOS DE GUAYABA",
+      "CASCOS DE GUAYABA",
+      "LASCAS DE MANGO EN ALMIBAR",
+      "DULCE DE PAPAYA",
+      "DULCE DE PAPAYA"
+    ]
+  },
+  {
+    "category": "Galletas D",
+    "products": [
+      "DUX SODAS CRACKERS",
+      "DUX SODA CRACKERS",
+      "DUX SODA CRACKERS BOX",
+      "DUX SALTIN PACK X 4"
+    ]
+  },
+  {
+    "category": "Galletas Maria",
+    "products": [
+      "GALLETAS MARIA 100",
+      "GALLETAS MARIA 200",
+      "PALMERITAS",
+      "GALLETAS MARIA FLOW PACK",
+      "LADY FINGERS",
+      "PALMERITAS"
+    ]
+  },
+  {
+    "category": "Galletas Wafers",
+    "products": [
+      "WAFERS VAINILLA-FRESA",
+      "WAFERS CHOCO-VAINILLA",
+      "WAFERS FRESA-CHOCO",
+      "WAFERS DE PINA",
+      "WAFERS DE COCO",
+      "WAFERS DE CHOCOLATE",
+      "WAFERS DE DULCE DE LECHE",
+      "WAFERS DE GUAYABA",
+      "WAFERS DE FRESA",
+      "WAFERS DE MANGO",
+      "WAFERS DE VAINILLA"
+    ]
+  },
+  {
+    "category": "Gandules",
+    "products": [
+      "GANDULES VERDES",
+      "GANDULES BAJO EN SODIO",
+      "GANDULES VERDES",
+      "GANDULES VERDES CON COCO",
+      "GANDULES VERDES CON COCO",
+      "GANDULES SECOS",
+      "GANDULES SECOS",
+      "GANDULES SECOS"
+    ]
+  },
+  {
+    "category": "Granos Agua y Sal",
+    "products": [
+      "PANA DE PEPITA",
+      "HABICHUELAS CON DULCE",
+      "HABICHUELAS COLORADAS BAJO EN SODIO",
+      "HABICHUELAS ROSADAS BAJO EN SODIO",
+      "FRIJOLES NEGROS  BAJO EN SODIO",
+      "GARBANZOS BAJO EN SODIO",
+      "HABICHUELAS PINTAS BAJO EN SODIO",
+      "HABICHUELAS BLANCAS BAJO EN SODIO",
+      "HABS COLORADAS ORGANICAS",
+      "HABS NEGRAS ORGANICAS",
+      "GARBANZOS ORGANICOS",
+      "HABICHUELAS PINTAS",
+      "HABICHUELAS COLORADAS",
+      "GARBANZOS",
+      "HABICHUELAS ROSADAS",
+      "HABICHUELAS BLANCAS",
+      "SMALL RED BEANS",
+      "FRIJOLES NEGROS",
+      "HABICHUELAS COLORADAS BAJO EN SODIO",
+      "HABICHUELAS ROSADAS BAJO EN SODIO",
+      "GARBANZOS BAJO EN SODIO",
+      "HABICHUELAS PINTAS BAJO EN SODIO",
+      "FRIJOLES NEGROS BAJO EN SODIO",
+      "HABICHUELAS BLANCAS BAJO EN SODIO",
+      "HABICHUELAS COLORADA",
+      "HABICHUELAS COLORADAS",
+      "HABICHUELAS COLORADAS",
+      "HABICHUELAS ROSADAS",
+      "HABICHUELAS ROSADAS",
+      "HABICHUELAS ROSADAS",
+      "HABICHUELAS BLANCAS",
+      "HABICHUELAS BLANCAS",
+      "HABICHUELAS ROMANAS",
+      "HABICHUELAS ROMANAS",
+      "HABICHUELAS COLORADAS PEQUENAS",
+      "GARBANZOS",
+      "HABICHUELAS COLORADAS PEQUEñAS",
+      "GARBANZOS",
+      "GARBANZOS",
+      "FRIJOLES",
+      "FRIJOLES",
+      "FRIJOLES",
+      "HABICHUELAS COLORADAS PEQUEñAS",
+      "HABICHUELAS ROJAS",
+      "HABICHUELAS PINTAS",
+      "HABICHUELAS PINTAS",
+      "HABICHUELAS PINTAS",
+      "HABAS GRANDES.",
+      "HABAS GRANDES",
+      "ALUBIAS CANELLINI",
+      "ALUBIAS/CANNELINI",
+      "HABICHUELAS BLANCAS",
+      "LENTEJAS",
+      "GUISANTES",
+      "HABICHUELAS NEGRAS",
+      "HABICHUELAS NEGRAS",
+      "GUISANTES",
+      "HABICHUELAS NEGRAS"
+    ]
+  },
+  {
+    "category": "Granos Guisados",
+    "products": [
+      "HABICHUELAS NEGRAS /FRIJOLES NEGROS BAJO EN SODIO",
+      "HABICHUELAS COLORADAS GUISADAS",
+      "GANDULES GUISADOS",
+      "HABICHUELAS ROSADAS GUISADAS",
+      "HABICHUELAS BLANCAS GUISADAS",
+      "HABICHUELAS PINTAS GUISADAS",
+      "GARBANZOS GUISADOS",
+      "HABICHUELAS NEGRAS GUISADAS",
+      "HABICHUELAS COLORADAS GUISADAS",
+      "HABICHUELAS ROSADAS GUISADAS",
+      "HABICHUELAS BLANCAS GUISADAS",
+      "HABICHUELAS PINTAS GUISADAS",
+      "GARBANZOS GUISADOS",
+      "FRIJOLES NEGROS GUISADOS"
+    ]
+  },
+  {
+    "category": "Granos Secos",
+    "products": [
+      "HABICHUELAS BLANCAS",
+      "HABICHUELAS COLORADAS",
+      "HABICHUELAS PINTAS",
+      "HABAS PEQUENAS",
+      "FRIJOLES",
+      "GUISANTES",
+      "LENTEJAS",
+      "HABICHUELAS ROSADAS",
+      "GARBANZOS",
+      "HABICHUELAS NEGRAS",
+      "HABICHUELAS ROJAS",
+      "HABAS GRANDES",
+      "HABICHUELAS  ROMANAS",
+      "HABICHUELASBLANCA GREAT NORTHERN",
+      "HABICHUELAS COLORADAS PEQUENAS",
+      "GREEN SPLIT PEAS",
+      "ALUBIAS CANNELLINI",
+      "YELLOW SPLIT PEAS",
+      "YELLOW POPCORN",
+      "BEAN SOUP MIX",
+      "HABICHUELAS ROSADAS",
+      "LENTEJAS",
+      "HABICHUELAS COLORADAS",
+      "GARBANZOS",
+      "HABICHUELAS NEGRAS",
+      "HAB. PINTAS"
+    ]
+  },
+  {
+    "category": "Harinas",
+    "products": [
+      "MASAREPA BLANCA",
+      "MASAREPA AMARILLA",
+      "MASAREPA HARINA MAIZ BLANCA",
+      "MASAREPA AMARILLA",
+      "BULGAR WHEAT-KIEPE",
+      "BULGAR WHEAT KIEPE",
+      "HARINA DE MAIZ FINA",
+      "HARINA DE MAIZ GRUESA",
+      "HARINA DE YUCA",
+      "HARINA DE MAIZ GRUESA",
+      "HARINA DE MAIZ FINA",
+      "HARINA DE MAIZ FINA",
+      "HARINA MAIZ GRUESA",
+      "HARINA DE TRIGO",
+      "HARINA DE TRIGO",
+      "HARINA DE ARROZ",
+      "HARINA DE ARROZ",
+      "HARINA DE MAIZ EXTRA FINA",
+      "HARINA DE MAIZ EXTRA FINA"
+    ]
+  },
+  {
+    "category": "Jaleas y Mermeladas",
+    "products": [
+      "JALEA DE GUAYABA",
+      "CONSERVAS DE FRESAS",
+      "CONSERVAS DE UVA",
+      "CONSERVA DE MANGO",
+      "CONSERVAS DE PINA",
+      "MERMELADA DE PARCHA",
+      "CONSERVA DE PAPAYA"
+    ]
+  },
+  {
+    "category": "Jugos y Nectares",
+    "products": [
+      "NECTAR DE FRESA",
+      "NECTAR DE BANANA",
+      "NECTAR DE DIETA MELOCOTON",
+      "NECTAR DE DIETA ALBARICOQUE",
+      "NECTAR DE DIETA PERA",
+      "NECTAR DE PERA",
+      "NECTAR DE DIETA MELOCOTON",
+      "NECTAR DE MELOCOTON",
+      "NECTAR DE DIETA ALBARICOQUE",
+      "NECTAR DE ALBARICOQUE",
+      "NECTAR DE DIETA TAMARINDO",
+      "NECTAR DE PERA",
+      "NECTAR DE MELOCOTON",
+      "NECTAR DE ALBARICOQUE",
+      "NECTAR DE DIETA TAMARINDO",
+      "NECTAR DE DIETA GUANABANA",
+      "NECTAR DE DIETA GUAYABA",
+      "NECTAR PINA Y GUAYABA",
+      "NECTAR DE DIETA MANGO",
+      "NECTAR DE PERA",
+      "NECTAR DE MELOCOTON",
+      "NECTAR DE ALBARICOQUE",
+      "NECTAR DE DIETA GUANABANA",
+      "JUGO DE PARCHA",
+      "NECTAR PERA Y PARCHA",
+      "NECTAR PINA Y PARCHA",
+      "NECTAR PINA/GUAYABA",
+      "NECTAR DE DIETA GUAYABA",
+      "NECTAR DE TAMARINDO",
+      "NECTAR DE GUANABANA",
+      "NECTAR DE PAPAYA",
+      "NECTAR DE GUAYABA",
+      "NECTAR DE MANGO",
+      "NECTAR DE TAMARINDO",
+      "NECTAR DE GUANABANA",
+      "NECTAR DE GUAYABA",
+      "NECTAR DE MANGO",
+      "NECTAR DE TAMARINDO",
+      "NECTAR DE MANGO",
+      "NECTAR DE GUANABANA",
+      "NECTAR DE PAPAYA",
+      "NECTAR DE GUAYABA",
+      "NECTAR DE PAPAYA",
+      "NECTAR PERA Y PARCHA",
+      "NECTAR PINA Y PARCHA",
+      "NECTAR PINA Y GUAYABA",
+      "NECTAR DE FRESA",
+      "NECTAR DE GUINEO",
+      "NECTAR DE FRESA Y GUINEO",
+      "JUGO DE CHINA SIN AZUCAR",
+      "JUGO TORONJA SIN AZUZAR",
+      "NECTAR DE DIETA MANGO",
+      "JUGO DE PARCHA",
+      "JUGO TOMATE",
+      "JUGO DE PINA",
+      "JUGO DE PINA",
+      "JUGO DE PINA",
+      "GUARAPO DE CANA",
+      "TROPICAL FRUIT PUNCH",
+      "TROPICAL FRUIT PUNCH",
+      "TROPICAL FRUIT PUNCH"
+    ]
+  },
+  {
+    "category": "Leche Evaporada y Condensada",
+    "products": [
+      "LECHE CONDENSADA",
+      "LECHE EVAPORADA",
+      "LECHE CONDENSADA NELA"
+    ]
+  },
+  {
+    "category": "Malta",
+    "products": [
+      "MALTA GOYA 4/6 PACK",
+      "EXTRAC. MALTA MORENA"
+    ]
+  },
+  {
+    "category": "Mantecas",
+    "products": [
+      "MANTECA",
+      "MANTECA",
+      "MANTECA"
+    ]
+  },
+  {
+    "category": "Marinados",
+    "products": [
+      "GOYA CHIMICHURRI",
+      "JUGO DE LIMON TROPICAL",
+      "MOJO CRIOLLO",
+      "MOJO CRIOLLO",
+      "MOJO CRIOLLO",
+      "NARANJA AGRIA",
+      "NARANJA AGRIA",
+      "MOJO DE CEVICHE",
+      "MOJO DE PINA",
+      "JUGO DE LIMON TROPICAL",
+      "DUX INTEGRAL"
+    ]
+  },
+  {
+    "category": "Mariscos",
+    "products": [
+      "CALAMAR JUMBO EN ACEITE OLIVA",
+      "SARDINAS ACEITE OLIVA",
+      "SARDINAS PICANTES",
+      "SARDINAS EN TOMATE",
+      "SARDINAS TOMATE OVAL",
+      "SARDINA TINAPA SALSA TOMATE",
+      "SARDINAS OVALADAS PICANTE",
+      "SARDINA TINAPA PICANTE",
+      "MACARELA",
+      "BACALAO A LA VIZCAINA",
+      "ATUN BLANCO-BONITO NORTE",
+      "SARDINILLA EN ACEITE VEGETAL",
+      "MEJILLONES EN ESCABECHE",
+      "MACARELA EN SALSA TOMATE",
+      "CALAMARES TROZOS TINTA",
+      "FILETE DE CALAMARES EN TINTA",
+      "CALAMARES TROZOS PICANTES",
+      "CALAMAR JUMBO EN ACEITE OLIVA",
+      "CALAMAR JUMBO A LA MARINE",
+      "CALAMAR JUMBO AL AJILLO",
+      "CALAMAR JUMBO PICANTE",
+      "PINK SALMON",
+      "PULPO EN ACEITE DE OLIVA"
+    ]
+  },
+  {
+    "category": "Mayonesa y Ketchup",
+    "products": [
+      "KETCHUP",
+      "MAYO KETCHUP"
+    ]
+  },
+  {
+    "category": "Miel de Abeja",
+    "products": [
+      "MIEL ABEJA SIN PANAL",
+      "MIEL ABEJA SIN PANAL",
+      "MIEL ABEJA SIN PANAL",
+      "MIEL ABEJA CON PANAL",
+      "MIEL ABEJA CON PANAL"
+    ]
+  },
+  {
+    "category": "Pastas",
+    "products": [
+      "PASTA BOWTIE",
+      "LASAGNE",
+      "RIGATONI",
+      "CUT ZITI",
+      "FUSILLI",
+      "PENNE RIGATE",
+      "SPAGHETTI",
+      "CODOS",
+      "CONCHAS",
+      "CABELLO DE ANGEL",
+      "PASTA DE TOMATE",
+      "PASTA DE TOMATE GOYA",
+      "PASTA DE TOMATE",
+      "LETRAS",
+      "CODITOS",
+      "SPAGHETTI",
+      "CONCHAS",
+      "RIGATONI",
+      "MACARRONES",
+      "ROTINI",
+      "CONCHAS",
+      "CODITOS",
+      "PENNE RIGATE",
+      "LASAGNA",
+      "SPAGHETTI",
+      "FETTUCCINE",
+      "LINGUINE"
+    ]
+  },
+  {
+    "category": "Pimientos Morrones",
+    "products": [
+      "PIMIENTO PIQUILLO",
+      "PIMIENTOS MORRONES",
+      "PIMIENTOS MORRONES",
+      "PIMIENTOS MORRONES",
+      "PIMIENTO MORRON ASADO",
+      "PIMIENTOS MORRONES",
+      "PIMIENTOS MORRONES",
+      "PIMIENTOS MORRONES",
+      "PIMIENTOS MORRONES REBANADOS"
+    ]
+  },
+  {
+    "category": "Postres",
+    "products": [
+      "PUDIN DE CHOCOLATE",
+      "MAJARETE",
+      "ARROZ CON LECHE",
+      "TEMBLEQUE",
+      "NATILLA",
+      "FLAN",
+      "FLAN",
+      "FLAN CON CARAMELO",
+      "FLAN CON CARAMELO"
+    ]
+  },
+  {
+    "category": "Prisma",
+    "products": [
+      "PRISMA PINA",
+      "PRISMA PARCHA",
+      "PRISMA PERA",
+      "PRISMA MELOCOTON",
+      "PRISMA GUAYABA",
+      "PRISMA LIGHT MANGO",
+      "PRISMA LIGHT GUAYABA"
+    ]
+  },
+  {
+    "category": "Productos Ancel",
+    "products": [
+      "COCO RALLADO ANCEL",
+      "COCO RALLADO ANCEL",
+      "TROZOS PAPAYA ANCEL",
+      "PASTA DE GUAYABA ANCEL"
+    ]
+  },
+  {
+    "category": "Productos Cortes",
+    "products": [
+      "CHOCOLATE MOLIDO LITE",
+      "EMBAJADOR BARRA",
+      "CHOCOLATE CORTES BARRA",
+      "CORTES INSTANTANEO CHOCALATE",
+      "CHOCOLATE CORTES CON CANELA",
+      "CHOCOLATE MOLIDO LITE",
+      "CHOCOLATE MOLIDO"
+    ]
+  },
+  {
+    "category": "Productos El Jibarito",
+    "products": [
+      "GANDULES SECOS  EL JIBARITO",
+      "GANDULES SECOS EL JIBARITO"
+    ]
+  },
+  {
+    "category": "Productos Limpiolin",
+    "products": [
+      "LIMPIOLIN LAVANDA",
+      "LIMPIOLIN FLORAL",
+      "LIMPIOLIN BEBE",
+      "LIMPIOLIN PRIMAVERAL",
+      "CERAMIKA CLEANER"
+    ]
+  },
+  {
+    "category": "Productos Mejicanos",
+    "products": [
+      "JALAPENOS",
+      "JALAPENOS EN ESCABECHE",
+      "JALAPENO EN ESCABECHE",
+      "RAJAS DE JALAPENO EN ESCABECHE",
+      "RAJAS DE JALAPENO EN ESCABECHE",
+      "CHILES SERRANO EN ESCABECHE",
+      "CHILES SERRANO EN ESCABECHE",
+      "JALAPENOS PICKLED NACHOS",
+      "WHOLE TOMATILLO",
+      "PURE TOMATILLO",
+      "CHILES CHIPOTLES",
+      "NOPALITOS",
+      "CHILES CHIPOTLES",
+      "HUITLACOCHE",
+      "SALSA ROJA MEXICANA",
+      "SALSA VERDE MEXICANA",
+      "SALSITA JALAPEÑO",
+      "SALSITA CHILE DE ARBOL",
+      "SALSITA CHILE ANCHO",
+      "SALSITA HABANERO",
+      "SALSA VERDE",
+      "SALSA TAQUERA",
+      "SALSA PICO DE GALLO",
+      "PICO DE GALLO HOT SALSA",
+      "ZANAHORIAS EN ESCABECHE",
+      "REFRITO CON CHORIZO",
+      "FRIJOLES PINTOS REFRITOS",
+      "FRIJOLES REFRITOS RANCHER",
+      "GOYA MOLE ROJO",
+      "FRIJOLES NEGROS VOLTEADOS",
+      "FAJITA SEASONING",
+      "MEZQUITE FAJITA SEASONING",
+      "TACO SEASONING",
+      "PICADILLO SEASONING",
+      "FAJITA SEASONING"
+    ]
+  },
+  {
+    "category": "Productos de Tomate",
+    "products": [
+      "TOMATES EN TROZOS"
+    ]
+  },
+  {
+    "category": "Quinoa",
+    "products": [
+      "QUINOA BLEND BRN RICE",
+      "QUINOA BLEND BRN RICE",
+      "QUINOA BLEND WILD RICE",
+      "QUINOA ORGANICA",
+      "QUINOA NEGRA ORGANICA",
+      "QUINOA ROJA ORGANICA",
+      "QUINOA TRICOLOR ORGANICA",
+      "AMARANTO ORGANICA",
+      "CHIA ORGANICA"
+    ]
+  },
+  {
+    "category": "Refrescos",
+    "products": [
+      "REFRESCO DE PINA",
+      "REFRESCO DE TAMARINDO",
+      "FRUIT PUNCH SODA",
+      "COLA CHAMPAGNE SODA",
+      "REFRESCO DE COCO",
+      "REFRESCO DE FRESA GOYA",
+      "REFRESCO DE UVA"
+    ]
+  },
+  {
+    "category": "Sales",
+    "products": [
+      "SAL PARRILLERA",
+      "SAL KOSHER",
+      "SAL YODADA CON 33% MENOS SODIO",
+      "SAL YODADA",
+      "SAL DE MAR"
+    ]
+  },
+  {
+    "category": "Salsa de Tomates",
+    "products": [
+      "SALSA DE TOMATE PICANTE",
+      "SALSA DE TOMATE Y CEBOLLA/A",
+      "SALSA DE TOMATE GOYA BAJA EN SODIO",
+      "SALSA DE TOMATE",
+      "SALSA DE TOMATE",
+      "SALSA DE TOMATE"
+    ]
+  },
+  {
+    "category": "Salsa para Pastas",
+    "products": [
+      "SALSA DE ESPAGUETI TRADICIONAL",
+      "SALSA DE ESPAGUETI CILANTRO",
+      "SALSA DE ESPAGUETI MARINA",
+      "SALSA DE ESPAGUETI CON CARNE",
+      "SALSA DE ESPAGUETI TOMATE Y ALBAHACA"
+    ]
+  },
+  {
+    "category": "Sancocho y Mondongo",
+    "products": [
+      "SANCOCHO",
+      "MONDONGO",
+      "MONDONGO DOMINICANO"
+    ]
+  },
+  {
+    "category": "Sazonador Total",
+    "products": [
+      "SAZONADOR TOTAL CON PIMIETA",
+      "SAZONADOR TOTAL BREAD CRUMBS",
+      "SAZONADOR TOTAL",
+      "SAZONADOR TOTAL",
+      "SAZONADOR TOTAL",
+      "SAZONADOR TOTAL"
+    ]
+  },
+  {
+    "category": "Sazones",
+    "products": [
+      "SAZON CON OREGANO BAJO SODIO",
+      "SAZON CULANTRO Y ACHIOTE",
+      "SAZON CON AJO Y CEBOLLA",
+      "SAZON CULANTRO Y ACHIOTE JUMBO",
+      "SAZON CON AZAFRAN",
+      "SAZON CULANTRO Y ACHIOTE",
+      "SAZON CULANTRO Y ACHIOTE",
+      "SAZON CULANTRO Y ACHIOTE",
+      "SAZON CULANTRO Y ACHIOTE",
+      "SAZON CULANTRO Y ACHIOTE",
+      "SAZON CON AZAFRAN",
+      "SAZON CILANTRO Y TOMATE",
+      "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO",
+      "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO",
+      "JAMON CONCENTRADO",
+      "CONCENTRADO DE JAMON",
+      "SEASONING PARA VEGETALES Y ENSALADAS",
+      "SEASONING PARA VEGETALES Y ENSALADAS",
+      "JAMON CONCEN BAJO EN SODIO"
+    ]
+  },
+  {
+    "category": "Sazón",
+    "products": [
+      "SAZON LIQUIDO",
+      "SAZON LIQUIDO"
+    ]
+  },
+  {
+    "category": "Smoothies",
+    "products": [
+      "FRESA Y GUINEO SMOOTHIE"
+    ]
+  },
+  {
+    "category": "Sofritos y Recaito",
+    "products": [
+      "SOFRITO",
+      "SOFRITO",
+      "SOFRITO",
+      "RECAITO",
+      "RECAITO",
+      "RECAITO",
+      "ACHIOTINA",
+      "ACHIOTINA"
+    ]
+  },
+  {
+    "category": "Turrones",
+    "products": [
+      "SANCHIS MIRA MEMBRILLO",
+      "S/M ALICANTE",
+      "S/M ALICANTE",
+      "S/M JIJONA",
+      "PORCIONES ALICANTE 4 CS/2",
+      "FIG DE MAZAPAN",
+      "BARQ DE TURRON",
+      "BARQ CAFE MOCA",
+      "TURR JIJONA S/A",
+      "TURR ALICAN S/A",
+      "ARCA NAVID PEQUENO"
+    ]
+  },
+  {
+    "category": "Vegetales",
+    "products": [
+      "YUCA GOYA",
+      "YUCA GOYA",
+      "GUISANTES VERDES",
+      "CALABAZA",
+      "GUISANTES VERDES",
+      "HABICHUELAS TIERNAS REBANADAS",
+      "HABICHUELAS TIERNAS REBANADAS",
+      "HABICHUELASTIERNAS CORTADAS",
+      "GUISANTES CON ZANAHORIAS",
+      "MAIZ TIERNO",
+      "MAIZ TIERNO",
+      "VEGETALES MIXTOS",
+      "REMOLACHA EN REBANADAS",
+      "REMOLACHA EN REBANADAS",
+      "ZANAHORIAS REBANADAS",
+      "SETAS ENTERAS",
+      "SETAS REBANADAS",
+      "HABAS VERDES",
+      "SETAS ENTERAS",
+      "SETAS REBANADAS",
+      "ESPARRAGOS BLANCOS",
+      "ESPARRAGOS VERDES",
+      "WHITE HOMIN/ MAIZ BLANCO",
+      "GOLDEN HOMINY",
+      "PALMITOS ENTEROS",
+      "PALMITOS EN TROZOS",
+      "ALCACHOFAS MARINADAS"
+    ]
+  },
+  {
+    "category": "Velas",
+    "products": [
+      "VELAS BLANCAS LISA",
+      "VELAS AZULES LISA",
+      "VELAS VERDES LISAS",
+      "VELAS ROJAS LISAS",
+      "VELAS AMARILLAS LISAS",
+      "VELAS SANTA MARTA",
+      "VELAS GRAN PODER",
+      "VELAS MANO PODEROSA",
+      "VELAS SAGRADO CORAZON",
+      "VELAS SAN LAZARO",
+      "VELAS SAN JUDAS",
+      "VELAS CARIDAD DEL COBRE",
+      "VELAS SANTA BARBARA",
+      "VELAS 7 POTENCIAS AFRICAN",
+      "VELAS MADRE DE LA MILAGRO",
+      "VELAS SANTA CLARA",
+      "VELAS JUSTO JUEZ",
+      "VELAS SAN JOSE",
+      "NUESTRA SRA. DE FATIMA",
+      "VELAS DIVINO NINO",
+      "50 HORAS AMARILLAS",
+      "50 HORAS VELAS ROJAS",
+      "50 HORAS VERDES",
+      "VELAS JUAN PABLO II"
+    ]
+  },
+  {
+    "category": "Vinagres",
+    "products": [
+      "VINAGRE BALSAMICO",
+      "VINAGRE DE JEREZ",
+      "VINAGRE DE JEREZ RESERVA",
+      "VINAGRE CIDRA",
+      "VINAGRE CIDRA",
+      "VINAGRE BLANCO",
+      "VINAGRE BLANCO",
+      "VINAGRE BLANCO",
+      "VINAGRE VINO"
+    ]
+  },
+  {
+    "category": "Vinos",
+    "products": [
+      "VINO DORADO LA VINA",
+      "VINO LA VINA ROJO",
+      "VINO LA VINA BLANCO",
+      "VINO BLANCO DE COCINAR",
+      "VINO TINTO DE COCINAR",
+      "VINO DORADO DE COCINAR"
+    ]
+  }
+
     ];
 
     const categoryDropdown = document.getElementById("categoryDropdown");
@@ -85,7 +1220,7 @@
       locateButton.disabled = !productDropdown.value;
     });
 
-    // Action on button click (you can replace with real logic)
+    // Handle button click
     locateButton.addEventListener("click", () => {
       alert(`Buscando: ${productDropdown.value} en la categoría ${categoryDropdown.value}`);
     });
