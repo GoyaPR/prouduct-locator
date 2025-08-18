@@ -261,3217 +261,4761 @@
     "aceites-de-oliva": [
       {
         "value": "1108",
-        "label": "ACEITE DE OLIVA EXTRA VIRGEN"
+        "label": "ACEITE DE OLIVA EXTRA VIRGEN",
+        "weight": "25.4 OZ",
+        "labelWithWeight": "ACEITE DE OLIVA EXTRA VIRGEN — 25.4 OZ"
       },
       {
         "value": "1111",
-        "label": "ACEITE DE OLIVA EXTRA VIRGEN"
+        "label": "ACEITE DE OLIVA EXTRA VIRGEN",
+        "weight": "1.5 LT.",
+        "labelWithWeight": "ACEITE DE OLIVA EXTRA VIRGEN — 1.5 LT."
       },
       {
         "value": "1152",
-        "label": "ACEITE DE OLIVA LIGHT"
+        "label": "ACEITE DE OLIVA LIGHT",
+        "weight": "3 OZ.",
+        "labelWithWeight": "ACEITE DE OLIVA LIGHT — 3 OZ."
       },
       {
         "value": "1154",
-        "label": "ACEITE DE OLIVA LIGHT"
+        "label": "ACEITE DE OLIVA LIGHT",
+        "weight": "8.5 OZ.",
+        "labelWithWeight": "ACEITE DE OLIVA LIGHT — 8.5 OZ."
       },
       {
         "value": "1156",
-        "label": "ACEITE DE OLIVA LIGHT"
+        "label": "ACEITE DE OLIVA LIGHT",
+        "weight": "25.4 OZ",
+        "labelWithWeight": "ACEITE DE OLIVA LIGHT — 25.4 OZ"
       },
       {
         "value": "1158",
-        "label": "ACEITE DE OLIVA LIGHT"
+        "label": "ACEITE DE OLIVA LIGHT",
+        "weight": "17 OZ.",
+        "labelWithWeight": "ACEITE DE OLIVA LIGHT — 17 OZ."
       },
       {
         "value": "1159",
-        "label": "ACEITE DE OLIVA LIGHT"
+        "label": "ACEITE DE OLIVA LIGHT",
+        "weight": "34 OZ.",
+        "labelWithWeight": "ACEITE DE OLIVA LIGHT — 34 OZ."
       },
       {
         "value": "1140",
-        "label": "ACEITE DE OLIVA PURO"
+        "label": "ACEITE DE OLIVA PURO",
+        "weight": "3 OZ",
+        "labelWithWeight": "ACEITE DE OLIVA PURO — 3 OZ"
       },
       {
         "value": "1141",
-        "label": "ACEITE DE OLIVA PURO"
+        "label": "ACEITE DE OLIVA PURO",
+        "weight": "8.5 OZ",
+        "labelWithWeight": "ACEITE DE OLIVA PURO — 8.5 OZ"
       },
       {
         "value": "1142",
-        "label": "ACEITE DE OLIVA PURO"
+        "label": "ACEITE DE OLIVA PURO",
+        "weight": "17 OZ.",
+        "labelWithWeight": "ACEITE DE OLIVA PURO — 17 OZ."
       },
       {
         "value": "1144",
-        "label": "ACEITE DE OLIVA PURO"
+        "label": "ACEITE DE OLIVA PURO",
+        "weight": "25.4 OZ",
+        "labelWithWeight": "ACEITE DE OLIVA PURO — 25.4 OZ"
       },
       {
         "value": "1145",
-        "label": "ACEITE DE OLIVA PURO"
+        "label": "ACEITE DE OLIVA PURO",
+        "weight": "16 OZ.",
+        "labelWithWeight": "ACEITE DE OLIVA PURO — 16 OZ."
       },
       {
         "value": "1103",
-        "label": "ACEITE OLIVA EXTRA VIRGEN"
+        "label": "ACEITE OLIVA EXTRA VIRGEN",
+        "weight": "3 OZ.",
+        "labelWithWeight": "ACEITE OLIVA EXTRA VIRGEN — 3 OZ."
       },
       {
         "value": "1105",
-        "label": "ACEITE OLIVA EXTRA VIRGEN"
+        "label": "ACEITE OLIVA EXTRA VIRGEN",
+        "weight": "8.5 OZ.",
+        "labelWithWeight": "ACEITE OLIVA EXTRA VIRGEN — 8.5 OZ."
       },
       {
         "value": "1107",
-        "label": "ACEITE OLIVA EXTRA VIRGEN"
+        "label": "ACEITE OLIVA EXTRA VIRGEN",
+        "weight": "17 OZ.",
+        "labelWithWeight": "ACEITE OLIVA EXTRA VIRGEN — 17 OZ."
       },
       {
         "value": "1109",
-        "label": "ACEITE OLIVA EXTRA VIRGEN"
+        "label": "ACEITE OLIVA EXTRA VIRGEN",
+        "weight": "34 OZ.",
+        "labelWithWeight": "ACEITE OLIVA EXTRA VIRGEN — 34 OZ."
       },
       {
         "value": "1114",
-        "label": "ACEITE OLIVA EXTRA VIRGEN"
+        "label": "ACEITE OLIVA EXTRA VIRGEN",
+        "weight": "17 OZ.",
+        "labelWithWeight": "ACEITE OLIVA EXTRA VIRGEN — 17 OZ."
       },
       {
         "value": "1128",
-        "label": "ACEITE OLIVA EXTRA VIRGEN"
+        "label": "ACEITE OLIVA EXTRA VIRGEN",
+        "weight": "102 OZ",
+        "labelWithWeight": "ACEITE OLIVA EXTRA VIRGEN — 102 OZ"
       },
       {
         "value": "1133",
-        "label": "ACEITE OLIVA ORGANICO EXTRA VIRGEN"
+        "label": "ACEITE OLIVA ORGANICO EXTRA VIRGEN",
+        "weight": "17 OZ.",
+        "labelWithWeight": "ACEITE OLIVA ORGANICO EXTRA VIRGEN — 17 OZ."
       },
       {
         "value": "1130",
-        "label": "ACEITE OLIVA UNICO"
+        "label": "ACEITE OLIVA UNICO",
+        "weight": "17 OZ.",
+        "labelWithWeight": "ACEITE OLIVA UNICO — 17 OZ."
       }
     ],
     "vinagres": [
       {
         "value": "1190",
-        "label": "VINAGRE BALSAMICO"
+        "label": "VINAGRE BALSAMICO",
+        "weight": "8.5 OZ.",
+        "labelWithWeight": "VINAGRE BALSAMICO — 8.5 OZ."
       },
       {
         "value": "3935",
-        "label": "VINAGRE BLANCO"
+        "label": "VINAGRE BLANCO",
+        "weight": "16 OZ.",
+        "labelWithWeight": "VINAGRE BLANCO — 16 OZ."
       },
       {
         "value": "3937",
-        "label": "VINAGRE BLANCO"
+        "label": "VINAGRE BLANCO",
+        "weight": "32 OZ.",
+        "labelWithWeight": "VINAGRE BLANCO — 32 OZ."
       },
       {
         "value": "3938",
-        "label": "VINAGRE BLANCO"
+        "label": "VINAGRE BLANCO",
+        "weight": "128 OZ.",
+        "labelWithWeight": "VINAGRE BLANCO — 128 OZ."
       },
       {
         "value": "3931",
-        "label": "VINAGRE CIDRA"
+        "label": "VINAGRE CIDRA",
+        "weight": "16 OZ.",
+        "labelWithWeight": "VINAGRE CIDRA — 16 OZ."
       },
       {
         "value": "3933",
-        "label": "VINAGRE CIDRA"
+        "label": "VINAGRE CIDRA",
+        "weight": "32 OZ.",
+        "labelWithWeight": "VINAGRE CIDRA — 32 OZ."
       },
       {
         "value": "1191",
-        "label": "VINAGRE DE JEREZ"
+        "label": "VINAGRE DE JEREZ",
+        "weight": "8.5 OZ.",
+        "labelWithWeight": "VINAGRE DE JEREZ — 8.5 OZ."
       },
       {
         "value": "1192",
-        "label": "VINAGRE DE JEREZ RESERVA"
+        "label": "VINAGRE DE JEREZ RESERVA",
+        "weight": "8.5 OZ.",
+        "labelWithWeight": "VINAGRE DE JEREZ RESERVA — 8.5 OZ."
       },
       {
         "value": "3939",
-        "label": "VINAGRE VINO"
+        "label": "VINAGRE VINO",
+        "weight": "16 OZ.",
+        "labelWithWeight": "VINAGRE VINO — 16 OZ."
       }
     ],
     "aceites-de-maiz-y-vegetal": [
       {
         "value": "1246",
-        "label": "ACEITE DE CANOLA"
+        "label": "ACEITE DE CANOLA",
+        "weight": "16 OZ.",
+        "labelWithWeight": "ACEITE DE CANOLA — 16 OZ."
       },
       {
         "value": "1248",
-        "label": "ACEITE DE CANOLA"
+        "label": "ACEITE DE CANOLA",
+        "weight": "24 OZ.",
+        "labelWithWeight": "ACEITE DE CANOLA — 24 OZ."
       },
       {
         "value": "1249",
-        "label": "ACEITE DE CANOLA"
+        "label": "ACEITE DE CANOLA",
+        "weight": "40 OZ.",
+        "labelWithWeight": "ACEITE DE CANOLA — 40 OZ."
       },
       {
         "value": "1250",
-        "label": "ACEITE DE CANOLA"
+        "label": "ACEITE DE CANOLA",
+        "weight": "48 OZ.",
+        "labelWithWeight": "ACEITE DE CANOLA — 48 OZ."
       },
       {
         "value": "1227",
-        "label": "ACEITE DE MAIZ"
+        "label": "ACEITE DE MAIZ",
+        "weight": "16 OZ.",
+        "labelWithWeight": "ACEITE DE MAIZ — 16 OZ."
       },
       {
         "value": "1229",
-        "label": "ACEITE DE MAIZ"
+        "label": "ACEITE DE MAIZ",
+        "weight": "24 OZ.",
+        "labelWithWeight": "ACEITE DE MAIZ — 24 OZ."
       },
       {
         "value": "1231",
-        "label": "ACEITE DE MAIZ"
+        "label": "ACEITE DE MAIZ",
+        "weight": "48 OZ.",
+        "labelWithWeight": "ACEITE DE MAIZ — 48 OZ."
       },
       {
         "value": "1233",
-        "label": "ACEITE DE MAIZ"
+        "label": "ACEITE DE MAIZ",
+        "weight": "128 OZ 1GL",
+        "labelWithWeight": "ACEITE DE MAIZ — 128 OZ 1GL"
       },
       {
         "value": "1234",
-        "label": "ACEITE DE MAIZ"
+        "label": "ACEITE DE MAIZ",
+        "weight": "96 OZ.",
+        "labelWithWeight": "ACEITE DE MAIZ — 96 OZ."
       },
       {
         "value": "1235",
-        "label": "ACEITE VEGETAL"
+        "label": "ACEITE VEGETAL",
+        "weight": "16 OZ.",
+        "labelWithWeight": "ACEITE VEGETAL — 16 OZ."
       },
       {
         "value": "1237",
-        "label": "ACEITE VEGETAL"
+        "label": "ACEITE VEGETAL",
+        "weight": "24 OZ.",
+        "labelWithWeight": "ACEITE VEGETAL — 24 OZ."
       },
       {
         "value": "1239",
-        "label": "ACEITE VEGETAL"
+        "label": "ACEITE VEGETAL",
+        "weight": "48 OZ.",
+        "labelWithWeight": "ACEITE VEGETAL — 48 OZ."
       },
       {
         "value": "1240",
-        "label": "ACEITE VEGETAL"
+        "label": "ACEITE VEGETAL",
+        "weight": "96 OZ",
+        "labelWithWeight": "ACEITE VEGETAL — 96 OZ"
       },
       {
         "value": "1241",
-        "label": "ACEITE VEGETAL"
+        "label": "ACEITE VEGETAL",
+        "weight": "128 OZ 1GL",
+        "labelWithWeight": "ACEITE VEGETAL — 128 OZ 1GL"
       },
       {
         "value": "1242",
-        "label": "ACEITE VEGETAL"
+        "label": "ACEITE VEGETAL",
+        "weight": "40 OZ.",
+        "labelWithWeight": "ACEITE VEGETAL — 40 OZ."
       }
     ],
     "aceitunas": [
       {
         "value": "1353",
-        "label": "ACEITUNAS JUMBO"
+        "label": "ACEITUNAS JUMBO",
+        "weight": "9 1/2 OZ.",
+        "labelWithWeight": "ACEITUNAS JUMBO — 9 1/2 OZ."
       },
       {
         "value": "1473",
-        "label": "ACEITUNAS JUMBO"
+        "label": "ACEITUNAS JUMBO",
+        "weight": "6 1/2 OZ.",
+        "labelWithWeight": "ACEITUNAS JUMBO — 6 1/2 OZ."
       },
       {
         "value": "1303",
-        "label": "ACEITUNAS MANZANILLA"
+        "label": "ACEITUNAS MANZANILLA",
+        "weight": "1-3/4 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLA — 1-3/4 OZ."
       },
       {
         "value": "1307",
-        "label": "ACEITUNAS MANZANILLA"
+        "label": "ACEITUNAS MANZANILLA",
+        "weight": "3 3/4 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLA — 3 3/4 OZ."
       },
       {
         "value": "1309",
-        "label": "ACEITUNAS MANZANILLA"
+        "label": "ACEITUNAS MANZANILLA",
+        "weight": "9 1/2 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLA — 9 1/2 OZ."
       },
       {
         "value": "1319",
-        "label": "ACEITUNAS MANZANILLA DESHUEZADAS"
+        "label": "ACEITUNAS MANZANILLA DESHUEZADAS",
+        "weight": "5 1/2 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLA DESHUEZADAS — 5 1/2 OZ."
       },
       {
         "value": "1511",
-        "label": "ACEITUNAS MANZANILLA RELLENAS BAJO EN SODIO"
+        "label": "ACEITUNAS MANZANILLA RELLENAS BAJO EN SODIO",
+        "weight": "6-3/4 OZ",
+        "labelWithWeight": "ACEITUNAS MANZANILLA RELLENAS BAJO EN SODIO — 6-3/4 OZ"
       },
       {
         "value": "1467",
-        "label": "ACEITUNAS MANZANILLAS"
+        "label": "ACEITUNAS MANZANILLAS",
+        "weight": "6 3/4 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS — 6 3/4 OZ."
       },
       {
         "value": "1510",
-        "label": "ACEITUNAS MANZANILLAS BAJO EN SODIO"
+        "label": "ACEITUNAS MANZANILLAS BAJO EN SODIO",
+        "weight": "6 3/4 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS BAJO EN SODIO — 6 3/4 OZ."
       },
       {
         "value": "1340",
-        "label": "ACEITUNAS MANZANILLAS LISAS"
+        "label": "ACEITUNAS MANZANILLAS LISAS",
+        "weight": "5 3/4 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS LISAS — 5 3/4 OZ."
       },
       {
         "value": "1325",
-        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+        "label": "ACEITUNAS MANZANILLAS RELLENAS",
+        "weight": "2 3/4 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS RELLENAS — 2 3/4 OZ."
       },
       {
         "value": "1327",
-        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+        "label": "ACEITUNAS MANZANILLAS RELLENAS",
+        "weight": "3 3/4OZ",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS RELLENAS — 3 3/4OZ"
       },
       {
         "value": "1329",
-        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+        "label": "ACEITUNAS MANZANILLAS RELLENAS",
+        "weight": "4 3/4 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS RELLENAS — 4 3/4 OZ."
       },
       {
         "value": "1331",
-        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+        "label": "ACEITUNAS MANZANILLAS RELLENAS",
+        "weight": "9 1/2 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS RELLENAS — 9 1/2 OZ."
       },
       {
         "value": "1332",
-        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+        "label": "ACEITUNAS MANZANILLAS RELLENAS",
+        "weight": "20 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS RELLENAS — 20 OZ."
       },
       {
         "value": "1341",
-        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+        "label": "ACEITUNAS MANZANILLAS RELLENAS",
+        "weight": "5 1/2 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS RELLENAS — 5 1/2 OZ."
       },
       {
         "value": "1469",
-        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+        "label": "ACEITUNAS MANZANILLAS RELLENAS",
+        "weight": "6-3/4 OZ.",
+        "labelWithWeight": "ACEITUNAS MANZANILLAS RELLENAS — 6-3/4 OZ."
       },
       {
         "value": "1501",
-        "label": "ACEITUNAS NEGRAS EN RODAJAS"
+        "label": "ACEITUNAS NEGRAS EN RODAJAS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ACEITUNAS NEGRAS EN RODAJAS — 7 OZ."
       },
       {
         "value": "1495",
-        "label": "ACEITUNAS NEGRAS GRANDES"
+        "label": "ACEITUNAS NEGRAS GRANDES",
+        "weight": "6 OZ.",
+        "labelWithWeight": "ACEITUNAS NEGRAS GRANDES — 6 OZ."
       },
       {
         "value": "1496",
-        "label": "ACEITUNAS NEGRAS MEDIANAS"
+        "label": "ACEITUNAS NEGRAS MEDIANAS",
+        "weight": "6 OZ.",
+        "labelWithWeight": "ACEITUNAS NEGRAS MEDIANAS — 6 OZ."
       },
       {
         "value": "1494",
-        "label": "ACEITUNAS NEGRAS PEQUENAS"
+        "label": "ACEITUNAS NEGRAS PEQUENAS",
+        "weight": "6 OZ.",
+        "labelWithWeight": "ACEITUNAS NEGRAS PEQUENAS — 6 OZ."
       },
       {
         "value": "1461",
-        "label": "ACEITUNAS NEGRAS PICADAS"
+        "label": "ACEITUNAS NEGRAS PICADAS",
+        "weight": "5.75 OZ.",
+        "labelWithWeight": "ACEITUNAS NEGRAS PICADAS — 5.75 OZ."
       },
       {
         "value": "1460",
-        "label": "ACEITUNAS PICADAS"
+        "label": "ACEITUNAS PICADAS",
+        "weight": "5.75 OZ.",
+        "labelWithWeight": "ACEITUNAS PICADAS — 5.75 OZ."
       },
       {
         "value": "1333",
-        "label": "ACEITUNAS REINAS RELLENAS"
+        "label": "ACEITUNAS REINAS RELLENAS",
+        "weight": "3 3/8 OZ.",
+        "labelWithWeight": "ACEITUNAS REINAS RELLENAS — 3 3/8 OZ."
       },
       {
         "value": "1335",
-        "label": "ACEITUNAS REINAS RELLENAS"
+        "label": "ACEITUNAS REINAS RELLENAS",
+        "weight": "9 OZ.",
+        "labelWithWeight": "ACEITUNAS REINAS RELLENAS — 9 OZ."
       },
       {
         "value": "1475",
-        "label": "ACEITUNAS REINAS RELLENAS"
+        "label": "ACEITUNAS REINAS RELLENAS",
+        "weight": "6 1/2 OZ.",
+        "labelWithWeight": "ACEITUNAS REINAS RELLENAS — 6 1/2 OZ."
       },
       {
         "value": "1491",
-        "label": "ACEITUNAS RELLENAS DE ANCHOAS"
+        "label": "ACEITUNAS RELLENAS DE ANCHOAS",
+        "weight": "5 1/4 OZ.",
+        "labelWithWeight": "ACEITUNAS RELLENAS DE ANCHOAS — 5 1/4 OZ."
       },
       {
         "value": "1490",
-        "label": "ACEITUNAS RELLENAS DE TUNA"
+        "label": "ACEITUNAS RELLENAS DE TUNA",
+        "weight": "5 1/4 OZ.",
+        "labelWithWeight": "ACEITUNAS RELLENAS DE TUNA — 5 1/4 OZ."
       },
       {
         "value": "1492",
-        "label": "ACEITUNAS RELLENAS HOT PEPPERS"
+        "label": "ACEITUNAS RELLENAS HOT PEPPERS",
+        "weight": "5 1/4 OZ",
+        "labelWithWeight": "ACEITUNAS RELLENAS HOT PEPPERS — 5 1/4 OZ"
       },
       {
         "value": "1489",
-        "label": "ACEITUNAS RELLENAS SALMON AHUMADO"
+        "label": "ACEITUNAS RELLENAS SALMON AHUMADO",
+        "weight": "5.25 OZ",
+        "labelWithWeight": "ACEITUNAS RELLENAS SALMON AHUMADO — 5.25 OZ"
       },
       {
         "value": "1423",
-        "label": "ALCAPARRADO CON PIMIENTO"
+        "label": "ALCAPARRADO CON PIMIENTO",
+        "weight": "2 OZ.",
+        "labelWithWeight": "ALCAPARRADO CON PIMIENTO — 2 OZ."
       },
       {
         "value": "1425",
-        "label": "ALCAPARRADO CON PIMIENTO"
+        "label": "ALCAPARRADO CON PIMIENTO",
+        "weight": "3 1/4 OZ.",
+        "labelWithWeight": "ALCAPARRADO CON PIMIENTO — 3 1/4 OZ."
       },
       {
         "value": "1427",
-        "label": "ALCAPARRADO CON PIMIENTO"
+        "label": "ALCAPARRADO CON PIMIENTO",
+        "weight": "4 1/4 OZ.",
+        "labelWithWeight": "ALCAPARRADO CON PIMIENTO — 4 1/4 OZ."
       },
       {
         "value": "1429",
-        "label": "ALCAPARRADO CON PIMIENTO"
+        "label": "ALCAPARRADO CON PIMIENTO",
+        "weight": "10 OZ.",
+        "labelWithWeight": "ALCAPARRADO CON PIMIENTO — 10 OZ."
       },
       {
         "value": "1431",
-        "label": "ALCAPARRADO CON PIMIENTO"
+        "label": "ALCAPARRADO CON PIMIENTO",
+        "weight": "20 OZ.",
+        "labelWithWeight": "ALCAPARRADO CON PIMIENTO — 20 OZ."
       },
       {
         "value": "1464",
-        "label": "ALCAPARRADO CON PIMIENTOS"
+        "label": "ALCAPARRADO CON PIMIENTOS",
+        "weight": "5 OZ.",
+        "labelWithWeight": "ALCAPARRADO CON PIMIENTOS — 5 OZ."
       },
       {
         "value": "1465",
-        "label": "ALCAPARRADO CON PIMIENTOS"
+        "label": "ALCAPARRADO CON PIMIENTOS",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ALCAPARRADO CON PIMIENTOS — 8 OZ."
       },
       {
         "value": "1417",
-        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS"
+        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ALCAPARRADO Y ACEITUNAS DESHUESADAS — 7 OZ."
       },
       {
         "value": "1419",
-        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS"
+        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS",
+        "weight": "9-1/2 OZ.",
+        "labelWithWeight": "ALCAPARRADO Y ACEITUNAS DESHUESADAS — 9-1/2 OZ."
       },
       {
         "value": "1421",
-        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS"
+        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS",
+        "weight": "19 1/4 OZ.",
+        "labelWithWeight": "ALCAPARRADO Y ACEITUNAS DESHUESADAS — 19 1/4 OZ."
       },
       {
         "value": "1512",
-        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS BAJO EN SODIO"
+        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS BAJO EN SODIO",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ALCAPARRADO Y ACEITUNAS DESHUESADAS BAJO EN SODIO — 7 OZ."
       },
       {
         "value": "1375",
-        "label": "ALCAPARRAS"
+        "label": "ALCAPARRAS",
+        "weight": "3 1/4 OZ.",
+        "labelWithWeight": "ALCAPARRAS — 3 1/4 OZ."
       },
       {
         "value": "1377",
-        "label": "ALCAPARRAS"
+        "label": "ALCAPARRAS",
+        "weight": "4 1/4 OZ.",
+        "labelWithWeight": "ALCAPARRAS — 4 1/4 OZ."
       },
       {
         "value": "1373",
-        "label": "ALCAPARRAS CAPOTES"
+        "label": "ALCAPARRAS CAPOTES",
+        "weight": "2 1/4 OZ.",
+        "labelWithWeight": "ALCAPARRAS CAPOTES — 2 1/4 OZ."
       },
       {
         "value": "1378",
-        "label": "ALCAPARRAS CAPOTES"
+        "label": "ALCAPARRAS CAPOTES",
+        "weight": "7.5 OZ.",
+        "labelWithWeight": "ALCAPARRAS CAPOTES — 7.5 OZ."
       },
       {
         "value": "1379",
-        "label": "ALCAPARRAS CAPOTES"
+        "label": "ALCAPARRAS CAPOTES",
+        "weight": "10 OZ.",
+        "labelWithWeight": "ALCAPARRAS CAPOTES — 10 OZ."
       },
       {
         "value": "1368",
-        "label": "ALCAPARRAS CAPOTES BAJO EN SODIO"
+        "label": "ALCAPARRAS CAPOTES BAJO EN SODIO",
+        "weight": "2 OZ.",
+        "labelWithWeight": "ALCAPARRAS CAPOTES BAJO EN SODIO — 2 OZ."
       },
       {
         "value": "1370",
-        "label": "ALCAPARRAS NONPAREILS"
+        "label": "ALCAPARRAS NONPAREILS",
+        "weight": "2 1/4 OZ.",
+        "labelWithWeight": "ALCAPARRAS NONPAREILS — 2 1/4 OZ."
       },
       {
         "value": "1367",
-        "label": "ALCAPARRAS NONPAREILS BAJO EN SODIO"
+        "label": "ALCAPARRAS NONPAREILS BAJO EN SODIO",
+        "weight": "2 1/4 OZ.",
+        "labelWithWeight": "ALCAPARRAS NONPAREILS BAJO EN SODIO — 2 1/4 OZ."
       },
       {
         "value": "1476",
-        "label": "CONDIMENTO"
+        "label": "CONDIMENTO",
+        "weight": "5 OZ.",
+        "labelWithWeight": "CONDIMENTO — 5 OZ."
       },
       {
         "value": "1477",
-        "label": "CONDIMENTO"
+        "label": "CONDIMENTO",
+        "weight": "7 OZ.",
+        "labelWithWeight": "CONDIMENTO — 7 OZ."
       },
       {
         "value": "1478",
-        "label": "CONDIMENTO"
+        "label": "CONDIMENTO",
+        "weight": "20 OZ.",
+        "labelWithWeight": "CONDIMENTO — 20 OZ."
       },
       {
         "value": "1479",
-        "label": "CONDIMENTO"
+        "label": "CONDIMENTO",
+        "weight": "9-1/2 OZ.",
+        "labelWithWeight": "CONDIMENTO — 9-1/2 OZ."
       },
       {
         "value": "1513",
-        "label": "CONDIMENTO BAJO EN SODIO"
+        "label": "CONDIMENTO BAJO EN SODIO",
+        "weight": "7 OZ.",
+        "labelWithWeight": "CONDIMENTO BAJO EN SODIO — 7 OZ."
       },
       {
         "value": "1311",
-        "label": "MANZANILLAS LISAS"
+        "label": "MANZANILLAS LISAS",
+        "weight": "20 OZ.",
+        "labelWithWeight": "MANZANILLAS LISAS — 20 OZ."
       },
       {
         "value": "3924",
-        "label": "MEDITERRANEAN SALAD"
+        "label": "MEDITERRANEAN SALAD",
+        "weight": "7 OZ.",
+        "labelWithWeight": "MEDITERRANEAN SALAD — 7 OZ."
       }
     ],
     "cherries": [
       {
         "value": "1557",
-        "label": "RED CHERRIES CON TALLO"
+        "label": "RED CHERRIES CON TALLO",
+        "weight": "10 OZ.",
+        "labelWithWeight": "RED CHERRIES CON TALLO — 10 OZ."
       },
       {
         "value": "1554",
-        "label": "RED PLAIN CHERRIES"
+        "label": "RED PLAIN CHERRIES",
+        "weight": "6 OZ.",
+        "labelWithWeight": "RED PLAIN CHERRIES — 6 OZ."
       },
       {
         "value": "1555",
-        "label": "RED PLAIN CHERRIES"
+        "label": "RED PLAIN CHERRIES",
+        "weight": "10 OZ.",
+        "labelWithWeight": "RED PLAIN CHERRIES — 10 OZ."
       },
       {
         "value": "1560",
-        "label": "RED PLAIN CHERRIES"
+        "label": "RED PLAIN CHERRIES",
+        "weight": "16 OZ.",
+        "labelWithWeight": "RED PLAIN CHERRIES — 16 OZ."
       }
     ],
     "productos-mejicanos": [
       {
         "value": "2871",
-        "label": "CHILES CHIPOTLES"
+        "label": "CHILES CHIPOTLES",
+        "weight": "12 OZ",
+        "labelWithWeight": "CHILES CHIPOTLES — 12 OZ"
       },
       {
         "value": "2874",
-        "label": "CHILES CHIPOTLES"
+        "label": "CHILES CHIPOTLES",
+        "weight": "7 OZ.",
+        "labelWithWeight": "CHILES CHIPOTLES — 7 OZ."
       },
       {
         "value": "2861",
-        "label": "CHILES SERRANO EN ESCABECHE"
+        "label": "CHILES SERRANO EN ESCABECHE",
+        "weight": "11 OZ.",
+        "labelWithWeight": "CHILES SERRANO EN ESCABECHE — 11 OZ."
       },
       {
         "value": "2862",
-        "label": "CHILES SERRANO EN ESCABECHE"
+        "label": "CHILES SERRANO EN ESCABECHE",
+        "weight": "26 OZ",
+        "labelWithWeight": "CHILES SERRANO EN ESCABECHE — 26 OZ"
       },
       {
         "value": "3249",
-        "label": "FAJITA SEASONING"
+        "label": "FAJITA SEASONING",
+        "weight": "6 OZ.",
+        "labelWithWeight": "FAJITA SEASONING — 6 OZ."
       },
       {
         "value": "3793",
-        "label": "FAJITA SEASONING"
+        "label": "FAJITA SEASONING",
+        "weight": "1.25 OZ.",
+        "labelWithWeight": "FAJITA SEASONING — 1.25 OZ."
       },
       {
         "value": "2990",
-        "label": "FRIJOLES NEGROS VOLTEADOS"
+        "label": "FRIJOLES NEGROS VOLTEADOS",
+        "weight": "16 OZ.",
+        "labelWithWeight": "FRIJOLES NEGROS VOLTEADOS — 16 OZ."
       },
       {
         "value": "2901",
-        "label": "FRIJOLES PINTOS REFRITOS"
+        "label": "FRIJOLES PINTOS REFRITOS",
+        "weight": "16 OZ.",
+        "labelWithWeight": "FRIJOLES PINTOS REFRITOS — 16 OZ."
       },
       {
         "value": "2903",
-        "label": "FRIJOLES REFRITOS RANCHER"
+        "label": "FRIJOLES REFRITOS RANCHER",
+        "weight": "16 OZ.",
+        "labelWithWeight": "FRIJOLES REFRITOS RANCHER — 16 OZ."
       },
       {
         "value": "2905",
-        "label": "GOYA MOLE ROJO"
+        "label": "GOYA MOLE ROJO",
+        "weight": "9 OZ",
+        "labelWithWeight": "GOYA MOLE ROJO — 9 OZ"
       },
       {
         "value": "2876",
-        "label": "HUITLACOCHE"
+        "label": "HUITLACOCHE",
+        "weight": "7 OZ",
+        "labelWithWeight": "HUITLACOCHE — 7 OZ"
       },
       {
         "value": "2852",
-        "label": "JALAPENO EN ESCABECHE"
+        "label": "JALAPENO EN ESCABECHE",
+        "weight": "27 OZ.",
+        "labelWithWeight": "JALAPENO EN ESCABECHE — 27 OZ."
       },
       {
         "value": "1685",
-        "label": "JALAPENOS"
+        "label": "JALAPENOS",
+        "weight": "12 OZ",
+        "labelWithWeight": "JALAPENOS — 12 OZ"
       },
       {
         "value": "2851",
-        "label": "JALAPENOS EN ESCABECHE"
+        "label": "JALAPENOS EN ESCABECHE",
+        "weight": "11 OZ.",
+        "labelWithWeight": "JALAPENOS EN ESCABECHE — 11 OZ."
       },
       {
         "value": "2866",
-        "label": "JALAPENOS PICKLED NACHOS"
+        "label": "JALAPENOS PICKLED NACHOS",
+        "weight": "11 OZ.",
+        "labelWithWeight": "JALAPENOS PICKLED NACHOS — 11 OZ."
       },
       {
         "value": "3250",
-        "label": "MEZQUITE FAJITA SEASONING"
+        "label": "MEZQUITE FAJITA SEASONING",
+        "weight": "6 OZ.",
+        "labelWithWeight": "MEZQUITE FAJITA SEASONING — 6 OZ."
       },
       {
         "value": "2872",
-        "label": "NOPALITOS"
+        "label": "NOPALITOS",
+        "weight": "30 OZ.",
+        "labelWithWeight": "NOPALITOS — 30 OZ."
       },
       {
         "value": "3792",
-        "label": "PICADILLO SEASONING"
+        "label": "PICADILLO SEASONING",
+        "weight": "1.25 OZ.",
+        "labelWithWeight": "PICADILLO SEASONING — 1.25 OZ."
       },
       {
         "value": "2892",
-        "label": "PICO DE GALLO HOT SALSA"
+        "label": "PICO DE GALLO HOT SALSA",
+        "weight": "17.6 OZ",
+        "labelWithWeight": "PICO DE GALLO HOT SALSA — 17.6 OZ"
       },
       {
         "value": "2870",
-        "label": "PURE TOMATILLO"
+        "label": "PURE TOMATILLO",
+        "weight": "26 OZ.",
+        "labelWithWeight": "PURE TOMATILLO — 26 OZ."
       },
       {
         "value": "2857",
-        "label": "RAJAS DE JALAPENO EN ESCABECHE"
+        "label": "RAJAS DE JALAPENO EN ESCABECHE",
+        "weight": "11 OZ",
+        "labelWithWeight": "RAJAS DE JALAPENO EN ESCABECHE — 11 OZ"
       },
       {
         "value": "2858",
-        "label": "RAJAS DE JALAPENO EN ESCABECHE"
+        "label": "RAJAS DE JALAPENO EN ESCABECHE",
+        "weight": "26 OZ",
+        "labelWithWeight": "RAJAS DE JALAPENO EN ESCABECHE — 26 OZ"
       },
       {
         "value": "2900",
-        "label": "REFRITO CON CHORIZO"
+        "label": "REFRITO CON CHORIZO",
+        "weight": "16 OZ.",
+        "labelWithWeight": "REFRITO CON CHORIZO — 16 OZ."
       },
       {
         "value": "2891",
-        "label": "SALSA PICO DE GALLO"
+        "label": "SALSA PICO DE GALLO",
+        "weight": "17.6 OZ.",
+        "labelWithWeight": "SALSA PICO DE GALLO — 17.6 OZ."
       },
       {
         "value": "2877",
-        "label": "SALSA ROJA MEXICANA"
+        "label": "SALSA ROJA MEXICANA",
+        "weight": "7 OZ.",
+        "labelWithWeight": "SALSA ROJA MEXICANA — 7 OZ."
       },
       {
         "value": "2890",
-        "label": "SALSA TAQUERA"
+        "label": "SALSA TAQUERA",
+        "weight": "17.6 OZ",
+        "labelWithWeight": "SALSA TAQUERA — 17.6 OZ"
       },
       {
         "value": "2889",
-        "label": "SALSA VERDE"
+        "label": "SALSA VERDE",
+        "weight": "17.6 OZ",
+        "labelWithWeight": "SALSA VERDE — 17.6 OZ"
       },
       {
         "value": "2878",
-        "label": "SALSA VERDE MEXICANA"
+        "label": "SALSA VERDE MEXICANA",
+        "weight": "7 OZ.",
+        "labelWithWeight": "SALSA VERDE MEXICANA — 7 OZ."
       },
       {
         "value": "2887",
-        "label": "SALSITA CHILE ANCHO"
+        "label": "SALSITA CHILE ANCHO",
+        "weight": "8 OZ.",
+        "labelWithWeight": "SALSITA CHILE ANCHO — 8 OZ."
       },
       {
         "value": "2886",
-        "label": "SALSITA CHILE DE ARBOL"
+        "label": "SALSITA CHILE DE ARBOL",
+        "weight": "8 OZ.",
+        "labelWithWeight": "SALSITA CHILE DE ARBOL — 8 OZ."
       },
       {
         "value": "2888",
-        "label": "SALSITA HABANERO"
+        "label": "SALSITA HABANERO",
+        "weight": "8 OZ.",
+        "labelWithWeight": "SALSITA HABANERO — 8 OZ."
       },
       {
         "value": "2885",
-        "label": "SALSITA JALAPEÑO"
+        "label": "SALSITA JALAPEÑO",
+        "weight": "8 OZ.",
+        "labelWithWeight": "SALSITA JALAPEÑO — 8 OZ."
       },
       {
         "value": "3791",
-        "label": "TACO SEASONING"
+        "label": "TACO SEASONING",
+        "weight": "1.25 OZ.",
+        "labelWithWeight": "TACO SEASONING — 1.25 OZ."
       },
       {
         "value": "2868",
-        "label": "WHOLE TOMATILLO"
+        "label": "WHOLE TOMATILLO",
+        "weight": "26 OZ.",
+        "labelWithWeight": "WHOLE TOMATILLO — 26 OZ."
       },
       {
         "value": "2895",
-        "label": "ZANAHORIAS EN ESCABECHE"
+        "label": "ZANAHORIAS EN ESCABECHE",
+        "weight": "12 OZ.",
+        "labelWithWeight": "ZANAHORIAS EN ESCABECHE — 12 OZ."
       }
     ],
     "gandules": [
       {
         "value": "2002",
-        "label": "GANDULES BAJO EN SODIO"
+        "label": "GANDULES BAJO EN SODIO",
+        "weight": "15 OZ.",
+        "labelWithWeight": "GANDULES BAJO EN SODIO — 15 OZ."
       },
       {
         "value": "2025",
-        "label": "GANDULES SECOS"
+        "label": "GANDULES SECOS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "GANDULES SECOS — 15.5 OZ."
       },
       {
         "value": "2026",
-        "label": "GANDULES SECOS"
+        "label": "GANDULES SECOS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "GANDULES SECOS — 29 OZ."
       },
       {
         "value": "2482",
-        "label": "GANDULES SECOS"
+        "label": "GANDULES SECOS",
+        "weight": "1 LB.",
+        "labelWithWeight": "GANDULES SECOS — 1 LB."
       },
       {
         "value": "2001",
-        "label": "GANDULES VERDES"
+        "label": "GANDULES VERDES",
+        "weight": "15 OZ.",
+        "labelWithWeight": "GANDULES VERDES — 15 OZ."
       },
       {
         "value": "2003",
-        "label": "GANDULES VERDES"
+        "label": "GANDULES VERDES",
+        "weight": "29 OZ.",
+        "labelWithWeight": "GANDULES VERDES — 29 OZ."
       },
       {
         "value": "2005",
-        "label": "GANDULES VERDES CON COCO"
+        "label": "GANDULES VERDES CON COCO",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "GANDULES VERDES CON COCO — 15.5 OZ."
       },
       {
         "value": "2006",
-        "label": "GANDULES VERDES CON COCO"
+        "label": "GANDULES VERDES CON COCO",
+        "weight": "30 OZ.",
+        "labelWithWeight": "GANDULES VERDES CON COCO — 30 OZ."
       }
     ],
     "productos-el-jibarito": [
       {
         "value": "2021",
-        "label": "GANDULES SECOS  EL JIBARITO"
+        "label": "GANDULES SECOS  EL JIBARITO",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "GANDULES SECOS  EL JIBARITO — 15.5 OZ."
       },
       {
         "value": "2022",
-        "label": "GANDULES SECOS EL JIBARITO"
+        "label": "GANDULES SECOS EL JIBARITO",
+        "weight": "29 OZ.",
+        "labelWithWeight": "GANDULES SECOS EL JIBARITO — 29 OZ."
       }
     ],
     "granos-guisados": [
       {
         "value": "2081",
-        "label": "FRIJOLES NEGROS GUISADOS"
+        "label": "FRIJOLES NEGROS GUISADOS",
+        "weight": "29 OZ",
+        "labelWithWeight": "FRIJOLES NEGROS GUISADOS — 29 OZ"
       },
       {
         "value": "2054",
-        "label": "GANDULES GUISADOS"
+        "label": "GANDULES GUISADOS",
+        "weight": "15 OZ",
+        "labelWithWeight": "GANDULES GUISADOS — 15 OZ"
       },
       {
         "value": "2063",
-        "label": "GARBANZOS GUISADOS"
+        "label": "GARBANZOS GUISADOS",
+        "weight": "15 OZ.",
+        "labelWithWeight": "GARBANZOS GUISADOS — 15 OZ."
       },
       {
         "value": "2080",
-        "label": "GARBANZOS GUISADOS"
+        "label": "GARBANZOS GUISADOS",
+        "weight": "29 OZ",
+        "labelWithWeight": "GARBANZOS GUISADOS — 29 OZ"
       },
       {
         "value": "2059",
-        "label": "HABICHUELAS BLANCAS GUISADAS"
+        "label": "HABICHUELAS BLANCAS GUISADAS",
+        "weight": "15 OZ.",
+        "labelWithWeight": "HABICHUELAS BLANCAS GUISADAS — 15 OZ."
       },
       {
         "value": "2078",
-        "label": "HABICHUELAS BLANCAS GUISADAS"
+        "label": "HABICHUELAS BLANCAS GUISADAS",
+        "weight": "29 OZ",
+        "labelWithWeight": "HABICHUELAS BLANCAS GUISADAS — 29 OZ"
       },
       {
         "value": "2051",
-        "label": "HABICHUELAS COLORADAS GUISADAS"
+        "label": "HABICHUELAS COLORADAS GUISADAS",
+        "weight": "15 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS GUISADAS — 15 OZ."
       },
       {
         "value": "2076",
-        "label": "HABICHUELAS COLORADAS GUISADAS"
+        "label": "HABICHUELAS COLORADAS GUISADAS",
+        "weight": "29 OZ",
+        "labelWithWeight": "HABICHUELAS COLORADAS GUISADAS — 29 OZ"
       },
       {
         "value": "2043",
-        "label": "HABICHUELAS NEGRAS /FRIJOLES NEGROS BAJO EN SODIO"
+        "label": "HABICHUELAS NEGRAS /FRIJOLES NEGROS BAJO EN SODIO",
+        "weight": "15 OZ.",
+        "labelWithWeight": "HABICHUELAS NEGRAS /FRIJOLES NEGROS BAJO EN SODIO — 15 OZ."
       },
       {
         "value": "2067",
-        "label": "HABICHUELAS NEGRAS GUISADAS"
+        "label": "HABICHUELAS NEGRAS GUISADAS",
+        "weight": "15 OZ.",
+        "labelWithWeight": "HABICHUELAS NEGRAS GUISADAS — 15 OZ."
       },
       {
         "value": "2062",
-        "label": "HABICHUELAS PINTAS GUISADAS"
+        "label": "HABICHUELAS PINTAS GUISADAS",
+        "weight": "15 OZ.",
+        "labelWithWeight": "HABICHUELAS PINTAS GUISADAS — 15 OZ."
       },
       {
         "value": "2079",
-        "label": "HABICHUELAS PINTAS GUISADAS"
+        "label": "HABICHUELAS PINTAS GUISADAS",
+        "weight": "29 OZ",
+        "labelWithWeight": "HABICHUELAS PINTAS GUISADAS — 29 OZ"
       },
       {
         "value": "2055",
-        "label": "HABICHUELAS ROSADAS GUISADAS"
+        "label": "HABICHUELAS ROSADAS GUISADAS",
+        "weight": "15 OZ.",
+        "labelWithWeight": "HABICHUELAS ROSADAS GUISADAS — 15 OZ."
       },
       {
         "value": "2077",
-        "label": "HABICHUELAS ROSADAS GUISADAS"
+        "label": "HABICHUELAS ROSADAS GUISADAS",
+        "weight": "29 OZ",
+        "labelWithWeight": "HABICHUELAS ROSADAS GUISADAS — 29 OZ"
       }
     ],
     "vegetales": [
       {
         "value": "3918",
-        "label": "ALCACHOFAS MARINADAS"
+        "label": "ALCACHOFAS MARINADAS",
+        "weight": "6 OZ.",
+        "labelWithWeight": "ALCACHOFAS MARINADAS — 6 OZ."
       },
       {
         "value": "2532",
-        "label": "CALABAZA"
+        "label": "CALABAZA",
+        "weight": "15 OZ.",
+        "labelWithWeight": "CALABAZA — 15 OZ."
       },
       {
         "value": "2587",
-        "label": "ESPARRAGOS BLANCOS"
+        "label": "ESPARRAGOS BLANCOS",
+        "weight": "11.6 OZ.",
+        "labelWithWeight": "ESPARRAGOS BLANCOS — 11.6 OZ."
       },
       {
         "value": "2589",
-        "label": "ESPARRAGOS VERDES"
+        "label": "ESPARRAGOS VERDES",
+        "weight": "11.6 OZ.",
+        "labelWithWeight": "ESPARRAGOS VERDES — 11.6 OZ."
       },
       {
         "value": "2597",
-        "label": "GOLDEN HOMINY"
+        "label": "GOLDEN HOMINY",
+        "weight": "15 OZ.",
+        "labelWithWeight": "GOLDEN HOMINY — 15 OZ."
       },
       {
         "value": "2552",
-        "label": "GUISANTES CON ZANAHORIAS"
+        "label": "GUISANTES CON ZANAHORIAS",
+        "weight": "8 1/2 OZ.",
+        "labelWithWeight": "GUISANTES CON ZANAHORIAS — 8 1/2 OZ."
       },
       {
         "value": "2531",
-        "label": "GUISANTES VERDES"
+        "label": "GUISANTES VERDES",
+        "weight": "15 OZ.",
+        "labelWithWeight": "GUISANTES VERDES — 15 OZ."
       },
       {
         "value": "2533",
-        "label": "GUISANTES VERDES"
+        "label": "GUISANTES VERDES",
+        "weight": "8 1/2 OZ.",
+        "labelWithWeight": "GUISANTES VERDES — 8 1/2 OZ."
       },
       {
         "value": "2581",
-        "label": "HABAS VERDES"
+        "label": "HABAS VERDES",
+        "weight": "15 OZ.",
+        "labelWithWeight": "HABAS VERDES — 15 OZ."
       },
       {
         "value": "2535",
-        "label": "HABICHUELAS TIERNAS REBANADAS"
+        "label": "HABICHUELAS TIERNAS REBANADAS",
+        "weight": "14.5 OZ.",
+        "labelWithWeight": "HABICHUELAS TIERNAS REBANADAS — 14.5 OZ."
       },
       {
         "value": "2536",
-        "label": "HABICHUELAS TIERNAS REBANADAS"
+        "label": "HABICHUELAS TIERNAS REBANADAS",
+        "weight": "8 OZ.",
+        "labelWithWeight": "HABICHUELAS TIERNAS REBANADAS — 8 OZ."
       },
       {
         "value": "2537",
-        "label": "HABICHUELASTIERNAS CORTADAS"
+        "label": "HABICHUELASTIERNAS CORTADAS",
+        "weight": "8 OZ.",
+        "labelWithWeight": "HABICHUELASTIERNAS CORTADAS — 8 OZ."
       },
       {
         "value": "2555",
-        "label": "MAIZ TIERNO"
+        "label": "MAIZ TIERNO",
+        "weight": "8.75 OZ.",
+        "labelWithWeight": "MAIZ TIERNO — 8.75 OZ."
       },
       {
         "value": "2556",
-        "label": "MAIZ TIERNO"
+        "label": "MAIZ TIERNO",
+        "weight": "15.25 OZ.",
+        "labelWithWeight": "MAIZ TIERNO — 15.25 OZ."
       },
       {
         "value": "3916",
-        "label": "PALMITOS EN TROZOS"
+        "label": "PALMITOS EN TROZOS",
+        "weight": "14.1 OZ.",
+        "labelWithWeight": "PALMITOS EN TROZOS — 14.1 OZ."
       },
       {
         "value": "3915",
-        "label": "PALMITOS ENTEROS"
+        "label": "PALMITOS ENTEROS",
+        "weight": "14.1 OZ.",
+        "labelWithWeight": "PALMITOS ENTEROS — 14.1 OZ."
       },
       {
         "value": "2569",
-        "label": "REMOLACHA EN REBANADAS"
+        "label": "REMOLACHA EN REBANADAS",
+        "weight": "14.9 OZ.",
+        "labelWithWeight": "REMOLACHA EN REBANADAS — 14.9 OZ."
       },
       {
         "value": "2571",
-        "label": "REMOLACHA EN REBANADAS"
+        "label": "REMOLACHA EN REBANADAS",
+        "weight": "8 1/4 OZ.",
+        "labelWithWeight": "REMOLACHA EN REBANADAS — 8 1/4 OZ."
       },
       {
         "value": "2577",
-        "label": "SETAS ENTERAS"
+        "label": "SETAS ENTERAS",
+        "weight": "4 OZ.",
+        "labelWithWeight": "SETAS ENTERAS — 4 OZ."
       },
       {
         "value": "2582",
-        "label": "SETAS ENTERAS"
+        "label": "SETAS ENTERAS",
+        "weight": "4.5 OZ.",
+        "labelWithWeight": "SETAS ENTERAS — 4.5 OZ."
       },
       {
         "value": "2579",
-        "label": "SETAS REBANADAS"
+        "label": "SETAS REBANADAS",
+        "weight": "4 OZ.",
+        "labelWithWeight": "SETAS REBANADAS — 4 OZ."
       },
       {
         "value": "2584",
-        "label": "SETAS REBANADAS"
+        "label": "SETAS REBANADAS",
+        "weight": "4.5 OZ.",
+        "labelWithWeight": "SETAS REBANADAS — 4.5 OZ."
       },
       {
         "value": "2564",
-        "label": "VEGETALES MIXTOS"
+        "label": "VEGETALES MIXTOS",
+        "weight": "15 OZ.",
+        "labelWithWeight": "VEGETALES MIXTOS — 15 OZ."
       },
       {
         "value": "2596",
-        "label": "WHITE HOMIN/ MAIZ BLANCO"
+        "label": "WHITE HOMIN/ MAIZ BLANCO",
+        "weight": "15 OZ.",
+        "labelWithWeight": "WHITE HOMIN/ MAIZ BLANCO — 15 OZ."
       },
       {
         "value": "2089",
-        "label": "YUCA GOYA"
+        "label": "YUCA GOYA",
+        "weight": "28 OZ",
+        "labelWithWeight": "YUCA GOYA — 28 OZ"
       },
       {
         "value": "2091",
-        "label": "YUCA GOYA"
+        "label": "YUCA GOYA",
+        "weight": "14 OZ",
+        "labelWithWeight": "YUCA GOYA — 14 OZ"
       },
       {
         "value": "2573",
-        "label": "ZANAHORIAS REBANADAS"
+        "label": "ZANAHORIAS REBANADAS",
+        "weight": "14.5 OZ.",
+        "labelWithWeight": "ZANAHORIAS REBANADAS — 14.5 OZ."
       }
     ],
     "granos-agua-y-sal": [
       {
         "value": "2446",
-        "label": "ALUBIAS CANELLINI"
+        "label": "ALUBIAS CANELLINI",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "ALUBIAS CANELLINI — 15.5 OZ."
       },
       {
         "value": "2449",
-        "label": "ALUBIAS/CANNELINI"
+        "label": "ALUBIAS/CANNELINI",
+        "weight": "29 OZ.",
+        "labelWithWeight": "ALUBIAS/CANNELINI — 29 OZ."
       },
       {
         "value": "2426",
-        "label": "FRIJOLES"
+        "label": "FRIJOLES",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "FRIJOLES — 15.5 OZ."
       },
       {
         "value": "2427",
-        "label": "FRIJOLES"
+        "label": "FRIJOLES",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "FRIJOLES — 10.5 OZ."
       },
       {
         "value": "2429",
-        "label": "FRIJOLES"
+        "label": "FRIJOLES",
+        "weight": "29 OZ.",
+        "labelWithWeight": "FRIJOLES — 29 OZ."
       },
       {
         "value": "2353",
-        "label": "FRIJOLES NEGROS"
+        "label": "FRIJOLES NEGROS",
+        "weight": "46 OZ.",
+        "labelWithWeight": "FRIJOLES NEGROS — 46 OZ."
       },
       {
         "value": "2332",
-        "label": "FRIJOLES NEGROS  BAJO EN SODIO"
+        "label": "FRIJOLES NEGROS  BAJO EN SODIO",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "FRIJOLES NEGROS  BAJO EN SODIO — 15.5 OZ."
       },
       {
         "value": "2365",
-        "label": "FRIJOLES NEGROS BAJO EN SODIO"
+        "label": "FRIJOLES NEGROS BAJO EN SODIO",
+        "weight": "29 OZ.",
+        "labelWithWeight": "FRIJOLES NEGROS BAJO EN SODIO — 29 OZ."
       },
       {
         "value": "2349",
-        "label": "GARBANZOS"
+        "label": "GARBANZOS",
+        "weight": "46 OZ.",
+        "labelWithWeight": "GARBANZOS — 46 OZ."
       },
       {
         "value": "2419",
-        "label": "GARBANZOS"
+        "label": "GARBANZOS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "GARBANZOS — 29 OZ."
       },
       {
         "value": "2422",
-        "label": "GARBANZOS"
+        "label": "GARBANZOS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "GARBANZOS — 15.5 OZ."
       },
       {
         "value": "2423",
-        "label": "GARBANZOS"
+        "label": "GARBANZOS",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "GARBANZOS — 10.5 OZ."
       },
       {
         "value": "2333",
-        "label": "GARBANZOS BAJO EN SODIO"
+        "label": "GARBANZOS BAJO EN SODIO",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "GARBANZOS BAJO EN SODIO — 15.5 OZ."
       },
       {
         "value": "2363",
-        "label": "GARBANZOS BAJO EN SODIO"
+        "label": "GARBANZOS BAJO EN SODIO",
+        "weight": "29 OZ.",
+        "labelWithWeight": "GARBANZOS BAJO EN SODIO — 29 OZ."
       },
       {
         "value": "2344",
-        "label": "GARBANZOS ORGANICOS"
+        "label": "GARBANZOS ORGANICOS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "GARBANZOS ORGANICOS — 15.5 OZ."
       },
       {
         "value": "2461",
-        "label": "GUISANTES"
+        "label": "GUISANTES",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "GUISANTES — 15.5 OZ."
       },
       {
         "value": "2467",
-        "label": "GUISANTES"
+        "label": "GUISANTES",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "GUISANTES — 10.5 OZ."
       },
       {
         "value": "2444",
-        "label": "HABAS GRANDES"
+        "label": "HABAS GRANDES",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABAS GRANDES — 29 OZ."
       },
       {
         "value": "2443",
-        "label": "HABAS GRANDES."
+        "label": "HABAS GRANDES.",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABAS GRANDES. — 15.5 OZ."
       },
       {
         "value": "2351",
-        "label": "HABICHUELAS BLANCAS"
+        "label": "HABICHUELAS BLANCAS",
+        "weight": "46 OZ.",
+        "labelWithWeight": "HABICHUELAS BLANCAS — 46 OZ."
       },
       {
         "value": "2412",
-        "label": "HABICHUELAS BLANCAS"
+        "label": "HABICHUELAS BLANCAS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS BLANCAS — 15.5 OZ."
       },
       {
         "value": "2413",
-        "label": "HABICHUELAS BLANCAS"
+        "label": "HABICHUELAS BLANCAS",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "HABICHUELAS BLANCAS — 10.5 OZ."
       },
       {
         "value": "2452",
-        "label": "HABICHUELAS BLANCAS"
+        "label": "HABICHUELAS BLANCAS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS BLANCAS — 29 OZ."
       },
       {
         "value": "2335",
-        "label": "HABICHUELAS BLANCAS BAJO EN SODIO"
+        "label": "HABICHUELAS BLANCAS BAJO EN SODIO",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS BLANCAS BAJO EN SODIO — 15.5 OZ."
       },
       {
         "value": "2366",
-        "label": "HABICHUELAS BLANCAS BAJO EN SODIO"
+        "label": "HABICHUELAS BLANCAS BAJO EN SODIO",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS BLANCAS BAJO EN SODIO — 29 OZ."
       },
       {
         "value": "2400",
-        "label": "HABICHUELAS COLORADA"
+        "label": "HABICHUELAS COLORADA",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADA — 29 OZ."
       },
       {
         "value": "2348",
-        "label": "HABICHUELAS COLORADAS"
+        "label": "HABICHUELAS COLORADAS",
+        "weight": "46 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS — 46 OZ."
       },
       {
         "value": "2402",
-        "label": "HABICHUELAS COLORADAS"
+        "label": "HABICHUELAS COLORADAS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS — 15.5 OZ."
       },
       {
         "value": "2403",
-        "label": "HABICHUELAS COLORADAS"
+        "label": "HABICHUELAS COLORADAS",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS — 10.5 OZ."
       },
       {
         "value": "2330",
-        "label": "HABICHUELAS COLORADAS BAJO EN SODIO"
+        "label": "HABICHUELAS COLORADAS BAJO EN SODIO",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS BAJO EN SODIO — 15.5 OZ."
       },
       {
         "value": "2361",
-        "label": "HABICHUELAS COLORADAS BAJO EN SODIO"
+        "label": "HABICHUELAS COLORADAS BAJO EN SODIO",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS BAJO EN SODIO — 29 OZ."
       },
       {
         "value": "2417",
-        "label": "HABICHUELAS COLORADAS PEQUENAS"
+        "label": "HABICHUELAS COLORADAS PEQUENAS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS PEQUENAS — 29 OZ."
       },
       {
         "value": "2420",
-        "label": "HABICHUELAS COLORADAS PEQUEñAS"
+        "label": "HABICHUELAS COLORADAS PEQUEñAS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS PEQUEñAS — 15.5 OZ."
       },
       {
         "value": "2431",
-        "label": "HABICHUELAS COLORADAS PEQUEñAS"
+        "label": "HABICHUELAS COLORADAS PEQUEñAS",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "HABICHUELAS COLORADAS PEQUEñAS — 10.5 OZ."
       },
       {
         "value": "2169",
-        "label": "HABICHUELAS CON DULCE"
+        "label": "HABICHUELAS CON DULCE",
+        "weight": "15.5 OZ",
+        "labelWithWeight": "HABICHUELAS CON DULCE — 15.5 OZ"
       },
       {
         "value": "2465",
-        "label": "HABICHUELAS NEGRAS"
+        "label": "HABICHUELAS NEGRAS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS NEGRAS — 29 OZ."
       },
       {
         "value": "2466",
-        "label": "HABICHUELAS NEGRAS"
+        "label": "HABICHUELAS NEGRAS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS NEGRAS — 15.5 OZ."
       },
       {
         "value": "2469",
-        "label": "HABICHUELAS NEGRAS"
+        "label": "HABICHUELAS NEGRAS",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "HABICHUELAS NEGRAS — 10.5 OZ."
       },
       {
         "value": "2347",
-        "label": "HABICHUELAS PINTAS"
+        "label": "HABICHUELAS PINTAS",
+        "weight": "46 OZ.",
+        "labelWithWeight": "HABICHUELAS PINTAS — 46 OZ."
       },
       {
         "value": "2437",
-        "label": "HABICHUELAS PINTAS"
+        "label": "HABICHUELAS PINTAS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS PINTAS — 15.5 OZ."
       },
       {
         "value": "2439",
-        "label": "HABICHUELAS PINTAS"
+        "label": "HABICHUELAS PINTAS",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "HABICHUELAS PINTAS — 10.5 OZ."
       },
       {
         "value": "2442",
-        "label": "HABICHUELAS PINTAS"
+        "label": "HABICHUELAS PINTAS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS PINTAS — 29 OZ."
       },
       {
         "value": "2334",
-        "label": "HABICHUELAS PINTAS BAJO EN SODIO"
+        "label": "HABICHUELAS PINTAS BAJO EN SODIO",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS PINTAS BAJO EN SODIO — 15.5 OZ."
       },
       {
         "value": "2364",
-        "label": "HABICHUELAS PINTAS BAJO EN SODIO"
+        "label": "HABICHUELAS PINTAS BAJO EN SODIO",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS PINTAS BAJO EN SODIO — 29 OZ."
       },
       {
         "value": "2432",
-        "label": "HABICHUELAS ROJAS"
+        "label": "HABICHUELAS ROJAS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS ROJAS — 15.5 OZ."
       },
       {
         "value": "2415",
-        "label": "HABICHUELAS ROMANAS"
+        "label": "HABICHUELAS ROMANAS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS ROMANAS — 29 OZ."
       },
       {
         "value": "2416",
-        "label": "HABICHUELAS ROMANAS"
+        "label": "HABICHUELAS ROMANAS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS ROMANAS — 15.5 OZ."
       },
       {
         "value": "2350",
-        "label": "HABICHUELAS ROSADAS"
+        "label": "HABICHUELAS ROSADAS",
+        "weight": "46 OZ.",
+        "labelWithWeight": "HABICHUELAS ROSADAS — 46 OZ."
       },
       {
         "value": "2406",
-        "label": "HABICHUELAS ROSADAS"
+        "label": "HABICHUELAS ROSADAS",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS ROSADAS — 15.5 OZ."
       },
       {
         "value": "2407",
-        "label": "HABICHUELAS ROSADAS"
+        "label": "HABICHUELAS ROSADAS",
+        "weight": "10.5 OZ.",
+        "labelWithWeight": "HABICHUELAS ROSADAS — 10.5 OZ."
       },
       {
         "value": "2411",
-        "label": "HABICHUELAS ROSADAS"
+        "label": "HABICHUELAS ROSADAS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS ROSADAS — 29 OZ."
       },
       {
         "value": "2331",
-        "label": "HABICHUELAS ROSADAS BAJO EN SODIO"
+        "label": "HABICHUELAS ROSADAS BAJO EN SODIO",
+        "weight": "15.5 OZ.",
+        "labelWithWeight": "HABICHUELAS ROSADAS BAJO EN SODIO — 15.5 OZ."
       },
       {
         "value": "2362",
-        "label": "HABICHUELAS ROSADAS BAJO EN SODIO"
+        "label": "HABICHUELAS ROSADAS BAJO EN SODIO",
+        "weight": "29 OZ.",
+        "labelWithWeight": "HABICHUELAS ROSADAS BAJO EN SODIO — 29 OZ."
       },
       {
         "value": "2340",
-        "label": "HABS COLORADAS ORGANICAS"
+        "label": "HABS COLORADAS ORGANICAS",
+        "weight": "15.5 OZ",
+        "labelWithWeight": "HABS COLORADAS ORGANICAS — 15.5 OZ"
       },
       {
         "value": "2342",
-        "label": "HABS NEGRAS ORGANICAS"
+        "label": "HABS NEGRAS ORGANICAS",
+        "weight": "15.5 OZ",
+        "labelWithWeight": "HABS NEGRAS ORGANICAS — 15.5 OZ"
       },
       {
         "value": "2456",
-        "label": "LENTEJAS"
+        "label": "LENTEJAS",
+        "weight": "15.5 OZ",
+        "labelWithWeight": "LENTEJAS — 15.5 OZ"
       },
       {
         "value": "2090",
-        "label": "PANA DE PEPITA"
+        "label": "PANA DE PEPITA",
+        "weight": "8 OZ.",
+        "labelWithWeight": "PANA DE PEPITA — 8 OZ."
       },
       {
         "value": "2352",
-        "label": "SMALL RED BEANS"
+        "label": "SMALL RED BEANS",
+        "weight": "46 0Z.",
+        "labelWithWeight": "SMALL RED BEANS — 46 0Z."
       }
     ],
     "jaleas-y-mermeladas": [
       {
         "value": "2105",
-        "label": "CONSERVA DE MANGO"
+        "label": "CONSERVA DE MANGO",
+        "weight": "17 OZ.",
+        "labelWithWeight": "CONSERVA DE MANGO — 17 OZ."
       },
       {
         "value": "2118",
-        "label": "CONSERVA DE PAPAYA"
+        "label": "CONSERVA DE PAPAYA",
+        "weight": "17 OZ.",
+        "labelWithWeight": "CONSERVA DE PAPAYA — 17 OZ."
       },
       {
         "value": "2103",
-        "label": "CONSERVAS DE FRESAS"
+        "label": "CONSERVAS DE FRESAS",
+        "weight": "17 OZ.",
+        "labelWithWeight": "CONSERVAS DE FRESAS — 17 OZ."
       },
       {
         "value": "2106",
-        "label": "CONSERVAS DE PINA"
+        "label": "CONSERVAS DE PINA",
+        "weight": "17 OZ.",
+        "labelWithWeight": "CONSERVAS DE PINA — 17 OZ."
       },
       {
         "value": "2104",
-        "label": "CONSERVAS DE UVA"
+        "label": "CONSERVAS DE UVA",
+        "weight": "17 OZ.",
+        "labelWithWeight": "CONSERVAS DE UVA — 17 OZ."
       },
       {
         "value": "2101",
-        "label": "JALEA DE GUAYABA"
+        "label": "JALEA DE GUAYABA",
+        "weight": "17 OZ.",
+        "labelWithWeight": "JALEA DE GUAYABA — 17 OZ."
       },
       {
         "value": "2107",
-        "label": "MERMELADA DE PARCHA"
+        "label": "MERMELADA DE PARCHA",
+        "weight": "17 OZ.",
+        "labelWithWeight": "MERMELADA DE PARCHA — 17 OZ."
       }
     ],
     "sancocho-y-mondongo": [
       {
         "value": "2133",
-        "label": "MONDONGO"
+        "label": "MONDONGO",
+        "weight": "15 OZ.",
+        "labelWithWeight": "MONDONGO — 15 OZ."
       },
       {
         "value": "2138",
-        "label": "MONDONGO DOMINICANO"
+        "label": "MONDONGO DOMINICANO",
+        "weight": "15 OZ.",
+        "labelWithWeight": "MONDONGO DOMINICANO — 15 OZ."
       },
       {
         "value": "2131",
-        "label": "SANCOCHO"
+        "label": "SANCOCHO",
+        "weight": "15 OZ.",
+        "labelWithWeight": "SANCOCHO — 15 OZ."
       }
     ],
     "marinados": [
       {
         "value": "3441",
-        "label": "DUX INTEGRAL"
+        "label": "DUX INTEGRAL",
+        "weight": "7.6 OZ.",
+        "labelWithWeight": "DUX INTEGRAL — 7.6 OZ."
       },
       {
         "value": "2145",
-        "label": "GOYA CHIMICHURRI"
+        "label": "GOYA CHIMICHURRI",
+        "weight": "7.5 OZ",
+        "labelWithWeight": "GOYA CHIMICHURRI — 7.5 OZ"
       },
       {
         "value": "3057",
-        "label": "JUGO DE LIMON TROPICAL"
+        "label": "JUGO DE LIMON TROPICAL",
+        "weight": "32 OZ.",
+        "labelWithWeight": "JUGO DE LIMON TROPICAL — 32 OZ."
       },
       {
         "value": "3139",
-        "label": "JUGO DE LIMON TROPICAL"
+        "label": "JUGO DE LIMON TROPICAL",
+        "weight": "8 OZ.",
+        "labelWithWeight": "JUGO DE LIMON TROPICAL — 8 OZ."
       },
       {
         "value": "3059",
-        "label": "MOJO CRIOLLO"
+        "label": "MOJO CRIOLLO",
+        "weight": "12 OZ",
+        "labelWithWeight": "MOJO CRIOLLO — 12 OZ"
       },
       {
         "value": "3060",
-        "label": "MOJO CRIOLLO"
+        "label": "MOJO CRIOLLO",
+        "weight": "24.5 OZ",
+        "labelWithWeight": "MOJO CRIOLLO — 24.5 OZ"
       },
       {
         "value": "3061",
-        "label": "MOJO CRIOLLO"
+        "label": "MOJO CRIOLLO",
+        "weight": "1 GALON",
+        "labelWithWeight": "MOJO CRIOLLO — 1 GALON"
       },
       {
         "value": "3091",
-        "label": "MOJO DE CEVICHE"
+        "label": "MOJO DE CEVICHE",
+        "weight": "24.5 OZ.",
+        "labelWithWeight": "MOJO DE CEVICHE — 24.5 OZ."
       },
       {
         "value": "3093",
-        "label": "MOJO DE PINA"
+        "label": "MOJO DE PINA",
+        "weight": "24.5 OZ.",
+        "labelWithWeight": "MOJO DE PINA — 24.5 OZ."
       },
       {
         "value": "3062",
-        "label": "NARANJA AGRIA"
+        "label": "NARANJA AGRIA",
+        "weight": "12 OZ",
+        "labelWithWeight": "NARANJA AGRIA — 12 OZ"
       },
       {
         "value": "3063",
-        "label": "NARANJA AGRIA"
+        "label": "NARANJA AGRIA",
+        "weight": "24.5 OZ.",
+        "labelWithWeight": "NARANJA AGRIA — 24.5 OZ."
       }
     ],
     "sofritos-y-recaito": [
       {
         "value": "3888",
-        "label": "ACHIOTINA"
+        "label": "ACHIOTINA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "ACHIOTINA — 5 OZ."
       },
       {
         "value": "3889",
-        "label": "ACHIOTINA"
+        "label": "ACHIOTINA",
+        "weight": "10.25 OZ.",
+        "labelWithWeight": "ACHIOTINA — 10.25 OZ."
       },
       {
         "value": "2150",
-        "label": "RECAITO"
+        "label": "RECAITO",
+        "weight": "24 OZ.",
+        "labelWithWeight": "RECAITO — 24 OZ."
       },
       {
         "value": "2151",
-        "label": "RECAITO"
+        "label": "RECAITO",
+        "weight": "6 OZ.",
+        "labelWithWeight": "RECAITO — 6 OZ."
       },
       {
         "value": "2152",
-        "label": "RECAITO"
+        "label": "RECAITO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "RECAITO — 12 OZ."
       },
       {
         "value": "2146",
-        "label": "SOFRITO"
+        "label": "SOFRITO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "SOFRITO — 12 OZ."
       },
       {
         "value": "2148",
-        "label": "SOFRITO"
+        "label": "SOFRITO",
+        "weight": "6 OZ.",
+        "labelWithWeight": "SOFRITO — 6 OZ."
       },
       {
         "value": "2149",
-        "label": "SOFRITO"
+        "label": "SOFRITO",
+        "weight": "24 OZ.",
+        "labelWithWeight": "SOFRITO — 24 OZ."
       }
     ],
     "sazon": [
       {
         "value": "2153",
-        "label": "SAZON LIQUIDO"
+        "label": "SAZON LIQUIDO",
+        "weight": "15 OZ.",
+        "labelWithWeight": "SAZON LIQUIDO — 15 OZ."
       },
       {
         "value": "2154",
-        "label": "SAZON LIQUIDO"
+        "label": "SAZON LIQUIDO",
+        "weight": "30 OZ.",
+        "labelWithWeight": "SAZON LIQUIDO — 30 OZ."
       }
     ],
     "crema-de-coco-y-leche-coco": [
       {
         "value": "2776",
-        "label": "BEBIDA LECHE DE COCO"
+        "label": "BEBIDA LECHE DE COCO",
+        "weight": "11.15 OZ",
+        "labelWithWeight": "BEBIDA LECHE DE COCO — 11.15 OZ"
       },
       {
         "value": "2161",
-        "label": "CREMA DE COCO"
+        "label": "CREMA DE COCO",
+        "weight": "8 3/4 OZ.",
+        "labelWithWeight": "CREMA DE COCO — 8 3/4 OZ."
       },
       {
         "value": "2162",
-        "label": "CREMA DE COCO"
+        "label": "CREMA DE COCO",
+        "weight": "50 OZ.",
+        "labelWithWeight": "CREMA DE COCO — 50 OZ."
       },
       {
         "value": "2163",
-        "label": "CREMA DE COCO"
+        "label": "CREMA DE COCO",
+        "weight": "15 OZ.",
+        "labelWithWeight": "CREMA DE COCO — 15 OZ."
       },
       {
         "value": "2164",
-        "label": "LECHE DE COCO"
+        "label": "LECHE DE COCO",
+        "weight": "13.5 OZ.",
+        "labelWithWeight": "LECHE DE COCO — 13.5 OZ."
       },
       {
         "value": "2168",
-        "label": "LECHE DE COCO"
+        "label": "LECHE DE COCO",
+        "weight": "25.5 OZ.",
+        "labelWithWeight": "LECHE DE COCO — 25.5 OZ."
       },
       {
         "value": "2165",
-        "label": "LECHE DE COCO LIGHT"
+        "label": "LECHE DE COCO LIGHT",
+        "weight": "13.5 OZ.",
+        "labelWithWeight": "LECHE DE COCO LIGHT — 13.5 OZ."
       },
       {
         "value": "2159",
-        "label": "PINA COLADA MIX"
+        "label": "PINA COLADA MIX",
+        "weight": "12 OZ",
+        "labelWithWeight": "PINA COLADA MIX — 12 OZ"
       }
     ],
     "aguas-de-coco": [
       {
         "value": "2778",
-        "label": "AGUA DE COCO"
+        "label": "AGUA DE COCO",
+        "weight": "33.8 OZ.",
+        "labelWithWeight": "AGUA DE COCO — 33.8 OZ."
       },
       {
         "value": "2779",
-        "label": "AGUA DE COCO"
+        "label": "AGUA DE COCO",
+        "weight": "16.90 OZ.",
+        "labelWithWeight": "AGUA DE COCO — 16.90 OZ."
       },
       {
         "value": "2786",
-        "label": "AGUA DE COCO"
+        "label": "AGUA DE COCO",
+        "weight": "11.8 OZ",
+        "labelWithWeight": "AGUA DE COCO — 11.8 OZ"
       },
       {
         "value": "2788",
-        "label": "AGUA DE COCO"
+        "label": "AGUA DE COCO",
+        "weight": "11.15 OZ.",
+        "labelWithWeight": "AGUA DE COCO — 11.15 OZ."
       },
       {
         "value": "2195",
-        "label": "AGUA DE COCO CON TROCITOS"
+        "label": "AGUA DE COCO CON TROCITOS",
+        "weight": "13.5 OZ.",
+        "labelWithWeight": "AGUA DE COCO CON TROCITOS — 13.5 OZ."
       },
       {
         "value": "2785",
-        "label": "AGUA DE COCO CON TROCITOS"
+        "label": "AGUA DE COCO CON TROCITOS",
+        "weight": "11.8 OZ.",
+        "labelWithWeight": "AGUA DE COCO CON TROCITOS — 11.8 OZ."
       },
       {
         "value": "2787",
-        "label": "AGUA DE COCO CON TROCITOS"
+        "label": "AGUA DE COCO CON TROCITOS",
+        "weight": "17.6 OZ.",
+        "labelWithWeight": "AGUA DE COCO CON TROCITOS — 17.6 OZ."
       }
     ],
     "granos-secos": [
       {
         "value": "2488",
-        "label": "ALUBIAS CANNELLINI"
+        "label": "ALUBIAS CANNELLINI",
+        "weight": "1 LB.",
+        "labelWithWeight": "ALUBIAS CANNELLINI — 1 LB."
       },
       {
         "value": "2502",
-        "label": "BEAN SOUP MIX"
+        "label": "BEAN SOUP MIX",
+        "weight": "1 LB.",
+        "labelWithWeight": "BEAN SOUP MIX — 1 LB."
       },
       {
         "value": "2474",
-        "label": "FRIJOLES"
+        "label": "FRIJOLES",
+        "weight": "1 LB.",
+        "labelWithWeight": "FRIJOLES — 1 LB."
       },
       {
         "value": "2478",
-        "label": "GARBANZOS"
+        "label": "GARBANZOS",
+        "weight": "1 LB.",
+        "labelWithWeight": "GARBANZOS — 1 LB."
       },
       {
         "value": "2520",
-        "label": "GARBANZOS"
+        "label": "GARBANZOS",
+        "weight": "4 LB.",
+        "labelWithWeight": "GARBANZOS — 4 LB."
       },
       {
         "value": "2487",
-        "label": "GREEN SPLIT PEAS"
+        "label": "GREEN SPLIT PEAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "GREEN SPLIT PEAS — 1 LB."
       },
       {
         "value": "2475",
-        "label": "GUISANTES"
+        "label": "GUISANTES",
+        "weight": "1 LB.",
+        "labelWithWeight": "GUISANTES — 1 LB."
       },
       {
         "value": "2526",
-        "label": "HAB. PINTAS"
+        "label": "HAB. PINTAS",
+        "weight": "4 LB.",
+        "labelWithWeight": "HAB. PINTAS — 4 LB."
       },
       {
         "value": "2481",
-        "label": "HABAS GRANDES"
+        "label": "HABAS GRANDES",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABAS GRANDES — 1 LB."
       },
       {
         "value": "2473",
-        "label": "HABAS PEQUENAS"
+        "label": "HABAS PEQUENAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABAS PEQUENAS — 1 LB."
       },
       {
         "value": "2483",
-        "label": "HABICHUELAS  ROMANAS"
+        "label": "HABICHUELAS  ROMANAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELAS  ROMANAS — 1 LB."
       },
       {
         "value": "2470",
-        "label": "HABICHUELAS BLANCAS"
+        "label": "HABICHUELAS BLANCAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELAS BLANCAS — 1 LB."
       },
       {
         "value": "2471",
-        "label": "HABICHUELAS COLORADAS"
+        "label": "HABICHUELAS COLORADAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELAS COLORADAS — 1 LB."
       },
       {
         "value": "2519",
-        "label": "HABICHUELAS COLORADAS"
+        "label": "HABICHUELAS COLORADAS",
+        "weight": "4 LB.",
+        "labelWithWeight": "HABICHUELAS COLORADAS — 4 LB."
       },
       {
         "value": "2486",
-        "label": "HABICHUELAS COLORADAS PEQUENAS"
+        "label": "HABICHUELAS COLORADAS PEQUENAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELAS COLORADAS PEQUENAS — 1 LB."
       },
       {
         "value": "2479",
-        "label": "HABICHUELAS NEGRAS"
+        "label": "HABICHUELAS NEGRAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELAS NEGRAS — 1 LB."
       },
       {
         "value": "2523",
-        "label": "HABICHUELAS NEGRAS"
+        "label": "HABICHUELAS NEGRAS",
+        "weight": "4 LB.",
+        "labelWithWeight": "HABICHUELAS NEGRAS — 4 LB."
       },
       {
         "value": "2472",
-        "label": "HABICHUELAS PINTAS"
+        "label": "HABICHUELAS PINTAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELAS PINTAS — 1 LB."
       },
       {
         "value": "2480",
-        "label": "HABICHUELAS ROJAS"
+        "label": "HABICHUELAS ROJAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELAS ROJAS — 1 LB."
       },
       {
         "value": "2477",
-        "label": "HABICHUELAS ROSADAS"
+        "label": "HABICHUELAS ROSADAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELAS ROSADAS — 1 LB."
       },
       {
         "value": "2515",
-        "label": "HABICHUELAS ROSADAS"
+        "label": "HABICHUELAS ROSADAS",
+        "weight": "4 LB.",
+        "labelWithWeight": "HABICHUELAS ROSADAS — 4 LB."
       },
       {
         "value": "2485",
-        "label": "HABICHUELASBLANCA GREAT NORTHERN"
+        "label": "HABICHUELASBLANCA GREAT NORTHERN",
+        "weight": "1 LB.",
+        "labelWithWeight": "HABICHUELASBLANCA GREAT NORTHERN — 1 LB."
       },
       {
         "value": "2476",
-        "label": "LENTEJAS"
+        "label": "LENTEJAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "LENTEJAS — 1 LB."
       },
       {
         "value": "2516",
-        "label": "LENTEJAS"
+        "label": "LENTEJAS",
+        "weight": "4 LB.",
+        "labelWithWeight": "LENTEJAS — 4 LB."
       },
       {
         "value": "2492",
-        "label": "YELLOW POPCORN"
+        "label": "YELLOW POPCORN",
+        "weight": "1 LB.",
+        "labelWithWeight": "YELLOW POPCORN — 1 LB."
       },
       {
         "value": "2491",
-        "label": "YELLOW SPLIT PEAS"
+        "label": "YELLOW SPLIT PEAS",
+        "weight": "1 LB.",
+        "labelWithWeight": "YELLOW SPLIT PEAS — 1 LB."
       }
     ],
     "arroces-listos": [
       {
         "value": "2662",
-        "label": "ARROZ AMARILLO"
+        "label": "ARROZ AMARILLO",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ AMARILLO — 7 OZ."
       },
       {
         "value": "2677",
-        "label": "ARROZ AMARILLO CON COLORADAS"
+        "label": "ARROZ AMARILLO CON COLORADAS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ AMARILLO CON COLORADAS — 7 OZ."
       },
       {
         "value": "2643",
-        "label": "ARROZ AMARILLO INSTANTANEO"
+        "label": "ARROZ AMARILLO INSTANTANEO",
+        "weight": "6 OZ.",
+        "labelWithWeight": "ARROZ AMARILLO INSTANTANEO — 6 OZ."
       },
       {
         "value": "2649",
-        "label": "ARROZ CON COCO"
+        "label": "ARROZ CON COCO",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ CON COCO — 7 OZ."
       },
       {
         "value": "2661",
-        "label": "ARROZ CON GANDULES"
+        "label": "ARROZ CON GANDULES",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ CON GANDULES — 7 OZ."
       },
       {
         "value": "2666",
-        "label": "ARROZ CON HABICHUELAS COLORADAS"
+        "label": "ARROZ CON HABICHUELAS COLORADAS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ CON HABICHUELAS COLORADAS — 7 OZ."
       },
       {
         "value": "2665",
-        "label": "ARROZ CON HABICHUELAS NEGEGRAS"
+        "label": "ARROZ CON HABICHUELAS NEGEGRAS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ CON HABICHUELAS NEGEGRAS — 7 OZ."
       },
       {
         "value": "2655",
-        "label": "ARROZ CON HABICHUELAS PINTAS"
+        "label": "ARROZ CON HABICHUELAS PINTAS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ CON HABICHUELAS PINTAS — 7 OZ."
       },
       {
         "value": "2669",
-        "label": "ARROZ CON POLLO"
+        "label": "ARROZ CON POLLO",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ CON POLLO — 7 OZ."
       },
       {
         "value": "2667",
-        "label": "ARROZ CON QUESO Y BROCOLI"
+        "label": "ARROZ CON QUESO Y BROCOLI",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ CON QUESO Y BROCOLI — 7 OZ."
       },
       {
         "value": "2657",
-        "label": "ARROZ CON SABOR A POLLO"
+        "label": "ARROZ CON SABOR A POLLO",
+        "weight": "7 OZ",
+        "labelWithWeight": "ARROZ CON SABOR A POLLO — 7 OZ"
       },
       {
         "value": "2668",
-        "label": "ARROZ CURRY"
+        "label": "ARROZ CURRY",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ CURRY — 7 OZ."
       },
       {
         "value": "2675",
-        "label": "ARROZ ESPANOL"
+        "label": "ARROZ ESPANOL",
+        "weight": "7 OZ",
+        "labelWithWeight": "ARROZ ESPANOL — 7 OZ"
       },
       {
         "value": "2595",
-        "label": "ARROZ ESTILO CONGRI"
+        "label": "ARROZ ESTILO CONGRI",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ ESTILO CONGRI — 7 OZ."
       },
       {
         "value": "2659",
-        "label": "ARROZ FIESTA"
+        "label": "ARROZ FIESTA",
+        "weight": "7 OZ",
+        "labelWithWeight": "ARROZ FIESTA — 7 OZ"
       },
       {
         "value": "2645",
-        "label": "ARROZ INTEGRAL INSTANTANEO"
+        "label": "ARROZ INTEGRAL INSTANTANEO",
+        "weight": "6 OZ.",
+        "labelWithWeight": "ARROZ INTEGRAL INSTANTANEO — 6 OZ."
       },
       {
         "value": "2663",
-        "label": "ARROZ MEXICANO"
+        "label": "ARROZ MEXICANO",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ MEXICANO — 7 OZ."
       },
       {
         "value": "2644",
-        "label": "ARROZ MEXICANO INSTANTANEO"
+        "label": "ARROZ MEXICANO INSTANTANEO",
+        "weight": "6 OZ.",
+        "labelWithWeight": "ARROZ MEXICANO INSTANTANEO — 6 OZ."
       },
       {
         "value": "2664",
-        "label": "ARROZ PRIMAVERA"
+        "label": "ARROZ PRIMAVERA",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ARROZ PRIMAVERA — 7 OZ."
       }
     ],
     "arroces": [
       {
         "value": "2611",
-        "label": "ARROZ GRANO LARGO INTEGRAL"
+        "label": "ARROZ GRANO LARGO INTEGRAL",
+        "weight": "2 LB",
+        "labelWithWeight": "ARROZ GRANO LARGO INTEGRAL — 2 LB"
       },
       {
         "value": "2600",
-        "label": "ARROZ GRANO MEDIANO"
+        "label": "ARROZ GRANO MEDIANO",
+        "weight": "3 LBS",
+        "labelWithWeight": "ARROZ GRANO MEDIANO — 3 LBS"
       },
       {
         "value": "2603",
-        "label": "ARROZ GRANO MEDIANO"
+        "label": "ARROZ GRANO MEDIANO",
+        "weight": "5 LBS.",
+        "labelWithWeight": "ARROZ GRANO MEDIANO — 5 LBS."
       },
       {
         "value": "2605",
-        "label": "ARROZ GRANO MEDIANO"
+        "label": "ARROZ GRANO MEDIANO",
+        "weight": "10 LBS.",
+        "labelWithWeight": "ARROZ GRANO MEDIANO — 10 LBS."
       },
       {
         "value": "2606",
-        "label": "ARROZ GRANO MEDIANO"
+        "label": "ARROZ GRANO MEDIANO",
+        "weight": "20 LBS.",
+        "labelWithWeight": "ARROZ GRANO MEDIANO — 20 LBS."
       },
       {
         "value": "2607",
-        "label": "ARROZ GRANO MEDIANO"
+        "label": "ARROZ GRANO MEDIANO",
+        "weight": "20 LB.",
+        "labelWithWeight": "ARROZ GRANO MEDIANO — 20 LB."
       },
       {
         "value": "2608",
-        "label": "ARROZ GRANO MEDIANO"
+        "label": "ARROZ GRANO MEDIANO",
+        "weight": "50 LB.",
+        "labelWithWeight": "ARROZ GRANO MEDIANO — 50 LB."
       },
       {
         "value": "2612",
-        "label": "ARROZ INTEGRAL"
+        "label": "ARROZ INTEGRAL",
+        "weight": "2 LB.",
+        "labelWithWeight": "ARROZ INTEGRAL — 2 LB."
       },
       {
         "value": "2613",
-        "label": "ARROZ INTEGRAL"
+        "label": "ARROZ INTEGRAL",
+        "weight": "16 OZ.",
+        "labelWithWeight": "ARROZ INTEGRAL — 16 OZ."
       },
       {
         "value": "2621",
-        "label": "ARROZ INTEGRAL"
+        "label": "ARROZ INTEGRAL",
+        "weight": "5 LB.",
+        "labelWithWeight": "ARROZ INTEGRAL — 5 LB."
       },
       {
         "value": "2625",
-        "label": "ARROZ TIPO VALENCIANO"
+        "label": "ARROZ TIPO VALENCIANO",
+        "weight": "14 OZ.",
+        "labelWithWeight": "ARROZ TIPO VALENCIANO — 14 OZ."
       },
       {
         "value": "2622",
-        "label": "JASMINE RICE"
+        "label": "JASMINE RICE",
+        "weight": "2 LBS.",
+        "labelWithWeight": "JASMINE RICE — 2 LBS."
       }
     ],
     "arroz-canilla": [
       {
         "value": "2633",
-        "label": "CANILLA ARROZ GRANO LARGO"
+        "label": "CANILLA ARROZ GRANO LARGO",
+        "weight": "3 LBS.",
+        "labelWithWeight": "CANILLA ARROZ GRANO LARGO — 3 LBS."
       },
       {
         "value": "2634",
-        "label": "CANILLA ARROZ GRANO LARGO"
+        "label": "CANILLA ARROZ GRANO LARGO",
+        "weight": "2 LB.",
+        "labelWithWeight": "CANILLA ARROZ GRANO LARGO — 2 LB."
       },
       {
         "value": "2635",
-        "label": "CANILLA ARROZ GRANO LARGO"
+        "label": "CANILLA ARROZ GRANO LARGO",
+        "weight": "5 LBS.",
+        "labelWithWeight": "CANILLA ARROZ GRANO LARGO — 5 LBS."
       },
       {
         "value": "2637",
-        "label": "CANILLA ARROZ GRANO LARGO"
+        "label": "CANILLA ARROZ GRANO LARGO",
+        "weight": "10 LBS.",
+        "labelWithWeight": "CANILLA ARROZ GRANO LARGO — 10 LBS."
       },
       {
         "value": "2638",
-        "label": "CANILLA ARROZ GRANO LARGO"
+        "label": "CANILLA ARROZ GRANO LARGO",
+        "weight": "20 LBS.",
+        "labelWithWeight": "CANILLA ARROZ GRANO LARGO — 20 LBS."
       },
       {
         "value": "2639",
-        "label": "CANILLA ARROZ GRANO LARGO"
+        "label": "CANILLA ARROZ GRANO LARGO",
+        "weight": "20 LB.",
+        "labelWithWeight": "CANILLA ARROZ GRANO LARGO — 20 LB."
       },
       {
         "value": "2640",
-        "label": "CANILLA ARROZ GRANO LARGO"
+        "label": "CANILLA ARROZ GRANO LARGO",
+        "weight": "50 LB.",
+        "labelWithWeight": "CANILLA ARROZ GRANO LARGO — 50 LB."
       },
       {
         "value": "2628",
-        "label": "CANILLA DORADO PARBOILED"
+        "label": "CANILLA DORADO PARBOILED",
+        "weight": "3 LBS.",
+        "labelWithWeight": "CANILLA DORADO PARBOILED — 3 LBS."
       },
       {
         "value": "2629",
-        "label": "CANILLA DORADO PARBOILED"
+        "label": "CANILLA DORADO PARBOILED",
+        "weight": "5 LBS.",
+        "labelWithWeight": "CANILLA DORADO PARBOILED — 5 LBS."
       },
       {
         "value": "2630",
-        "label": "CANILLA DORADO PARBOILED"
+        "label": "CANILLA DORADO PARBOILED",
+        "weight": "10 LBS.",
+        "labelWithWeight": "CANILLA DORADO PARBOILED — 10 LBS."
       },
       {
         "value": "2631",
-        "label": "CANILLA DORADO PARBOILED"
+        "label": "CANILLA DORADO PARBOILED",
+        "weight": "20 LBS.",
+        "labelWithWeight": "CANILLA DORADO PARBOILED — 20 LBS."
       }
     ],
     "quinoa": [
       {
         "value": "5928",
-        "label": "AMARANTO ORGANICA"
+        "label": "AMARANTO ORGANICA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "AMARANTO ORGANICA — 12 OZ."
       },
       {
         "value": "5929",
-        "label": "CHIA ORGANICA"
+        "label": "CHIA ORGANICA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "CHIA ORGANICA — 12 OZ."
       },
       {
         "value": "2672",
-        "label": "QUINOA BLEND BRN RICE"
+        "label": "QUINOA BLEND BRN RICE",
+        "weight": "6 OZ.",
+        "labelWithWeight": "QUINOA BLEND BRN RICE — 6 OZ."
       },
       {
         "value": "2674",
-        "label": "QUINOA BLEND BRN RICE"
+        "label": "QUINOA BLEND BRN RICE",
+        "weight": "6 OZ.",
+        "labelWithWeight": "QUINOA BLEND BRN RICE — 6 OZ."
       },
       {
         "value": "2680",
-        "label": "QUINOA BLEND WILD RICE"
+        "label": "QUINOA BLEND WILD RICE",
+        "weight": "6 OZ.",
+        "labelWithWeight": "QUINOA BLEND WILD RICE — 6 OZ."
       },
       {
         "value": "5925",
-        "label": "QUINOA NEGRA ORGANICA"
+        "label": "QUINOA NEGRA ORGANICA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "QUINOA NEGRA ORGANICA — 12 OZ."
       },
       {
         "value": "5052",
-        "label": "QUINOA ORGANICA"
+        "label": "QUINOA ORGANICA",
+        "weight": "12 OZ",
+        "labelWithWeight": "QUINOA ORGANICA — 12 OZ"
       },
       {
         "value": "5926",
-        "label": "QUINOA ROJA ORGANICA"
+        "label": "QUINOA ROJA ORGANICA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "QUINOA ROJA ORGANICA — 12 OZ."
       },
       {
         "value": "5927",
-        "label": "QUINOA TRICOLOR ORGANICA"
+        "label": "QUINOA TRICOLOR ORGANICA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "QUINOA TRICOLOR ORGANICA — 12 OZ."
       }
     ],
     "jugos-y-nectares": [
       {
         "value": "2784",
-        "label": "GUARAPO DE CANA"
+        "label": "GUARAPO DE CANA",
+        "weight": "11.8 OZ",
+        "labelWithWeight": "GUARAPO DE CANA — 11.8 OZ"
       },
       {
         "value": "2764",
-        "label": "JUGO DE CHINA SIN AZUCAR"
+        "label": "JUGO DE CHINA SIN AZUCAR",
+        "weight": "42 OZ.",
+        "labelWithWeight": "JUGO DE CHINA SIN AZUCAR — 42 OZ."
       },
       {
         "value": "2735",
-        "label": "JUGO DE PARCHA"
+        "label": "JUGO DE PARCHA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "JUGO DE PARCHA — 9.6 OZ."
       },
       {
         "value": "2770",
-        "label": "JUGO DE PARCHA"
+        "label": "JUGO DE PARCHA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "JUGO DE PARCHA — 42 OZ."
       },
       {
         "value": "2780",
-        "label": "JUGO DE PINA"
+        "label": "JUGO DE PINA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "JUGO DE PINA — 5 OZ."
       },
       {
         "value": "2782",
-        "label": "JUGO DE PINA"
+        "label": "JUGO DE PINA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "JUGO DE PINA — 42 OZ."
       },
       {
         "value": "2783",
-        "label": "JUGO DE PINA"
+        "label": "JUGO DE PINA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "JUGO DE PINA — 9.6 OZ."
       },
       {
         "value": "2774",
-        "label": "JUGO TOMATE"
+        "label": "JUGO TOMATE",
+        "weight": "42 OZ.",
+        "labelWithWeight": "JUGO TOMATE — 42 OZ."
       },
       {
         "value": "2768",
-        "label": "JUGO TORONJA SIN AZUZAR"
+        "label": "JUGO TORONJA SIN AZUZAR",
+        "weight": "42 OZ.",
+        "labelWithWeight": "JUGO TORONJA SIN AZUZAR — 42 OZ."
       },
       {
         "value": "2719",
-        "label": "NECTAR DE ALBARICOQUE"
+        "label": "NECTAR DE ALBARICOQUE",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE ALBARICOQUE — 5 OZ."
       },
       {
         "value": "2723",
-        "label": "NECTAR DE ALBARICOQUE"
+        "label": "NECTAR DE ALBARICOQUE",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE ALBARICOQUE — 9.6 OZ."
       },
       {
         "value": "2733",
-        "label": "NECTAR DE ALBARICOQUE"
+        "label": "NECTAR DE ALBARICOQUE",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE ALBARICOQUE — 42 OZ."
       },
       {
         "value": "2699",
-        "label": "NECTAR DE BANANA"
+        "label": "NECTAR DE BANANA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE BANANA — 5 OZ."
       },
       {
         "value": "2705",
-        "label": "NECTAR DE DIETA ALBARICOQUE"
+        "label": "NECTAR DE DIETA ALBARICOQUE",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA ALBARICOQUE — 42 OZ."
       },
       {
         "value": "2718",
-        "label": "NECTAR DE DIETA ALBARICOQUE"
+        "label": "NECTAR DE DIETA ALBARICOQUE",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA ALBARICOQUE — 9.6 OZ."
       },
       {
         "value": "2725",
-        "label": "NECTAR DE DIETA GUANABANA"
+        "label": "NECTAR DE DIETA GUANABANA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA GUANABANA — 9.6 OZ."
       },
       {
         "value": "2734",
-        "label": "NECTAR DE DIETA GUANABANA"
+        "label": "NECTAR DE DIETA GUANABANA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA GUANABANA — 42 OZ."
       },
       {
         "value": "2726",
-        "label": "NECTAR DE DIETA GUAYABA"
+        "label": "NECTAR DE DIETA GUAYABA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA GUAYABA — 9.6 OZ."
       },
       {
         "value": "2739",
-        "label": "NECTAR DE DIETA GUAYABA"
+        "label": "NECTAR DE DIETA GUAYABA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA GUAYABA — 42 OZ."
       },
       {
         "value": "2730",
-        "label": "NECTAR DE DIETA MANGO"
+        "label": "NECTAR DE DIETA MANGO",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA MANGO — 9.6 OZ."
       },
       {
         "value": "2769",
-        "label": "NECTAR DE DIETA MANGO"
+        "label": "NECTAR DE DIETA MANGO",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA MANGO — 42 OZ."
       },
       {
         "value": "2703",
-        "label": "NECTAR DE DIETA MELOCOTON"
+        "label": "NECTAR DE DIETA MELOCOTON",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA MELOCOTON — 42 OZ."
       },
       {
         "value": "2716",
-        "label": "NECTAR DE DIETA MELOCOTON"
+        "label": "NECTAR DE DIETA MELOCOTON",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA MELOCOTON — 9.6 OZ."
       },
       {
         "value": "2711",
-        "label": "NECTAR DE DIETA PERA"
+        "label": "NECTAR DE DIETA PERA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA PERA — 9.6 OZ."
       },
       {
         "value": "2720",
-        "label": "NECTAR DE DIETA TAMARINDO"
+        "label": "NECTAR DE DIETA TAMARINDO",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA TAMARINDO — 9.6 OZ."
       },
       {
         "value": "2724",
-        "label": "NECTAR DE DIETA TAMARINDO"
+        "label": "NECTAR DE DIETA TAMARINDO",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE DIETA TAMARINDO — 42 OZ."
       },
       {
         "value": "2698",
-        "label": "NECTAR DE FRESA"
+        "label": "NECTAR DE FRESA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE FRESA — 5 OZ."
       },
       {
         "value": "2760",
-        "label": "NECTAR DE FRESA"
+        "label": "NECTAR DE FRESA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE FRESA — 9.6 OZ."
       },
       {
         "value": "2762",
-        "label": "NECTAR DE FRESA Y GUINEO"
+        "label": "NECTAR DE FRESA Y GUINEO",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE FRESA Y GUINEO — 9.6 OZ."
       },
       {
         "value": "2743",
-        "label": "NECTAR DE GUANABANA"
+        "label": "NECTAR DE GUANABANA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE GUANABANA — 9.6 OZ."
       },
       {
         "value": "2748",
-        "label": "NECTAR DE GUANABANA"
+        "label": "NECTAR DE GUANABANA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE GUANABANA — 42 OZ."
       },
       {
         "value": "2753",
-        "label": "NECTAR DE GUANABANA"
+        "label": "NECTAR DE GUANABANA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE GUANABANA — 5 OZ."
       },
       {
         "value": "2745",
-        "label": "NECTAR DE GUAYABA"
+        "label": "NECTAR DE GUAYABA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE GUAYABA — 9.6 OZ."
       },
       {
         "value": "2749",
-        "label": "NECTAR DE GUAYABA"
+        "label": "NECTAR DE GUAYABA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE GUAYABA — 42 OZ."
       },
       {
         "value": "2755",
-        "label": "NECTAR DE GUAYABA"
+        "label": "NECTAR DE GUAYABA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE GUAYABA — 5 OZ."
       },
       {
         "value": "2761",
-        "label": "NECTAR DE GUINEO"
+        "label": "NECTAR DE GUINEO",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE GUINEO — 9.6 OZ."
       },
       {
         "value": "2746",
-        "label": "NECTAR DE MANGO"
+        "label": "NECTAR DE MANGO",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE MANGO — 9.6 OZ."
       },
       {
         "value": "2750",
-        "label": "NECTAR DE MANGO"
+        "label": "NECTAR DE MANGO",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE MANGO — 42 OZ."
       },
       {
         "value": "2752",
-        "label": "NECTAR DE MANGO"
+        "label": "NECTAR DE MANGO",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE MANGO — 5 OZ."
       },
       {
         "value": "2717",
-        "label": "NECTAR DE MELOCOTON"
+        "label": "NECTAR DE MELOCOTON",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE MELOCOTON — 5 OZ."
       },
       {
         "value": "2722",
-        "label": "NECTAR DE MELOCOTON"
+        "label": "NECTAR DE MELOCOTON",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE MELOCOTON — 9.6 OZ."
       },
       {
         "value": "2732",
-        "label": "NECTAR DE MELOCOTON"
+        "label": "NECTAR DE MELOCOTON",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE MELOCOTON — 42 OZ."
       },
       {
         "value": "2744",
-        "label": "NECTAR DE PAPAYA"
+        "label": "NECTAR DE PAPAYA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE PAPAYA — 9.6 OZ."
       },
       {
         "value": "2754",
-        "label": "NECTAR DE PAPAYA"
+        "label": "NECTAR DE PAPAYA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE PAPAYA — 5 OZ."
       },
       {
         "value": "2756",
-        "label": "NECTAR DE PAPAYA"
+        "label": "NECTAR DE PAPAYA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE PAPAYA — 42 OZ."
       },
       {
         "value": "2715",
-        "label": "NECTAR DE PERA"
+        "label": "NECTAR DE PERA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE PERA — 5 OZ."
       },
       {
         "value": "2721",
-        "label": "NECTAR DE PERA"
+        "label": "NECTAR DE PERA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE PERA — 9.6 OZ."
       },
       {
         "value": "2731",
-        "label": "NECTAR DE PERA"
+        "label": "NECTAR DE PERA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE PERA — 42 OZ."
       },
       {
         "value": "2741",
-        "label": "NECTAR DE TAMARINDO"
+        "label": "NECTAR DE TAMARINDO",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR DE TAMARINDO — 9.6 OZ."
       },
       {
         "value": "2747",
-        "label": "NECTAR DE TAMARINDO"
+        "label": "NECTAR DE TAMARINDO",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR DE TAMARINDO — 42 OZ."
       },
       {
         "value": "2751",
-        "label": "NECTAR DE TAMARINDO"
+        "label": "NECTAR DE TAMARINDO",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR DE TAMARINDO — 5 OZ."
       },
       {
         "value": "2736",
-        "label": "NECTAR PERA Y PARCHA"
+        "label": "NECTAR PERA Y PARCHA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR PERA Y PARCHA — 9.6 OZ."
       },
       {
         "value": "2757",
-        "label": "NECTAR PERA Y PARCHA"
+        "label": "NECTAR PERA Y PARCHA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR PERA Y PARCHA — 5 OZ."
       },
       {
         "value": "2727",
-        "label": "NECTAR PINA Y GUAYABA"
+        "label": "NECTAR PINA Y GUAYABA",
+        "weight": "42 OZ.",
+        "labelWithWeight": "NECTAR PINA Y GUAYABA — 42 OZ."
       },
       {
         "value": "2759",
-        "label": "NECTAR PINA Y GUAYABA"
+        "label": "NECTAR PINA Y GUAYABA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR PINA Y GUAYABA — 5 OZ."
       },
       {
         "value": "2737",
-        "label": "NECTAR PINA Y PARCHA"
+        "label": "NECTAR PINA Y PARCHA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR PINA Y PARCHA — 9.6 OZ."
       },
       {
         "value": "2758",
-        "label": "NECTAR PINA Y PARCHA"
+        "label": "NECTAR PINA Y PARCHA",
+        "weight": "5 OZ.",
+        "labelWithWeight": "NECTAR PINA Y PARCHA — 5 OZ."
       },
       {
         "value": "2738",
-        "label": "NECTAR PINA/GUAYABA"
+        "label": "NECTAR PINA/GUAYABA",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "NECTAR PINA/GUAYABA — 9.6 OZ."
       },
       {
         "value": "2794",
-        "label": "TROPICAL FRUIT PUNCH"
+        "label": "TROPICAL FRUIT PUNCH",
+        "weight": "5 OZ.",
+        "labelWithWeight": "TROPICAL FRUIT PUNCH — 5 OZ."
       },
       {
         "value": "2795",
-        "label": "TROPICAL FRUIT PUNCH"
+        "label": "TROPICAL FRUIT PUNCH",
+        "weight": "9.6 OZ.",
+        "labelWithWeight": "TROPICAL FRUIT PUNCH — 9.6 OZ."
       },
       {
         "value": "2796",
-        "label": "TROPICAL FRUIT PUNCH"
+        "label": "TROPICAL FRUIT PUNCH",
+        "weight": "42 OZ.",
+        "labelWithWeight": "TROPICAL FRUIT PUNCH — 42 OZ."
       }
     ],
     "smoothies": [
       {
         "value": "2700",
-        "label": "FRESA Y GUINEO SMOOTHIE"
+        "label": "FRESA Y GUINEO SMOOTHIE",
+        "weight": "33.8 OZ.",
+        "labelWithWeight": "FRESA Y GUINEO SMOOTHIE — 33.8 OZ."
       }
     ],
     "prisma": [
       {
         "value": "2808",
-        "label": "PRISMA GUAYABA"
+        "label": "PRISMA GUAYABA",
+        "weight": "33.8 OZ",
+        "labelWithWeight": "PRISMA GUAYABA — 33.8 OZ"
       },
       {
         "value": "2828",
-        "label": "PRISMA LIGHT GUAYABA"
+        "label": "PRISMA LIGHT GUAYABA",
+        "weight": "33.8 OZ.",
+        "labelWithWeight": "PRISMA LIGHT GUAYABA — 33.8 OZ."
       },
       {
         "value": "2820",
-        "label": "PRISMA LIGHT MANGO"
+        "label": "PRISMA LIGHT MANGO",
+        "weight": "33.8 OZ.",
+        "labelWithWeight": "PRISMA LIGHT MANGO — 33.8 OZ."
       },
       {
         "value": "2807",
-        "label": "PRISMA MELOCOTON"
+        "label": "PRISMA MELOCOTON",
+        "weight": "33.8 OZ",
+        "labelWithWeight": "PRISMA MELOCOTON — 33.8 OZ"
       },
       {
         "value": "2804",
-        "label": "PRISMA PARCHA"
+        "label": "PRISMA PARCHA",
+        "weight": "33.8 OZ",
+        "labelWithWeight": "PRISMA PARCHA — 33.8 OZ"
       },
       {
         "value": "2806",
-        "label": "PRISMA PERA"
+        "label": "PRISMA PERA",
+        "weight": "33.8 OZ",
+        "labelWithWeight": "PRISMA PERA — 33.8 OZ"
       },
       {
         "value": "2802",
-        "label": "PRISMA PINA"
+        "label": "PRISMA PINA",
+        "weight": "33.8 OZ.",
+        "labelWithWeight": "PRISMA PINA — 33.8 OZ."
       }
     ],
     "frutas": [
       {
         "value": "3077",
-        "label": "CASCOS DE GUAYABA"
+        "label": "CASCOS DE GUAYABA",
+        "weight": "17 OZ.",
+        "labelWithWeight": "CASCOS DE GUAYABA — 17 OZ."
       },
       {
         "value": "3078",
-        "label": "CASCOS DE GUAYABA"
+        "label": "CASCOS DE GUAYABA",
+        "weight": "34 OZ.",
+        "labelWithWeight": "CASCOS DE GUAYABA — 34 OZ."
       },
       {
         "value": "2832",
-        "label": "COCTEL DE FRUTAS"
+        "label": "COCTEL DE FRUTAS",
+        "weight": "15.25 OZ.",
+        "labelWithWeight": "COCTEL DE FRUTAS — 15.25 OZ."
       },
       {
         "value": "2833",
-        "label": "COCTEL DE FRUTAS"
+        "label": "COCTEL DE FRUTAS",
+        "weight": "30 OZ.",
+        "labelWithWeight": "COCTEL DE FRUTAS — 30 OZ."
       },
       {
         "value": "3087",
-        "label": "DULCE DE PAPAYA"
+        "label": "DULCE DE PAPAYA",
+        "weight": "17 OZ.",
+        "labelWithWeight": "DULCE DE PAPAYA — 17 OZ."
       },
       {
         "value": "3088",
-        "label": "DULCE DE PAPAYA"
+        "label": "DULCE DE PAPAYA",
+        "weight": "34 OZ",
+        "labelWithWeight": "DULCE DE PAPAYA — 34 OZ"
       },
       {
         "value": "3084",
-        "label": "LASCAS DE MANGO EN ALMIBAR"
+        "label": "LASCAS DE MANGO EN ALMIBAR",
+        "weight": "16 OZ",
+        "labelWithWeight": "LASCAS DE MANGO EN ALMIBAR — 16 OZ"
       },
       {
         "value": "2822",
-        "label": "MELOCOTONES MITADES"
+        "label": "MELOCOTONES MITADES",
+        "weight": "29 OZ.",
+        "labelWithWeight": "MELOCOTONES MITADES — 29 OZ."
       },
       {
         "value": "2826",
-        "label": "MELOCOTONES MITADES"
+        "label": "MELOCOTONES MITADES",
+        "weight": "15.25 OZ.",
+        "labelWithWeight": "MELOCOTONES MITADES — 15.25 OZ."
       },
       {
         "value": "2821",
-        "label": "MELOCOTONES REBANADOS"
+        "label": "MELOCOTONES REBANADOS",
+        "weight": "29 OZ.",
+        "labelWithWeight": "MELOCOTONES REBANADOS — 29 OZ."
       },
       {
         "value": "2825",
-        "label": "MELOCOTONES REBANADOS"
+        "label": "MELOCOTONES REBANADOS",
+        "weight": "15.25 OZ.",
+        "labelWithWeight": "MELOCOTONES REBANADOS — 15.25 OZ."
       },
       {
         "value": "2803",
-        "label": "PERAS MITADES"
+        "label": "PERAS MITADES",
+        "weight": "15 OZ.",
+        "labelWithWeight": "PERAS MITADES — 15 OZ."
       },
       {
         "value": "2840",
-        "label": "PINA EN REBANADAS"
+        "label": "PINA EN REBANADAS",
+        "weight": "20 OZ.",
+        "labelWithWeight": "PINA EN REBANADAS — 20 OZ."
       },
       {
         "value": "2841",
-        "label": "PINA EN TROZOS"
+        "label": "PINA EN TROZOS",
+        "weight": "20 OZ.",
+        "labelWithWeight": "PINA EN TROZOS — 20 OZ."
       },
       {
         "value": "2842",
-        "label": "PINA MOLIDA"
+        "label": "PINA MOLIDA",
+        "weight": "20 OZ.",
+        "labelWithWeight": "PINA MOLIDA — 20 OZ."
       }
     ],
     "galletas-dux": [
       {
         "value": "3306",
-        "label": "DUX SALTIN PACK X 4"
+        "label": "DUX SALTIN PACK X 4",
+        "weight": "13.4 OZ",
+        "labelWithWeight": "DUX SALTIN PACK X 4 — 13.4 OZ"
       },
       {
         "value": "2965",
-        "label": "DUX SODA CRACKERS"
+        "label": "DUX SODA CRACKERS",
+        "weight": "28 OZ.",
+        "labelWithWeight": "DUX SODA CRACKERS — 28 OZ."
       },
       {
         "value": "3147",
-        "label": "DUX SODA CRACKERS BOX"
+        "label": "DUX SODA CRACKERS BOX",
+        "weight": "23 OZ.",
+        "labelWithWeight": "DUX SODA CRACKERS BOX — 23 OZ."
       },
       {
         "value": "2964",
-        "label": "DUX SODAS CRACKERS"
+        "label": "DUX SODAS CRACKERS",
+        "weight": "16 OZ.",
+        "labelWithWeight": "DUX SODAS CRACKERS — 16 OZ."
       }
     ],
     "productos-ancel": [
       {
         "value": "3125",
-        "label": "COCO RALLADO ANCEL"
+        "label": "COCO RALLADO ANCEL",
+        "weight": "34 OZ.",
+        "labelWithWeight": "COCO RALLADO ANCEL — 34 OZ."
       },
       {
         "value": "3130",
-        "label": "COCO RALLADO ANCEL"
+        "label": "COCO RALLADO ANCEL",
+        "weight": "17 OZ.",
+        "labelWithWeight": "COCO RALLADO ANCEL — 17 OZ."
       },
       {
         "value": "3138",
-        "label": "PASTA DE GUAYABA ANCEL"
+        "label": "PASTA DE GUAYABA ANCEL",
+        "weight": "16 OZ.",
+        "labelWithWeight": "PASTA DE GUAYABA ANCEL — 16 OZ."
       },
       {
         "value": "3133",
-        "label": "TROZOS PAPAYA ANCEL"
+        "label": "TROZOS PAPAYA ANCEL",
+        "weight": "17 OZ.",
+        "labelWithWeight": "TROZOS PAPAYA ANCEL — 17 OZ."
       }
     ],
     "postres": [
       {
         "value": "3180",
-        "label": "ARROZ CON LECHE"
+        "label": "ARROZ CON LECHE",
+        "weight": "4.25 OZ.",
+        "labelWithWeight": "ARROZ CON LECHE — 4.25 OZ."
       },
       {
         "value": "3185",
-        "label": "FLAN"
+        "label": "FLAN",
+        "weight": "2 OZ.",
+        "labelWithWeight": "FLAN — 2 OZ."
       },
       {
         "value": "3186",
-        "label": "FLAN"
+        "label": "FLAN",
+        "weight": "4 OZ.",
+        "labelWithWeight": "FLAN — 4 OZ."
       },
       {
         "value": "3187",
-        "label": "FLAN CON CARAMELO"
+        "label": "FLAN CON CARAMELO",
+        "weight": "2 3/4 OZ.",
+        "labelWithWeight": "FLAN CON CARAMELO — 2 3/4 OZ."
       },
       {
         "value": "3188",
-        "label": "FLAN CON CARAMELO"
+        "label": "FLAN CON CARAMELO",
+        "weight": "5.5 OZ.",
+        "labelWithWeight": "FLAN CON CARAMELO — 5.5 OZ."
       },
       {
         "value": "3179",
-        "label": "MAJARETE"
+        "label": "MAJARETE",
+        "weight": "3.25 OZ.",
+        "labelWithWeight": "MAJARETE — 3.25 OZ."
       },
       {
         "value": "3184",
-        "label": "NATILLA"
+        "label": "NATILLA",
+        "weight": "3.25 OZ.",
+        "labelWithWeight": "NATILLA — 3.25 OZ."
       },
       {
         "value": "3176",
-        "label": "PUDIN DE CHOCOLATE"
+        "label": "PUDIN DE CHOCOLATE",
+        "weight": "3.5 OZ",
+        "labelWithWeight": "PUDIN DE CHOCOLATE — 3.5 OZ"
       },
       {
         "value": "3183",
-        "label": "TEMBLEQUE"
+        "label": "TEMBLEQUE",
+        "weight": "3.5 OZ.",
+        "labelWithWeight": "TEMBLEQUE — 3.5 OZ."
       }
     ],
     "miel-de-abeja": [
       {
         "value": "3206",
-        "label": "MIEL ABEJA CON PANAL"
+        "label": "MIEL ABEJA CON PANAL",
+        "weight": "8 OZ.",
+        "labelWithWeight": "MIEL ABEJA CON PANAL — 8 OZ."
       },
       {
         "value": "3210",
-        "label": "MIEL ABEJA CON PANAL"
+        "label": "MIEL ABEJA CON PANAL",
+        "weight": "16 OZ.",
+        "labelWithWeight": "MIEL ABEJA CON PANAL — 16 OZ."
       },
       {
         "value": "3200",
-        "label": "MIEL ABEJA SIN PANAL"
+        "label": "MIEL ABEJA SIN PANAL",
+        "weight": "16 OZ.",
+        "labelWithWeight": "MIEL ABEJA SIN PANAL — 16 OZ."
       },
       {
         "value": "3202",
-        "label": "MIEL ABEJA SIN PANAL"
+        "label": "MIEL ABEJA SIN PANAL",
+        "weight": "8 OZ.",
+        "labelWithWeight": "MIEL ABEJA SIN PANAL — 8 OZ."
       },
       {
         "value": "3204",
-        "label": "MIEL ABEJA SIN PANAL"
+        "label": "MIEL ABEJA SIN PANAL",
+        "weight": "5 OZ.",
+        "labelWithWeight": "MIEL ABEJA SIN PANAL — 5 OZ."
       }
     ],
     "agave": [
       {
         "value": "3205",
-        "label": "AGAVE ORGANICO"
+        "label": "AGAVE ORGANICO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "AGAVE ORGANICO — 12 OZ."
       }
     ],
     "cubitos": [
       {
         "value": "3242",
-        "label": "CUBITOS DE CARNE"
+        "label": "CUBITOS DE CARNE",
+        "weight": "8 SOBRES",
+        "labelWithWeight": "CUBITOS DE CARNE — 8 SOBRES"
       },
       {
         "value": "3239",
-        "label": "CUBITOS DE CARNE BAJO EN SODIO"
+        "label": "CUBITOS DE CARNE BAJO EN SODIO",
+        "weight": "8 SOBRES",
+        "labelWithWeight": "CUBITOS DE CARNE BAJO EN SODIO — 8 SOBRES"
       },
       {
         "value": "3240",
-        "label": "CUBITOS DE POLLO"
+        "label": "CUBITOS DE POLLO",
+        "weight": "8 SOBRES",
+        "labelWithWeight": "CUBITOS DE POLLO — 8 SOBRES"
       },
       {
         "value": "3245",
-        "label": "CUBITOS DE POLLO"
+        "label": "CUBITOS DE POLLO",
+        "weight": "20 SOBRES",
+        "labelWithWeight": "CUBITOS DE POLLO — 20 SOBRES"
       },
       {
         "value": "3246",
-        "label": "CUBITOS DE POLLO"
+        "label": "CUBITOS DE POLLO",
+        "weight": "20 SOBRES",
+        "labelWithWeight": "CUBITOS DE POLLO — 20 SOBRES"
       },
       {
         "value": "3237",
-        "label": "CUBITOS DE POLLO BAJO EN SODIO"
+        "label": "CUBITOS DE POLLO BAJO EN SODIO",
+        "weight": "8 SOBRES",
+        "labelWithWeight": "CUBITOS DE POLLO BAJO EN SODIO — 8 SOBRES"
       },
       {
         "value": "3243",
-        "label": "CUBITOS EN POLVO POLLO Y TOMATE"
+        "label": "CUBITOS EN POLVO POLLO Y TOMATE",
+        "weight": "8 SOBRES",
+        "labelWithWeight": "CUBITOS EN POLVO POLLO Y TOMATE — 8 SOBRES"
       }
     ],
     "carnes": [
       {
         "value": "3313",
-        "label": "CHORIZOS"
+        "label": "CHORIZOS",
+        "weight": "3.50 OZ",
+        "labelWithWeight": "CHORIZOS — 3.50 OZ"
       },
       {
         "value": "3314",
-        "label": "CHORIZOS"
+        "label": "CHORIZOS",
+        "weight": "7 OZ",
+        "labelWithWeight": "CHORIZOS — 7 OZ"
       },
       {
         "value": "3318",
-        "label": "CHORIZOS MENOS SODIO"
+        "label": "CHORIZOS MENOS SODIO",
+        "weight": "3.5 OZ.",
+        "labelWithWeight": "CHORIZOS MENOS SODIO — 3.5 OZ."
       },
       {
         "value": "3361",
-        "label": "CORNED BEEF"
+        "label": "CORNED BEEF",
+        "weight": "12 OZ.",
+        "labelWithWeight": "CORNED BEEF — 12 OZ."
       },
       {
         "value": "3358",
-        "label": "JAMON ENLATADO"
+        "label": "JAMON ENLATADO",
+        "weight": "1 LB.",
+        "labelWithWeight": "JAMON ENLATADO — 1 LB."
       },
       {
         "value": "3381",
-        "label": "JAMONILLA"
+        "label": "JAMONILLA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "JAMONILLA — 12 OZ."
       },
       {
         "value": "3387",
-        "label": "POTTED MEAT"
+        "label": "POTTED MEAT",
+        "weight": "3 OZ.",
+        "labelWithWeight": "POTTED MEAT — 3 OZ."
       },
       {
         "value": "3388",
-        "label": "POTTED MEAT"
+        "label": "POTTED MEAT",
+        "weight": "5.5 OZ.",
+        "labelWithWeight": "POTTED MEAT — 5.5 OZ."
       },
       {
         "value": "3327",
-        "label": "SALCHICHAS"
+        "label": "SALCHICHAS",
+        "weight": "4.60 OZ.",
+        "labelWithWeight": "SALCHICHAS — 4.60 OZ."
       },
       {
         "value": "3324",
-        "label": "SALCHICHAS PICANTES"
+        "label": "SALCHICHAS PICANTES",
+        "weight": "4.75 OZ.",
+        "labelWithWeight": "SALCHICHAS PICANTES — 4.75 OZ."
       }
     ],
     "mantecas": [
       {
         "value": "3401",
-        "label": "MANTECA"
+        "label": "MANTECA",
+        "weight": "1 LB",
+        "labelWithWeight": "MANTECA — 1 LB"
       },
       {
         "value": "3402",
-        "label": "MANTECA"
+        "label": "MANTECA",
+        "weight": "2.5 LBS.",
+        "labelWithWeight": "MANTECA — 2.5 LBS."
       },
       {
         "value": "3403",
-        "label": "MANTECA"
+        "label": "MANTECA",
+        "weight": "4 LB",
+        "labelWithWeight": "MANTECA — 4 LB"
       }
     ],
     "mariscos": [
       {
         "value": "3625",
-        "label": "ATUN BLANCO-BONITO NORTE"
+        "label": "ATUN BLANCO-BONITO NORTE",
+        "weight": "4 OZ.",
+        "labelWithWeight": "ATUN BLANCO-BONITO NORTE — 4 OZ."
       },
       {
         "value": "3624",
-        "label": "BACALAO A LA VIZCAINA"
+        "label": "BACALAO A LA VIZCAINA",
+        "weight": "4 OZ.",
+        "labelWithWeight": "BACALAO A LA VIZCAINA — 4 OZ."
       },
       {
         "value": "3638",
-        "label": "CALAMAR JUMBO A LA MARINE"
+        "label": "CALAMAR JUMBO A LA MARINE",
+        "weight": "4 OZ.",
+        "labelWithWeight": "CALAMAR JUMBO A LA MARINE — 4 OZ."
       },
       {
         "value": "3639",
-        "label": "CALAMAR JUMBO AL AJILLO"
+        "label": "CALAMAR JUMBO AL AJILLO",
+        "weight": "4 OZ.",
+        "labelWithWeight": "CALAMAR JUMBO AL AJILLO — 4 OZ."
       },
       {
         "value": "3607",
-        "label": "CALAMAR JUMBO EN ACEITE OLIVA"
+        "label": "CALAMAR JUMBO EN ACEITE OLIVA",
+        "weight": "4 OZ.",
+        "labelWithWeight": "CALAMAR JUMBO EN ACEITE OLIVA — 4 OZ."
       },
       {
         "value": "3637",
-        "label": "CALAMAR JUMBO EN ACEITE OLIVA"
+        "label": "CALAMAR JUMBO EN ACEITE OLIVA",
+        "weight": "4 OZ.",
+        "labelWithWeight": "CALAMAR JUMBO EN ACEITE OLIVA — 4 OZ."
       },
       {
         "value": "3640",
-        "label": "CALAMAR JUMBO PICANTE"
+        "label": "CALAMAR JUMBO PICANTE",
+        "weight": "4 OZ.",
+        "labelWithWeight": "CALAMAR JUMBO PICANTE — 4 OZ."
       },
       {
         "value": "3634",
-        "label": "CALAMARES TROZOS PICANTES"
+        "label": "CALAMARES TROZOS PICANTES",
+        "weight": "4 OZ.",
+        "labelWithWeight": "CALAMARES TROZOS PICANTES — 4 OZ."
       },
       {
         "value": "3632",
-        "label": "CALAMARES TROZOS TINTA"
+        "label": "CALAMARES TROZOS TINTA",
+        "weight": "4 OZ.",
+        "labelWithWeight": "CALAMARES TROZOS TINTA — 4 OZ."
       },
       {
         "value": "3633",
-        "label": "FILETE DE CALAMARES EN TINTA"
+        "label": "FILETE DE CALAMARES EN TINTA",
+        "weight": "4 OZ.",
+        "labelWithWeight": "FILETE DE CALAMARES EN TINTA — 4 OZ."
       },
       {
         "value": "3621",
-        "label": "MACARELA"
+        "label": "MACARELA",
+        "weight": "15 OZ.",
+        "labelWithWeight": "MACARELA — 15 OZ."
       },
       {
         "value": "3631",
-        "label": "MACARELA EN SALSA TOMATE"
+        "label": "MACARELA EN SALSA TOMATE",
+        "weight": "15 OZ.",
+        "labelWithWeight": "MACARELA EN SALSA TOMATE — 15 OZ."
       },
       {
         "value": "3630",
-        "label": "MEJILLONES EN ESCABECHE"
+        "label": "MEJILLONES EN ESCABECHE",
+        "weight": "4 OZ.",
+        "labelWithWeight": "MEJILLONES EN ESCABECHE — 4 OZ."
       },
       {
         "value": "3664",
-        "label": "PINK SALMON"
+        "label": "PINK SALMON",
+        "weight": "14.75 OZ.",
+        "labelWithWeight": "PINK SALMON — 14.75 OZ."
       },
       {
         "value": "3669",
-        "label": "PULPO EN ACEITE DE OLIVA"
+        "label": "PULPO EN ACEITE DE OLIVA",
+        "weight": "4 OZ.",
+        "labelWithWeight": "PULPO EN ACEITE DE OLIVA — 4 OZ."
       },
       {
         "value": "3617",
-        "label": "SARDINA TINAPA PICANTE"
+        "label": "SARDINA TINAPA PICANTE",
+        "weight": "5 1/2 OZ.",
+        "labelWithWeight": "SARDINA TINAPA PICANTE — 5 1/2 OZ."
       },
       {
         "value": "3615",
-        "label": "SARDINA TINAPA SALSA TOMATE"
+        "label": "SARDINA TINAPA SALSA TOMATE",
+        "weight": "5 1/2 OZ.",
+        "labelWithWeight": "SARDINA TINAPA SALSA TOMATE — 5 1/2 OZ."
       },
       {
         "value": "3610",
-        "label": "SARDINAS ACEITE OLIVA"
+        "label": "SARDINAS ACEITE OLIVA",
+        "weight": "4.25 OZ.",
+        "labelWithWeight": "SARDINAS ACEITE OLIVA — 4.25 OZ."
       },
       {
         "value": "3612",
-        "label": "SARDINAS EN TOMATE"
+        "label": "SARDINAS EN TOMATE",
+        "weight": "4.25 OZ.",
+        "labelWithWeight": "SARDINAS EN TOMATE — 4.25 OZ."
       },
       {
         "value": "3616",
-        "label": "SARDINAS OVALADAS PICANTE"
+        "label": "SARDINAS OVALADAS PICANTE",
+        "weight": "15 OZ",
+        "labelWithWeight": "SARDINAS OVALADAS PICANTE — 15 OZ"
       },
       {
         "value": "3611",
-        "label": "SARDINAS PICANTES"
+        "label": "SARDINAS PICANTES",
+        "weight": "4.25 OZ.",
+        "labelWithWeight": "SARDINAS PICANTES — 4.25 OZ."
       },
       {
         "value": "3613",
-        "label": "SARDINAS TOMATE OVAL"
+        "label": "SARDINAS TOMATE OVAL",
+        "weight": "15 OZ.",
+        "labelWithWeight": "SARDINAS TOMATE OVAL — 15 OZ."
       },
       {
         "value": "3627",
-        "label": "SARDINILLA EN ACEITE VEGETAL"
+        "label": "SARDINILLA EN ACEITE VEGETAL",
+        "weight": "4.25 OZ.",
+        "labelWithWeight": "SARDINILLA EN ACEITE VEGETAL — 4.25 OZ."
       }
     ],
     "leche-evaporada-y-condensada": [
       {
         "value": "3690",
-        "label": "LECHE CONDENSADA"
+        "label": "LECHE CONDENSADA",
+        "weight": "14 OZ.",
+        "labelWithWeight": "LECHE CONDENSADA — 14 OZ."
       },
       {
         "value": "3695",
-        "label": "LECHE CONDENSADA NELA"
+        "label": "LECHE CONDENSADA NELA",
+        "weight": "14 OZ",
+        "labelWithWeight": "LECHE CONDENSADA NELA — 14 OZ"
       },
       {
         "value": "3691",
-        "label": "LECHE EVAPORADA"
+        "label": "LECHE EVAPORADA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "LECHE EVAPORADA — 12 OZ."
       }
     ],
     "productos-cortes": [
       {
         "value": "3957",
-        "label": "CHOCOLATE CORTES BARRA"
+        "label": "CHOCOLATE CORTES BARRA",
+        "weight": "20/7 OZ.",
+        "labelWithWeight": "CHOCOLATE CORTES BARRA — 20/7 OZ."
       },
       {
         "value": "5139",
-        "label": "CHOCOLATE CORTES CON CANELA"
+        "label": "CHOCOLATE CORTES CON CANELA",
+        "weight": "7 OZ.",
+        "labelWithWeight": "CHOCOLATE CORTES CON CANELA — 7 OZ."
       },
       {
         "value": "5141",
-        "label": "CHOCOLATE MOLIDO"
+        "label": "CHOCOLATE MOLIDO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "CHOCOLATE MOLIDO — 12 OZ."
       },
       {
         "value": "3721",
-        "label": "CHOCOLATE MOLIDO LITE"
+        "label": "CHOCOLATE MOLIDO LITE",
+        "weight": "5 OZ.",
+        "labelWithWeight": "CHOCOLATE MOLIDO LITE — 5 OZ."
       },
       {
         "value": "5140",
-        "label": "CHOCOLATE MOLIDO LITE"
+        "label": "CHOCOLATE MOLIDO LITE",
+        "weight": "10 OZ.",
+        "labelWithWeight": "CHOCOLATE MOLIDO LITE — 10 OZ."
       },
       {
         "value": "5122",
-        "label": "CORTES INSTANTANEO CHOCALATE"
+        "label": "CORTES INSTANTANEO CHOCALATE",
+        "weight": "12 OZ.",
+        "labelWithWeight": "CORTES INSTANTANEO CHOCALATE — 12 OZ."
       },
       {
         "value": "3932",
-        "label": "EMBAJADOR BARRA"
+        "label": "EMBAJADOR BARRA",
+        "weight": "9.2 OZ.",
+        "labelWithWeight": "EMBAJADOR BARRA — 9.2 OZ."
       }
     ],
     "sales": [
       {
         "value": "3890",
-        "label": "SAL DE MAR"
+        "label": "SAL DE MAR",
+        "weight": "23 OZ.",
+        "labelWithWeight": "SAL DE MAR — 23 OZ."
       },
       {
         "value": "3734",
-        "label": "SAL KOSHER"
+        "label": "SAL KOSHER",
+        "weight": "23 OZ.",
+        "labelWithWeight": "SAL KOSHER — 23 OZ."
       },
       {
         "value": "3723",
-        "label": "SAL PARRILLERA"
+        "label": "SAL PARRILLERA",
+        "weight": "21 OZ.",
+        "labelWithWeight": "SAL PARRILLERA — 21 OZ."
       },
       {
         "value": "3815",
-        "label": "SAL YODADA"
+        "label": "SAL YODADA",
+        "weight": "26 OZ",
+        "labelWithWeight": "SAL YODADA — 26 OZ"
       },
       {
         "value": "3801",
-        "label": "SAL YODADA CON 33% MENOS SODIO"
+        "label": "SAL YODADA CON 33% MENOS SODIO",
+        "weight": "23 OZ.",
+        "labelWithWeight": "SAL YODADA CON 33% MENOS SODIO — 23 OZ."
       }
     ],
     "especias": [
       {
         "value": "3831",
-        "label": "ACHIOTE"
+        "label": "ACHIOTE",
+        "weight": "2 3/5 OZ.",
+        "labelWithWeight": "ACHIOTE — 2 3/5 OZ."
       },
       {
         "value": "3832",
-        "label": "ACHIOTE"
+        "label": "ACHIOTE",
+        "weight": "7 OZ.",
+        "labelWithWeight": "ACHIOTE — 7 OZ."
       },
       {
         "value": "3733",
-        "label": "AJO CON SAL"
+        "label": "AJO CON SAL",
+        "weight": "4 1/5 OZ.",
+        "labelWithWeight": "AJO CON SAL — 4 1/5 OZ."
       },
       {
         "value": "3810",
-        "label": "AJO EN POLVO"
+        "label": "AJO EN POLVO",
+        "weight": "8 OZ.",
+        "labelWithWeight": "AJO EN POLVO — 8 OZ."
       },
       {
         "value": "3748",
-        "label": "AJO MOLIDO"
+        "label": "AJO MOLIDO",
+        "weight": "2 3/5 OZ.",
+        "labelWithWeight": "AJO MOLIDO — 2 3/5 OZ."
       },
       {
         "value": "3736",
-        "label": "ANIS EN ESTRELLA"
+        "label": "ANIS EN ESTRELLA",
+        "weight": "3/4 OZ.",
+        "labelWithWeight": "ANIS EN ESTRELLA — 3/4 OZ."
       },
       {
         "value": "3728",
-        "label": "ANIS EN SEMILLA"
+        "label": "ANIS EN SEMILLA",
+        "weight": "1 4/5 OZ.",
+        "labelWithWeight": "ANIS EN SEMILLA — 1 4/5 OZ."
       },
       {
         "value": "3740",
-        "label": "CANELA EN RAMA"
+        "label": "CANELA EN RAMA",
+        "weight": "1 1/5 OZ.",
+        "labelWithWeight": "CANELA EN RAMA — 1 1/5 OZ."
       },
       {
         "value": "3750",
-        "label": "CANELA MOLIDA"
+        "label": "CANELA MOLIDA",
+        "weight": "1.7OZ.",
+        "labelWithWeight": "CANELA MOLIDA — 1.7OZ."
       },
       {
         "value": "3812",
-        "label": "CEBOLLA EN POLVO"
+        "label": "CEBOLLA EN POLVO",
+        "weight": "6.75 OZ.",
+        "labelWithWeight": "CEBOLLA EN POLVO — 6.75 OZ."
       },
       {
         "value": "3756",
-        "label": "CEBOLLA POLVO"
+        "label": "CEBOLLA POLVO",
+        "weight": "2 1/2 OZ.",
+        "labelWithWeight": "CEBOLLA POLVO — 2 1/2 OZ."
       },
       {
         "value": "3741",
-        "label": "CHILI MOLIDO"
+        "label": "CHILI MOLIDO",
+        "weight": "2 1/2 OZ.",
+        "labelWithWeight": "CHILI MOLIDO — 2 1/2 OZ."
       },
       {
         "value": "3729",
-        "label": "CLAVOS DE ESPECIAS"
+        "label": "CLAVOS DE ESPECIAS",
+        "weight": "1 1/5 OZ.",
+        "labelWithWeight": "CLAVOS DE ESPECIAS — 1 1/5 OZ."
       },
       {
         "value": "3746",
-        "label": "COMINO MOLIDO"
+        "label": "COMINO MOLIDO",
+        "weight": "1 4/5 OZ.",
+        "labelWithWeight": "COMINO MOLIDO — 1 4/5 OZ."
       },
       {
         "value": "3811",
-        "label": "COMINO MOLIDO"
+        "label": "COMINO MOLIDO",
+        "weight": "5.5 OZ.",
+        "labelWithWeight": "COMINO MOLIDO — 5.5 OZ."
       },
       {
         "value": "3743",
-        "label": "COMINO SEMILLAS"
+        "label": "COMINO SEMILLAS",
+        "weight": "1 1/2 OZ.",
+        "labelWithWeight": "COMINO SEMILLAS — 1 1/2 OZ."
       },
       {
         "value": "3813",
-        "label": "HOJA DE LAUREL"
+        "label": "HOJA DE LAUREL",
+        "weight": "3/4 OZ.",
+        "labelWithWeight": "HOJA DE LAUREL — 3/4 OZ."
       },
       {
         "value": "3737",
-        "label": "HOJAS DE LAUREL"
+        "label": "HOJAS DE LAUREL",
+        "weight": "1/5 OZ.",
+        "labelWithWeight": "HOJAS DE LAUREL — 1/5 OZ."
       },
       {
         "value": "3742",
-        "label": "JAMAICAN CURRY POWDER"
+        "label": "JAMAICAN CURRY POWDER",
+        "weight": "1 3/4 OZ.",
+        "labelWithWeight": "JAMAICAN CURRY POWDER — 1 3/4 OZ."
       },
       {
         "value": "3807",
-        "label": "OREGANO EN HOJA"
+        "label": "OREGANO EN HOJA",
+        "weight": "2/5 OZ.",
+        "labelWithWeight": "OREGANO EN HOJA — 2/5 OZ."
       },
       {
         "value": "3732",
-        "label": "PIMIENTA EN GRANO"
+        "label": "PIMIENTA EN GRANO",
+        "weight": "1 4/5 OZ.",
+        "labelWithWeight": "PIMIENTA EN GRANO — 1 4/5 OZ."
       },
       {
         "value": "3814",
-        "label": "PIMIENTA MOLIDA"
+        "label": "PIMIENTA MOLIDA",
+        "weight": "6 OZ.",
+        "labelWithWeight": "PIMIENTA MOLIDA — 6 OZ."
       }
     ],
     "sazones": [
       {
         "value": "3838",
-        "label": "CONCENTRADO DE JAMON"
+        "label": "CONCENTRADO DE JAMON",
+        "weight": "20 SOBRES",
+        "labelWithWeight": "CONCENTRADO DE JAMON — 20 SOBRES"
       },
       {
         "value": "3875",
-        "label": "JAMON CONCEN BAJO EN SODIO"
+        "label": "JAMON CONCEN BAJO EN SODIO",
+        "weight": "8 SOBRES",
+        "labelWithWeight": "JAMON CONCEN BAJO EN SODIO — 8 SOBRES"
       },
       {
         "value": "3837",
-        "label": "JAMON CONCENTRADO"
+        "label": "JAMON CONCENTRADO",
+        "weight": "8 SOBRES.",
+        "labelWithWeight": "JAMON CONCENTRADO — 8 SOBRES."
       },
       {
         "value": "3786",
-        "label": "SAZON CILANTRO Y TOMATE"
+        "label": "SAZON CILANTRO Y TOMATE",
+        "weight": "8 SOBRES",
+        "labelWithWeight": "SAZON CILANTRO Y TOMATE — 8 SOBRES"
       },
       {
         "value": "3774",
-        "label": "SAZON CON AJO Y CEBOLLA"
+        "label": "SAZON CON AJO Y CEBOLLA",
+        "weight": "20 SOBRES",
+        "labelWithWeight": "SAZON CON AJO Y CEBOLLA — 20 SOBRES"
       },
       {
         "value": "3777",
-        "label": "SAZON CON AZAFRAN"
+        "label": "SAZON CON AZAFRAN",
+        "weight": "20 SOBRES.",
+        "labelWithWeight": "SAZON CON AZAFRAN — 20 SOBRES."
       },
       {
         "value": "3784",
-        "label": "SAZON CON AZAFRAN"
+        "label": "SAZON CON AZAFRAN",
+        "weight": "8 SOBRES.",
+        "labelWithWeight": "SAZON CON AZAFRAN — 8 SOBRES."
       },
       {
         "value": "3769",
-        "label": "SAZON CON OREGANO BAJO SODIO"
+        "label": "SAZON CON OREGANO BAJO SODIO",
+        "weight": "20 SOBRES",
+        "labelWithWeight": "SAZON CON OREGANO BAJO SODIO — 20 SOBRES"
       },
       {
         "value": "3772",
-        "label": "SAZON CULANTRO Y ACHIOTE"
+        "label": "SAZON CULANTRO Y ACHIOTE",
+        "weight": "20 SOBRES",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE — 20 SOBRES"
       },
       {
         "value": "3778",
-        "label": "SAZON CULANTRO Y ACHIOTE"
+        "label": "SAZON CULANTRO Y ACHIOTE",
+        "weight": "20 SOBRES.",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE — 20 SOBRES."
       },
       {
         "value": "3779",
-        "label": "SAZON CULANTRO Y ACHIOTE"
+        "label": "SAZON CULANTRO Y ACHIOTE",
+        "weight": "20 SOBRES.",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE — 20 SOBRES."
       },
       {
         "value": "3781",
-        "label": "SAZON CULANTRO Y ACHIOTE"
+        "label": "SAZON CULANTRO Y ACHIOTE",
+        "weight": "12 SOBRES.",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE — 12 SOBRES."
       },
       {
         "value": "3782",
-        "label": "SAZON CULANTRO Y ACHIOTE"
+        "label": "SAZON CULANTRO Y ACHIOTE",
+        "weight": "8 SOBRES",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE — 8 SOBRES"
       },
       {
         "value": "3783",
-        "label": "SAZON CULANTRO Y ACHIOTE"
+        "label": "SAZON CULANTRO Y ACHIOTE",
+        "weight": "8 SOB.",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE — 8 SOB."
       },
       {
         "value": "3790",
-        "label": "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO"
+        "label": "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO",
+        "weight": "20 SOBRES",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO — 20 SOBRES"
       },
       {
         "value": "3794",
-        "label": "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO"
+        "label": "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO",
+        "weight": "36 SOBRES",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO — 36 SOBRES"
       },
       {
         "value": "3776",
-        "label": "SAZON CULANTRO Y ACHIOTE JUMBO"
+        "label": "SAZON CULANTRO Y ACHIOTE JUMBO",
+        "weight": "36 SOBRES",
+        "labelWithWeight": "SAZON CULANTRO Y ACHIOTE JUMBO — 36 SOBRES"
       },
       {
         "value": "3840",
-        "label": "SEASONING PARA VEGETALES Y ENSALADAS"
+        "label": "SEASONING PARA VEGETALES Y ENSALADAS",
+        "weight": "8 SOBRES.",
+        "labelWithWeight": "SEASONING PARA VEGETALES Y ENSALADAS — 8 SOBRES."
       },
       {
         "value": "3841",
-        "label": "SEASONING PARA VEGETALES Y ENSALADAS"
+        "label": "SEASONING PARA VEGETALES Y ENSALADAS",
+        "weight": "20 SOBRES",
+        "labelWithWeight": "SEASONING PARA VEGETALES Y ENSALADAS — 20 SOBRES"
       }
     ],
     "vinos": [
       {
         "value": "3804",
-        "label": "VINO BLANCO DE COCINAR"
+        "label": "VINO BLANCO DE COCINAR",
+        "weight": "750 ML-25.4 OZ.",
+        "labelWithWeight": "VINO BLANCO DE COCINAR — 750 ML-25.4 OZ."
       },
       {
         "value": "3808",
-        "label": "VINO DORADO DE COCINAR"
+        "label": "VINO DORADO DE COCINAR",
+        "weight": "750 ML-25.4 OZ.",
+        "labelWithWeight": "VINO DORADO DE COCINAR — 750 ML-25.4 OZ."
       },
       {
         "value": "3785",
-        "label": "VINO DORADO LA VINA"
+        "label": "VINO DORADO LA VINA",
+        "weight": "25.4 OZ.",
+        "labelWithWeight": "VINO DORADO LA VINA — 25.4 OZ."
       },
       {
         "value": "3789",
-        "label": "VINO LA VINA BLANCO"
+        "label": "VINO LA VINA BLANCO",
+        "weight": "25.4 OZ.",
+        "labelWithWeight": "VINO LA VINA BLANCO — 25.4 OZ."
       },
       {
         "value": "3787",
-        "label": "VINO LA VINA ROJO"
+        "label": "VINO LA VINA ROJO",
+        "weight": "25.4 OZ.",
+        "labelWithWeight": "VINO LA VINA ROJO — 25.4 OZ."
       },
       {
         "value": "3805",
-        "label": "VINO TINTO DE COCINAR"
+        "label": "VINO TINTO DE COCINAR",
+        "weight": "750 ML-25.4 OZ.",
+        "labelWithWeight": "VINO TINTO DE COCINAR — 750 ML-25.4 OZ."
       }
     ],
     "sazonador-total": [
       {
         "value": "3882",
-        "label": "SAZONADOR TOTAL"
+        "label": "SAZONADOR TOTAL",
+        "weight": "30 OZ",
+        "labelWithWeight": "SAZONADOR TOTAL — 30 OZ"
       },
       {
         "value": "3883",
-        "label": "SAZONADOR TOTAL"
+        "label": "SAZONADOR TOTAL",
+        "weight": "18 OZ.",
+        "labelWithWeight": "SAZONADOR TOTAL — 18 OZ."
       },
       {
         "value": "3884",
-        "label": "SAZONADOR TOTAL"
+        "label": "SAZONADOR TOTAL",
+        "weight": "11 OZ.",
+        "labelWithWeight": "SAZONADOR TOTAL — 11 OZ."
       },
       {
         "value": "3885",
-        "label": "SAZONADOR TOTAL"
+        "label": "SAZONADOR TOTAL",
+        "weight": "5.5 OZ.",
+        "labelWithWeight": "SAZONADOR TOTAL — 5.5 OZ."
       },
       {
         "value": "3876",
-        "label": "SAZONADOR TOTAL BREAD CRUMBS"
+        "label": "SAZONADOR TOTAL BREAD CRUMBS",
+        "weight": "15 OZ.",
+        "labelWithWeight": "SAZONADOR TOTAL BREAD CRUMBS — 15 OZ."
       },
       {
         "value": "3802",
-        "label": "SAZONADOR TOTAL CON PIMIETA"
+        "label": "SAZONADOR TOTAL CON PIMIETA",
+        "weight": "11 OZ.",
+        "labelWithWeight": "SAZONADOR TOTAL CON PIMIETA — 11 OZ."
       }
     ],
     "adobos": [
       {
         "value": "3856",
-        "label": "ADOBO CON AZAFRAN"
+        "label": "ADOBO CON AZAFRAN",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO CON AZAFRAN — 8 OZ."
       },
       {
         "value": "3858",
-        "label": "ADOBO CON AZAFRAN"
+        "label": "ADOBO CON AZAFRAN",
+        "weight": "16 1/2 OZ.",
+        "labelWithWeight": "ADOBO CON AZAFRAN — 16 1/2 OZ."
       },
       {
         "value": "3820",
-        "label": "ADOBO CON COMINO"
+        "label": "ADOBO CON COMINO",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO CON COMINO — 8 OZ."
       },
       {
         "value": "3821",
-        "label": "ADOBO CON COMINO"
+        "label": "ADOBO CON COMINO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "ADOBO CON COMINO — 12 OZ."
       },
       {
         "value": "3822",
-        "label": "ADOBO CON COMINO"
+        "label": "ADOBO CON COMINO",
+        "weight": "16 1/2 OZ.",
+        "labelWithWeight": "ADOBO CON COMINO — 16 1/2 OZ."
       },
       {
         "value": "3844",
-        "label": "ADOBO CON COMINO"
+        "label": "ADOBO CON COMINO",
+        "weight": "28 OZ.",
+        "labelWithWeight": "ADOBO CON COMINO — 28 OZ."
       },
       {
         "value": "3903",
-        "label": "ADOBO CON CULANTRO Y ACHIOTE"
+        "label": "ADOBO CON CULANTRO Y ACHIOTE",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO CON CULANTRO Y ACHIOTE — 8 OZ."
       },
       {
         "value": "3904",
-        "label": "ADOBO CON CULANTRO Y ACHIOTE"
+        "label": "ADOBO CON CULANTRO Y ACHIOTE",
+        "weight": "28 OZ.",
+        "labelWithWeight": "ADOBO CON CULANTRO Y ACHIOTE — 28 OZ."
       },
       {
         "value": "3816",
-        "label": "ADOBO CON LIMON"
+        "label": "ADOBO CON LIMON",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO CON LIMON — 8 OZ."
       },
       {
         "value": "3835",
-        "label": "ADOBO CON LIMON"
+        "label": "ADOBO CON LIMON",
+        "weight": "16 1/2 OZ.",
+        "labelWithWeight": "ADOBO CON LIMON — 16 1/2 OZ."
       },
       {
         "value": "3874",
-        "label": "ADOBO CON LIMON"
+        "label": "ADOBO CON LIMON",
+        "weight": "28 OZ.",
+        "labelWithWeight": "ADOBO CON LIMON — 28 OZ."
       },
       {
         "value": "3877",
-        "label": "ADOBO CON NARANJA"
+        "label": "ADOBO CON NARANJA",
+        "weight": "28 OZ.",
+        "labelWithWeight": "ADOBO CON NARANJA — 28 OZ."
       },
       {
         "value": "3817",
-        "label": "ADOBO CON NARANJA AGRIA"
+        "label": "ADOBO CON NARANJA AGRIA",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO CON NARANJA AGRIA — 8 OZ."
       },
       {
         "value": "3834",
-        "label": "ADOBO CON NARANJA AGRIA"
+        "label": "ADOBO CON NARANJA AGRIA",
+        "weight": "16 1/2 OZ.",
+        "labelWithWeight": "ADOBO CON NARANJA AGRIA — 16 1/2 OZ."
       },
       {
         "value": "3824",
-        "label": "ADOBO CON PIMIENTA"
+        "label": "ADOBO CON PIMIENTA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "ADOBO CON PIMIENTA — 12 OZ."
       },
       {
         "value": "3826",
-        "label": "ADOBO CON PIMIENTA"
+        "label": "ADOBO CON PIMIENTA",
+        "weight": "5 1/2 OZ.",
+        "labelWithWeight": "ADOBO CON PIMIENTA — 5 1/2 OZ."
       },
       {
         "value": "3827",
-        "label": "ADOBO CON PIMIENTA"
+        "label": "ADOBO CON PIMIENTA",
+        "weight": "16 1/2 OZ.",
+        "labelWithWeight": "ADOBO CON PIMIENTA — 16 1/2 OZ."
       },
       {
         "value": "3828",
-        "label": "ADOBO CON PIMIENTA"
+        "label": "ADOBO CON PIMIENTA",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO CON PIMIENTA — 8 OZ."
       },
       {
         "value": "3842",
-        "label": "ADOBO CON PIMIENTA"
+        "label": "ADOBO CON PIMIENTA",
+        "weight": "28 OZ.",
+        "labelWithWeight": "ADOBO CON PIMIENTA — 28 OZ."
       },
       {
         "value": "3819",
-        "label": "ADOBO CON PIQUE"
+        "label": "ADOBO CON PIQUE",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO CON PIQUE — 8 OZ."
       },
       {
         "value": "3836",
-        "label": "ADOBO LIGHT CON PIMIENTA"
+        "label": "ADOBO LIGHT CON PIMIENTA",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO LIGHT CON PIMIENTA — 8 OZ."
       },
       {
         "value": "3860",
-        "label": "ADOBO LIGHT CON PIMIENTA"
+        "label": "ADOBO LIGHT CON PIMIENTA",
+        "weight": "28 OZ.",
+        "labelWithWeight": "ADOBO LIGHT CON PIMIENTA — 28 OZ."
       },
       {
         "value": "3839",
-        "label": "ADOBO LIGHT SIN PIMIENTA"
+        "label": "ADOBO LIGHT SIN PIMIENTA",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO LIGHT SIN PIMIENTA — 8 OZ."
       },
       {
         "value": "3861",
-        "label": "ADOBO LIGHT SIN PIMIENTA"
+        "label": "ADOBO LIGHT SIN PIMIENTA",
+        "weight": "28 OZ.",
+        "labelWithWeight": "ADOBO LIGHT SIN PIMIENTA — 28 OZ."
       },
       {
         "value": "3823",
-        "label": "ADOBO SIN PIMIENTA"
+        "label": "ADOBO SIN PIMIENTA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "ADOBO SIN PIMIENTA — 12 OZ."
       },
       {
         "value": "3825",
-        "label": "ADOBO SIN PIMIENTA"
+        "label": "ADOBO SIN PIMIENTA",
+        "weight": "5 1/2 OZ.",
+        "labelWithWeight": "ADOBO SIN PIMIENTA — 5 1/2 OZ."
       },
       {
         "value": "3829",
-        "label": "ADOBO SIN PIMIENTA"
+        "label": "ADOBO SIN PIMIENTA",
+        "weight": "8 OZ.",
+        "labelWithWeight": "ADOBO SIN PIMIENTA — 8 OZ."
       },
       {
         "value": "3830",
-        "label": "ADOBO SIN PIMIENTA"
+        "label": "ADOBO SIN PIMIENTA",
+        "weight": "16 1/2 OZ.",
+        "labelWithWeight": "ADOBO SIN PIMIENTA — 16 1/2 OZ."
       },
       {
         "value": "3843",
-        "label": "ADOBO SIN PIMIENTA"
+        "label": "ADOBO SIN PIMIENTA",
+        "weight": "28 OZ.",
+        "labelWithWeight": "ADOBO SIN PIMIENTA — 28 OZ."
       }
     ],
     "aji-y-salsas-picantes": [
       {
         "value": "3852",
-        "label": "AJIES ROJOS PICANTES"
+        "label": "AJIES ROJOS PICANTES",
+        "weight": "6 OZ",
+        "labelWithWeight": "AJIES ROJOS PICANTES — 6 OZ"
       },
       {
         "value": "3854",
-        "label": "AJIES VERDES PICANTES"
+        "label": "AJIES VERDES PICANTES",
+        "weight": "6 OZ.",
+        "labelWithWeight": "AJIES VERDES PICANTES — 6 OZ."
       },
       {
         "value": "3855",
-        "label": "SALSA PICANTE"
+        "label": "SALSA PICANTE",
+        "weight": "3 OZ.",
+        "labelWithWeight": "SALSA PICANTE — 3 OZ."
       },
       {
         "value": "3857",
-        "label": "SALSA PICANTE"
+        "label": "SALSA PICANTE",
+        "weight": "6 OZ.",
+        "labelWithWeight": "SALSA PICANTE — 6 OZ."
       },
       {
         "value": "3859",
-        "label": "SALSA PICANTE"
+        "label": "SALSA PICANTE",
+        "weight": "12 OZ.",
+        "labelWithWeight": "SALSA PICANTE — 12 OZ."
       }
     ],
     "mayonesa-y-ketchup": [
       {
         "value": "3862",
-        "label": "KETCHUP"
+        "label": "KETCHUP",
+        "weight": "20 OZ.",
+        "labelWithWeight": "KETCHUP — 20 OZ."
       },
       {
         "value": "3871",
-        "label": "MAYO KETCHUP"
+        "label": "MAYO KETCHUP",
+        "weight": "16 OZ.",
+        "labelWithWeight": "MAYO KETCHUP — 16 OZ."
       }
     ],
     "salsa-para-pastas": [
       {
         "value": "3878",
-        "label": "SALSA DE ESPAGUETI CILANTRO"
+        "label": "SALSA DE ESPAGUETI CILANTRO",
+        "weight": "25 OZ.",
+        "labelWithWeight": "SALSA DE ESPAGUETI CILANTRO — 25 OZ."
       },
       {
         "value": "3880",
-        "label": "SALSA DE ESPAGUETI CON CARNE"
+        "label": "SALSA DE ESPAGUETI CON CARNE",
+        "weight": "25 OZ.",
+        "labelWithWeight": "SALSA DE ESPAGUETI CON CARNE — 25 OZ."
       },
       {
         "value": "3879",
-        "label": "SALSA DE ESPAGUETI MARINA"
+        "label": "SALSA DE ESPAGUETI MARINA",
+        "weight": "25 OZ.",
+        "labelWithWeight": "SALSA DE ESPAGUETI MARINA — 25 OZ."
       },
       {
         "value": "3881",
-        "label": "SALSA DE ESPAGUETI TOMATE Y ALBAHACA"
+        "label": "SALSA DE ESPAGUETI TOMATE Y ALBAHACA",
+        "weight": "25 OZ.",
+        "labelWithWeight": "SALSA DE ESPAGUETI TOMATE Y ALBAHACA — 25 OZ."
       },
       {
         "value": "3864",
-        "label": "SALSA DE ESPAGUETI TRADICIONAL"
+        "label": "SALSA DE ESPAGUETI TRADICIONAL",
+        "weight": "25 OZ.",
+        "labelWithWeight": "SALSA DE ESPAGUETI TRADICIONAL — 25 OZ."
       }
     ],
     "ajo": [
       {
         "value": "3912",
-        "label": "AJO PICADO"
+        "label": "AJO PICADO",
+        "weight": "4 1/2 OZ.",
+        "labelWithWeight": "AJO PICADO — 4 1/2 OZ."
       },
       {
         "value": "3913",
-        "label": "AJO PICADO"
+        "label": "AJO PICADO",
+        "weight": "8 OZ.",
+        "labelWithWeight": "AJO PICADO — 8 OZ."
       },
       {
         "value": "3914",
-        "label": "AJO PICADO"
+        "label": "AJO PICADO",
+        "weight": "32 OZ.",
+        "labelWithWeight": "AJO PICADO — 32 OZ."
       },
       {
         "value": "3905",
-        "label": "AJO PICADO SQUEEZE IT"
+        "label": "AJO PICADO SQUEEZE IT",
+        "weight": "9.50 OZ.",
+        "labelWithWeight": "AJO PICADO SQUEEZE IT — 9.50 OZ."
       }
     ],
     "productos-de-tomate": [
       {
         "value": "3909",
-        "label": "TOMATES EN TROZOS"
+        "label": "TOMATES EN TROZOS",
+        "weight": "14.5 OZ.",
+        "labelWithWeight": "TOMATES EN TROZOS — 14.5 OZ."
       }
     ],
     "pimientos-morrones": [
       {
         "value": "3926",
-        "label": "PIMIENTO MORRON ASADO"
+        "label": "PIMIENTO MORRON ASADO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "PIMIENTO MORRON ASADO — 12 OZ."
       },
       {
         "value": "3920",
-        "label": "PIMIENTO PIQUILLO"
+        "label": "PIMIENTO PIQUILLO",
+        "weight": "6.7 OZ.",
+        "labelWithWeight": "PIMIENTO PIQUILLO — 6.7 OZ."
       },
       {
         "value": "3921",
-        "label": "PIMIENTOS MORRONES"
+        "label": "PIMIENTOS MORRONES",
+        "weight": "7 OZ.",
+        "labelWithWeight": "PIMIENTOS MORRONES — 7 OZ."
       },
       {
         "value": "3923",
-        "label": "PIMIENTOS MORRONES"
+        "label": "PIMIENTOS MORRONES",
+        "weight": "14 OZ.",
+        "labelWithWeight": "PIMIENTOS MORRONES — 14 OZ."
       },
       {
         "value": "3925",
-        "label": "PIMIENTOS MORRONES"
+        "label": "PIMIENTOS MORRONES",
+        "weight": "4.0 OZ.",
+        "labelWithWeight": "PIMIENTOS MORRONES — 4.0 OZ."
       },
       {
         "value": "3927",
-        "label": "PIMIENTOS MORRONES"
+        "label": "PIMIENTOS MORRONES",
+        "weight": "11.5 OZ.",
+        "labelWithWeight": "PIMIENTOS MORRONES — 11.5 OZ."
       },
       {
         "value": "3928",
-        "label": "PIMIENTOS MORRONES"
+        "label": "PIMIENTOS MORRONES",
+        "weight": "6.5 OZ.",
+        "labelWithWeight": "PIMIENTOS MORRONES — 6.5 OZ."
       },
       {
         "value": "3929",
-        "label": "PIMIENTOS MORRONES"
+        "label": "PIMIENTOS MORRONES",
+        "weight": "4 OZ.",
+        "labelWithWeight": "PIMIENTOS MORRONES — 4 OZ."
       },
       {
         "value": "3930",
-        "label": "PIMIENTOS MORRONES REBANADOS"
+        "label": "PIMIENTOS MORRONES REBANADOS",
+        "weight": "4 OZ.",
+        "labelWithWeight": "PIMIENTOS MORRONES REBANADOS — 4 OZ."
       }
     ],
     "salsa-de-tomates": [
       {
         "value": "3953",
-        "label": "SALSA DE TOMATE"
+        "label": "SALSA DE TOMATE",
+        "weight": "29 OZ",
+        "labelWithWeight": "SALSA DE TOMATE — 29 OZ"
       },
       {
         "value": "3961",
-        "label": "SALSA DE TOMATE"
+        "label": "SALSA DE TOMATE",
+        "weight": "8 OZ.",
+        "labelWithWeight": "SALSA DE TOMATE — 8 OZ."
       },
       {
         "value": "3963",
-        "label": "SALSA DE TOMATE"
+        "label": "SALSA DE TOMATE",
+        "weight": "15 OZ.",
+        "labelWithWeight": "SALSA DE TOMATE — 15 OZ."
       },
       {
         "value": "3948",
-        "label": "SALSA DE TOMATE GOYA BAJA EN SODIO"
+        "label": "SALSA DE TOMATE GOYA BAJA EN SODIO",
+        "weight": "8 OZ.",
+        "labelWithWeight": "SALSA DE TOMATE GOYA BAJA EN SODIO — 8 OZ."
       },
       {
         "value": "3934",
-        "label": "SALSA DE TOMATE PICANTE"
+        "label": "SALSA DE TOMATE PICANTE",
+        "weight": "8 OZ.",
+        "labelWithWeight": "SALSA DE TOMATE PICANTE — 8 OZ."
       },
       {
         "value": "3936",
-        "label": "SALSA DE TOMATE Y CEBOLLA/A"
+        "label": "SALSA DE TOMATE Y CEBOLLA/A",
+        "weight": "8 OZ.",
+        "labelWithWeight": "SALSA DE TOMATE Y CEBOLLA/A — 8 OZ."
       }
     ],
     "pastas": [
       {
         "value": "3967",
-        "label": "CABELLO DE ANGEL"
+        "label": "CABELLO DE ANGEL",
+        "weight": "16 OZ.",
+        "labelWithWeight": "CABELLO DE ANGEL — 16 OZ."
       },
       {
         "value": "3979",
-        "label": "CODITOS"
+        "label": "CODITOS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "CODITOS — 7 OZ."
       },
       {
         "value": "4384",
-        "label": "CODITOS"
+        "label": "CODITOS",
+        "weight": "16 OZ",
+        "labelWithWeight": "CODITOS — 16 OZ"
       },
       {
         "value": "3965",
-        "label": "CODOS"
+        "label": "CODOS",
+        "weight": "16 OZ.",
+        "labelWithWeight": "CODOS — 16 OZ."
       },
       {
         "value": "3966",
-        "label": "CONCHAS"
+        "label": "CONCHAS",
+        "weight": "16 OZ.",
+        "labelWithWeight": "CONCHAS — 16 OZ."
       },
       {
         "value": "3982",
-        "label": "CONCHAS"
+        "label": "CONCHAS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "CONCHAS — 7 OZ."
       },
       {
         "value": "4383",
-        "label": "CONCHAS"
+        "label": "CONCHAS",
+        "weight": "16 OZ",
+        "labelWithWeight": "CONCHAS — 16 OZ"
       },
       {
         "value": "3958",
-        "label": "CUT ZITI"
+        "label": "CUT ZITI",
+        "weight": "16 OZ.",
+        "labelWithWeight": "CUT ZITI — 16 OZ."
       },
       {
         "value": "4388",
-        "label": "FETTUCCINE"
+        "label": "FETTUCCINE",
+        "weight": "16 OZ",
+        "labelWithWeight": "FETTUCCINE — 16 OZ"
       },
       {
         "value": "3959",
-        "label": "FUSILLI"
+        "label": "FUSILLI",
+        "weight": "16 OZ.",
+        "labelWithWeight": "FUSILLI — 16 OZ."
       },
       {
         "value": "4386",
-        "label": "LASAGNA"
+        "label": "LASAGNA",
+        "weight": "16 OZ",
+        "labelWithWeight": "LASAGNA — 16 OZ"
       },
       {
         "value": "3951",
-        "label": "LASAGNE"
+        "label": "LASAGNE",
+        "weight": "17.63 OZ",
+        "labelWithWeight": "LASAGNE — 17.63 OZ"
       },
       {
         "value": "3977",
-        "label": "LETRAS"
+        "label": "LETRAS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "LETRAS — 7 OZ."
       },
       {
         "value": "4389",
-        "label": "LINGUINE"
+        "label": "LINGUINE",
+        "weight": "16 OZ",
+        "labelWithWeight": "LINGUINE — 16 OZ"
       },
       {
         "value": "4381",
-        "label": "MACARRONES"
+        "label": "MACARRONES",
+        "weight": "16 OZ",
+        "labelWithWeight": "MACARRONES — 16 OZ"
       },
       {
         "value": "3941",
-        "label": "PASTA BOWTIE"
+        "label": "PASTA BOWTIE",
+        "weight": "7 OZ.",
+        "labelWithWeight": "PASTA BOWTIE — 7 OZ."
       },
       {
         "value": "3968",
-        "label": "PASTA DE TOMATE"
+        "label": "PASTA DE TOMATE",
+        "weight": "18 OZ.",
+        "labelWithWeight": "PASTA DE TOMATE — 18 OZ."
       },
       {
         "value": "3970",
-        "label": "PASTA DE TOMATE"
+        "label": "PASTA DE TOMATE",
+        "weight": "28 OZ",
+        "labelWithWeight": "PASTA DE TOMATE — 28 OZ"
       },
       {
         "value": "3969",
-        "label": "PASTA DE TOMATE GOYA"
+        "label": "PASTA DE TOMATE GOYA",
+        "weight": "6 OZ.",
+        "labelWithWeight": "PASTA DE TOMATE GOYA — 6 OZ."
       },
       {
         "value": "3962",
-        "label": "PENNE RIGATE"
+        "label": "PENNE RIGATE",
+        "weight": "16 OZ.",
+        "labelWithWeight": "PENNE RIGATE — 16 OZ."
       },
       {
         "value": "4385",
-        "label": "PENNE RIGATE"
+        "label": "PENNE RIGATE",
+        "weight": "16 OZ",
+        "labelWithWeight": "PENNE RIGATE — 16 OZ"
       },
       {
         "value": "3952",
-        "label": "RIGATONI"
+        "label": "RIGATONI",
+        "weight": "16 OZ.",
+        "labelWithWeight": "RIGATONI — 16 OZ."
       },
       {
         "value": "4380",
-        "label": "RIGATONI"
+        "label": "RIGATONI",
+        "weight": "16 OZ",
+        "labelWithWeight": "RIGATONI — 16 OZ"
       },
       {
         "value": "4382",
-        "label": "ROTINI"
+        "label": "ROTINI",
+        "weight": "16 OZ",
+        "labelWithWeight": "ROTINI — 16 OZ"
       },
       {
         "value": "3964",
-        "label": "SPAGHETTI"
+        "label": "SPAGHETTI",
+        "weight": "16 OZ.",
+        "labelWithWeight": "SPAGHETTI — 16 OZ."
       },
       {
         "value": "3980",
-        "label": "SPAGHETTI"
+        "label": "SPAGHETTI",
+        "weight": "7 OZ.",
+        "labelWithWeight": "SPAGHETTI — 7 OZ."
       },
       {
         "value": "4387",
-        "label": "SPAGHETTI"
+        "label": "SPAGHETTI",
+        "weight": "16 OZ",
+        "labelWithWeight": "SPAGHETTI — 16 OZ"
       }
     ],
     "chocolate": [
       {
         "value": "3955",
-        "label": "CHOCOLATE"
+        "label": "CHOCOLATE",
+        "weight": "7 OZ.",
+        "labelWithWeight": "CHOCOLATE — 7 OZ."
       }
     ],
     "fideos": [
       {
         "value": "3975",
-        "label": "CABELLO DE ANGEL FINO"
+        "label": "CABELLO DE ANGEL FINO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "CABELLO DE ANGEL FINO — 12 OZ."
       },
       {
         "value": "3976",
-        "label": "CABELLO DE ANGEL FINO"
+        "label": "CABELLO DE ANGEL FINO",
+        "weight": "6 OZ.",
+        "labelWithWeight": "CABELLO DE ANGEL FINO — 6 OZ."
       },
       {
         "value": "3971",
-        "label": "FIDEOS"
+        "label": "FIDEOS",
+        "weight": "6 OZ.",
+        "labelWithWeight": "FIDEOS — 6 OZ."
       },
       {
         "value": "3973",
-        "label": "FIDEOS FIDELINI"
+        "label": "FIDEOS FIDELINI",
+        "weight": "12 OZ.",
+        "labelWithWeight": "FIDEOS FIDELINI — 12 OZ."
       },
       {
         "value": "3983",
-        "label": "FIDEOS GRUESOS"
+        "label": "FIDEOS GRUESOS",
+        "weight": "12 OZ.",
+        "labelWithWeight": "FIDEOS GRUESOS — 12 OZ."
       }
     ],
     "malta": [
       {
         "value": "4018",
-        "label": "EXTRAC. MALTA MORENA"
+        "label": "EXTRAC. MALTA MORENA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "EXTRAC. MALTA MORENA — 12 OZ."
       },
       {
         "value": "3984",
-        "label": "MALTA GOYA 4/6 PACK"
+        "label": "MALTA GOYA 4/6 PACK",
+        "weight": "6/12 OZ",
+        "labelWithWeight": "MALTA GOYA 4/6 PACK — 6/12 OZ"
       }
     ],
     "refrescos": [
       {
         "value": "3998",
-        "label": "COLA CHAMPAGNE SODA"
+        "label": "COLA CHAMPAGNE SODA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "COLA CHAMPAGNE SODA — 12 OZ."
       },
       {
         "value": "3996",
-        "label": "FRUIT PUNCH SODA"
+        "label": "FRUIT PUNCH SODA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "FRUIT PUNCH SODA — 12 OZ."
       },
       {
         "value": "4000",
-        "label": "REFRESCO DE COCO"
+        "label": "REFRESCO DE COCO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "REFRESCO DE COCO — 12 OZ."
       },
       {
         "value": "4004",
-        "label": "REFRESCO DE FRESA GOYA"
+        "label": "REFRESCO DE FRESA GOYA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "REFRESCO DE FRESA GOYA — 12 OZ."
       },
       {
         "value": "3988",
-        "label": "REFRESCO DE PINA"
+        "label": "REFRESCO DE PINA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "REFRESCO DE PINA — 12 OZ."
       },
       {
         "value": "3990",
-        "label": "REFRESCO DE TAMARINDO"
+        "label": "REFRESCO DE TAMARINDO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "REFRESCO DE TAMARINDO — 12 OZ."
       },
       {
         "value": "4021",
-        "label": "REFRESCO DE UVA"
+        "label": "REFRESCO DE UVA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "REFRESCO DE UVA — 12 OZ."
       }
     ],
     "agua-de-florida": [
       {
         "value": "4170",
-        "label": "AGUA DE FLORIDA"
+        "label": "AGUA DE FLORIDA",
+        "weight": "9 OZ",
+        "labelWithWeight": "AGUA DE FLORIDA — 9 OZ"
       }
     ],
     "galletas-maria": [
       {
         "value": "4942",
-        "label": "GALLETAS MARIA 100"
+        "label": "GALLETAS MARIA 100",
+        "weight": "3.5 OZ.",
+        "labelWithWeight": "GALLETAS MARIA 100 — 3.5 OZ."
       },
       {
         "value": "4943",
-        "label": "GALLETAS MARIA 200"
+        "label": "GALLETAS MARIA 200",
+        "weight": "7 OZ.",
+        "labelWithWeight": "GALLETAS MARIA 200 — 7 OZ."
       },
       {
         "value": "4951",
-        "label": "GALLETAS MARIA FLOW PACK"
+        "label": "GALLETAS MARIA FLOW PACK",
+        "weight": "21.16 OZ.",
+        "labelWithWeight": "GALLETAS MARIA FLOW PACK — 21.16 OZ."
       },
       {
         "value": "4962",
-        "label": "LADY FINGERS"
+        "label": "LADY FINGERS",
+        "weight": "7 OZ.",
+        "labelWithWeight": "LADY FINGERS — 7 OZ."
       },
       {
         "value": "4947",
-        "label": "PALMERITAS"
+        "label": "PALMERITAS",
+        "weight": "5.82 OZ.",
+        "labelWithWeight": "PALMERITAS — 5.82 OZ."
       },
       {
         "value": "4967",
-        "label": "PALMERITAS"
+        "label": "PALMERITAS",
+        "weight": "2.91 OZ.",
+        "labelWithWeight": "PALMERITAS — 2.91 OZ."
       }
     ],
     "galletas-wafers": [
       {
         "value": "4988",
-        "label": "WAFERS CHOCO-VAINILLA"
+        "label": "WAFERS CHOCO-VAINILLA",
+        "weight": "4.9 OZ.",
+        "labelWithWeight": "WAFERS CHOCO-VAINILLA — 4.9 OZ."
       },
       {
         "value": "5011",
-        "label": "WAFERS DE CHOCOLATE"
+        "label": "WAFERS DE CHOCOLATE",
+        "weight": "4.94 OZ.",
+        "labelWithWeight": "WAFERS DE CHOCOLATE — 4.94 OZ."
       },
       {
         "value": "5010",
-        "label": "WAFERS DE COCO"
+        "label": "WAFERS DE COCO",
+        "weight": "4.94 OZ.",
+        "labelWithWeight": "WAFERS DE COCO — 4.94 OZ."
       },
       {
         "value": "5015",
-        "label": "WAFERS DE DULCE DE LECHE"
+        "label": "WAFERS DE DULCE DE LECHE",
+        "weight": "4.94 OZ.",
+        "labelWithWeight": "WAFERS DE DULCE DE LECHE — 4.94 OZ."
       },
       {
         "value": "5017",
-        "label": "WAFERS DE FRESA"
+        "label": "WAFERS DE FRESA",
+        "weight": "4.94 OZ.",
+        "labelWithWeight": "WAFERS DE FRESA — 4.94 OZ."
       },
       {
         "value": "5016",
-        "label": "WAFERS DE GUAYABA"
+        "label": "WAFERS DE GUAYABA",
+        "weight": "4.94 OZ.",
+        "labelWithWeight": "WAFERS DE GUAYABA — 4.94 OZ."
       },
       {
         "value": "5018",
-        "label": "WAFERS DE MANGO"
+        "label": "WAFERS DE MANGO",
+        "weight": "4.94 OZ.",
+        "labelWithWeight": "WAFERS DE MANGO — 4.94 OZ."
       },
       {
         "value": "5009",
-        "label": "WAFERS DE PINA"
+        "label": "WAFERS DE PINA",
+        "weight": "4.94 OZ",
+        "labelWithWeight": "WAFERS DE PINA — 4.94 OZ"
       },
       {
         "value": "5019",
-        "label": "WAFERS DE VAINILLA"
+        "label": "WAFERS DE VAINILLA",
+        "weight": "4.94 OZ.",
+        "labelWithWeight": "WAFERS DE VAINILLA — 4.94 OZ."
       },
       {
         "value": "4989",
-        "label": "WAFERS FRESA-CHOCO"
+        "label": "WAFERS FRESA-CHOCO",
+        "weight": "4.9 OZ.",
+        "labelWithWeight": "WAFERS FRESA-CHOCO — 4.9 OZ."
       },
       {
         "value": "4987",
-        "label": "WAFERS VAINILLA-FRESA"
+        "label": "WAFERS VAINILLA-FRESA",
+        "weight": "4.9 OZ.",
+        "labelWithWeight": "WAFERS VAINILLA-FRESA — 4.9 OZ."
       }
     ],
     "harinas": [
       {
         "value": "5080",
-        "label": "BULGAR WHEAT KIEPE"
+        "label": "BULGAR WHEAT KIEPE",
+        "weight": "24 OZ.",
+        "labelWithWeight": "BULGAR WHEAT KIEPE — 24 OZ."
       },
       {
         "value": "5079",
-        "label": "BULGAR WHEAT-KIEPE"
+        "label": "BULGAR WHEAT-KIEPE",
+        "weight": "24 OZ.",
+        "labelWithWeight": "BULGAR WHEAT-KIEPE — 24 OZ."
       },
       {
         "value": "5105",
-        "label": "HARINA DE ARROZ"
+        "label": "HARINA DE ARROZ",
+        "weight": "12 OZ.",
+        "labelWithWeight": "HARINA DE ARROZ — 12 OZ."
       },
       {
         "value": "5106",
-        "label": "HARINA DE ARROZ"
+        "label": "HARINA DE ARROZ",
+        "weight": "24 OZ.",
+        "labelWithWeight": "HARINA DE ARROZ — 24 OZ."
       },
       {
         "value": "5108",
-        "label": "HARINA DE MAIZ EXTRA FINA"
+        "label": "HARINA DE MAIZ EXTRA FINA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "HARINA DE MAIZ EXTRA FINA — 12 OZ."
       },
       {
         "value": "5109",
-        "label": "HARINA DE MAIZ EXTRA FINA"
+        "label": "HARINA DE MAIZ EXTRA FINA",
+        "weight": "24 OZ.",
+        "labelWithWeight": "HARINA DE MAIZ EXTRA FINA — 24 OZ."
       },
       {
         "value": "5086",
-        "label": "HARINA DE MAIZ FINA"
+        "label": "HARINA DE MAIZ FINA",
+        "weight": "5 LBS.",
+        "labelWithWeight": "HARINA DE MAIZ FINA — 5 LBS."
       },
       {
         "value": "5100",
-        "label": "HARINA DE MAIZ FINA"
+        "label": "HARINA DE MAIZ FINA",
+        "weight": "24 OZ.",
+        "labelWithWeight": "HARINA DE MAIZ FINA — 24 OZ."
       },
       {
         "value": "5101",
-        "label": "HARINA DE MAIZ FINA"
+        "label": "HARINA DE MAIZ FINA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "HARINA DE MAIZ FINA — 12 OZ."
       },
       {
         "value": "5087",
-        "label": "HARINA DE MAIZ GRUESA"
+        "label": "HARINA DE MAIZ GRUESA",
+        "weight": "5 LBS.",
+        "labelWithWeight": "HARINA DE MAIZ GRUESA — 5 LBS."
       },
       {
         "value": "5099",
-        "label": "HARINA DE MAIZ GRUESA"
+        "label": "HARINA DE MAIZ GRUESA",
+        "weight": "24 OZ",
+        "labelWithWeight": "HARINA DE MAIZ GRUESA — 24 OZ"
       },
       {
         "value": "5103",
-        "label": "HARINA DE TRIGO"
+        "label": "HARINA DE TRIGO",
+        "weight": "12 OZ.",
+        "labelWithWeight": "HARINA DE TRIGO — 12 OZ."
       },
       {
         "value": "5104",
-        "label": "HARINA DE TRIGO"
+        "label": "HARINA DE TRIGO",
+        "weight": "24 OZ.",
+        "labelWithWeight": "HARINA DE TRIGO — 24 OZ."
       },
       {
         "value": "5093",
-        "label": "HARINA DE YUCA"
+        "label": "HARINA DE YUCA",
+        "weight": "24 OZ.",
+        "labelWithWeight": "HARINA DE YUCA — 24 OZ."
       },
       {
         "value": "5102",
-        "label": "HARINA MAIZ GRUESA"
+        "label": "HARINA MAIZ GRUESA",
+        "weight": "12 OZ.",
+        "labelWithWeight": "HARINA MAIZ GRUESA — 12 OZ."
       },
       {
         "value": "5076",
-        "label": "MASAREPA AMARILLA"
+        "label": "MASAREPA AMARILLA",
+        "weight": "5 LB",
+        "labelWithWeight": "MASAREPA AMARILLA — 5 LB"
       },
       {
         "value": "5078",
-        "label": "MASAREPA AMARILLA"
+        "label": "MASAREPA AMARILLA",
+        "weight": "24 OZ.",
+        "labelWithWeight": "MASAREPA AMARILLA — 24 OZ."
       },
       {
         "value": "5075",
-        "label": "MASAREPA BLANCA"
+        "label": "MASAREPA BLANCA",
+        "weight": "5 LB",
+        "labelWithWeight": "MASAREPA BLANCA — 5 LB"
       },
       {
         "value": "5077",
-        "label": "MASAREPA HARINA MAIZ BLANCA"
+        "label": "MASAREPA HARINA MAIZ BLANCA",
+        "weight": "24 OZ.",
+        "labelWithWeight": "MASAREPA HARINA MAIZ BLANCA — 24 OZ."
       }
     ],
     "bacalaitos-y-aitos": [
       {
         "value": "5090",
-        "label": "AITOS CAMARONES"
+        "label": "AITOS CAMARONES",
+        "weight": "4.5 OZ.",
+        "labelWithWeight": "AITOS CAMARONES — 4.5 OZ."
       },
       {
         "value": "5098",
-        "label": "BACALAITOS"
+        "label": "BACALAITOS",
+        "weight": "4 1/2 OZ.",
+        "labelWithWeight": "BACALAITOS — 4 1/2 OZ."
       },
       {
         "value": "5097",
-        "label": "BACALAITOS DISPLAY"
+        "label": "BACALAITOS DISPLAY",
+        "weight": "4 1/2 OZ.",
+        "labelWithWeight": "BACALAITOS DISPLAY — 4 1/2 OZ."
       }
     ],
     "turrones": [
       {
         "value": "6291",
-        "label": "ARCA NAVID PEQUENO"
+        "label": "ARCA NAVID PEQUENO",
+        "weight": "3 7/8 LB.",
+        "labelWithWeight": "ARCA NAVID PEQUENO — 3 7/8 LB."
       },
       {
         "value": "6269",
-        "label": "BARQ CAFE MOCA"
+        "label": "BARQ CAFE MOCA",
+        "weight": "7 OZ.",
+        "labelWithWeight": "BARQ CAFE MOCA — 7 OZ."
       },
       {
         "value": "6264",
-        "label": "BARQ DE TURRON"
+        "label": "BARQ DE TURRON",
+        "weight": "7 OZ.",
+        "labelWithWeight": "BARQ DE TURRON — 7 OZ."
       },
       {
         "value": "6263",
-        "label": "FIG DE MAZAPAN"
+        "label": "FIG DE MAZAPAN",
+        "weight": "7 OZ.",
+        "labelWithWeight": "FIG DE MAZAPAN — 7 OZ."
       },
       {
         "value": "6259",
-        "label": "PORCIONES ALICANTE 4 CS/2"
+        "label": "PORCIONES ALICANTE 4 CS/2",
+        "weight": "0.7 OZ",
+        "labelWithWeight": "PORCIONES ALICANTE 4 CS/2 — 0.7 OZ"
       },
       {
         "value": "6220",
-        "label": "S/M ALICANTE"
+        "label": "S/M ALICANTE",
+        "weight": "5.25 OZ",
+        "labelWithWeight": "S/M ALICANTE — 5.25 OZ"
       },
       {
         "value": "6221",
-        "label": "S/M ALICANTE"
+        "label": "S/M ALICANTE",
+        "weight": "3 1/2 OZ.",
+        "labelWithWeight": "S/M ALICANTE — 3 1/2 OZ."
       },
       {
         "value": "6225",
-        "label": "S/M JIJONA"
+        "label": "S/M JIJONA",
+        "weight": "7 OZ.",
+        "labelWithWeight": "S/M JIJONA — 7 OZ."
       },
       {
         "value": "6150",
-        "label": "SANCHIS MIRA MEMBRILLO"
+        "label": "SANCHIS MIRA MEMBRILLO",
+        "weight": "14 OZ.",
+        "labelWithWeight": "SANCHIS MIRA MEMBRILLO — 14 OZ."
       },
       {
         "value": "6274",
-        "label": "TURR ALICAN S/A"
+        "label": "TURR ALICAN S/A",
+        "weight": "7 OZ",
+        "labelWithWeight": "TURR ALICAN S/A — 7 OZ"
       },
       {
         "value": "6273",
-        "label": "TURR JIJONA S/A"
+        "label": "TURR JIJONA S/A",
+        "weight": "7 OZ",
+        "labelWithWeight": "TURR JIJONA S/A — 7 OZ"
       }
     ],
     "productos-limpiolin": [
       {
         "value": "6959",
-        "label": "CERAMIKA CLEANER"
+        "label": "CERAMIKA CLEANER",
+        "weight": "34 OZ.",
+        "labelWithWeight": "CERAMIKA CLEANER — 34 OZ."
       },
       {
         "value": "6953",
-        "label": "LIMPIOLIN BEBE"
+        "label": "LIMPIOLIN BEBE",
+        "weight": "30 OZ.",
+        "labelWithWeight": "LIMPIOLIN BEBE — 30 OZ."
       },
       {
         "value": "6951",
-        "label": "LIMPIOLIN FLORAL"
+        "label": "LIMPIOLIN FLORAL",
+        "weight": "30 OZ.",
+        "labelWithWeight": "LIMPIOLIN FLORAL — 30 OZ."
       },
       {
         "value": "6950",
-        "label": "LIMPIOLIN LAVANDA"
+        "label": "LIMPIOLIN LAVANDA",
+        "weight": "30 OZ.",
+        "labelWithWeight": "LIMPIOLIN LAVANDA — 30 OZ."
       },
       {
         "value": "6955",
-        "label": "LIMPIOLIN PRIMAVERAL"
+        "label": "LIMPIOLIN PRIMAVERAL",
+        "weight": "30 OZ.",
+        "labelWithWeight": "LIMPIOLIN PRIMAVERAL — 30 OZ."
       }
     ],
     "velas": [
       {
         "value": "7156",
-        "label": "50 HORAS AMARILLAS"
+        "label": "50 HORAS AMARILLAS",
+        "weight": "2 DIAS",
+        "labelWithWeight": "50 HORAS AMARILLAS — 2 DIAS"
       },
       {
         "value": "7157",
-        "label": "50 HORAS VELAS ROJAS"
+        "label": "50 HORAS VELAS ROJAS",
+        "weight": "2 DIAS",
+        "labelWithWeight": "50 HORAS VELAS ROJAS — 2 DIAS"
       },
       {
         "value": "7158",
-        "label": "50 HORAS VERDES"
+        "label": "50 HORAS VERDES",
+        "weight": "2 DIAS",
+        "labelWithWeight": "50 HORAS VERDES — 2 DIAS"
       },
       {
         "value": "7150",
-        "label": "NUESTRA SRA. DE FATIMA"
+        "label": "NUESTRA SRA. DE FATIMA",
+        "weight": "7 DIAS",
+        "labelWithWeight": "NUESTRA SRA. DE FATIMA — 7 DIAS"
       },
       {
         "value": "7128",
-        "label": "VELAS 7 POTENCIAS AFRICAN"
+        "label": "VELAS 7 POTENCIAS AFRICAN",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS 7 POTENCIAS AFRICAN — 7 DIAS"
       },
       {
         "value": "7108",
-        "label": "VELAS AMARILLAS LISAS"
+        "label": "VELAS AMARILLAS LISAS",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS AMARILLAS LISAS — 7 DIAS."
       },
       {
         "value": "7103",
-        "label": "VELAS AZULES LISA"
+        "label": "VELAS AZULES LISA",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS AZULES LISA — 7 DIAS."
       },
       {
         "value": "7102",
-        "label": "VELAS BLANCAS LISA"
+        "label": "VELAS BLANCAS LISA",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS BLANCAS LISA — 7 DIAS."
       },
       {
         "value": "7124",
-        "label": "VELAS CARIDAD DEL COBRE"
+        "label": "VELAS CARIDAD DEL COBRE",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS CARIDAD DEL COBRE — 7 DIAS."
       },
       {
         "value": "7154",
-        "label": "VELAS DIVINO NINO"
+        "label": "VELAS DIVINO NINO",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS DIVINO NINO — 7 DIAS"
       },
       {
         "value": "7116",
-        "label": "VELAS GRAN PODER"
+        "label": "VELAS GRAN PODER",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS GRAN PODER — 7 DIAS."
       },
       {
         "value": "7164",
-        "label": "VELAS JUAN PABLO II"
+        "label": "VELAS JUAN PABLO II",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS JUAN PABLO II — 7 DIAS"
       },
       {
         "value": "7146",
-        "label": "VELAS JUSTO JUEZ"
+        "label": "VELAS JUSTO JUEZ",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS JUSTO JUEZ — 7 DIAS"
       },
       {
         "value": "7130",
-        "label": "VELAS MADRE DE LA MILAGRO"
+        "label": "VELAS MADRE DE LA MILAGRO",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS MADRE DE LA MILAGRO — 7 DIAS"
       },
       {
         "value": "7119",
-        "label": "VELAS MANO PODEROSA"
+        "label": "VELAS MANO PODEROSA",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS MANO PODEROSA — 7 DIAS"
       },
       {
         "value": "7106",
-        "label": "VELAS ROJAS LISAS"
+        "label": "VELAS ROJAS LISAS",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS ROJAS LISAS — 7 DIAS."
       },
       {
         "value": "7120",
-        "label": "VELAS SAGRADO CORAZON"
+        "label": "VELAS SAGRADO CORAZON",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS SAGRADO CORAZON — 7 DIAS"
       },
       {
         "value": "7147",
-        "label": "VELAS SAN JOSE"
+        "label": "VELAS SAN JOSE",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS SAN JOSE — 7 DIAS"
       },
       {
         "value": "7122",
-        "label": "VELAS SAN JUDAS"
+        "label": "VELAS SAN JUDAS",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS SAN JUDAS — 7 DIAS."
       },
       {
         "value": "7121",
-        "label": "VELAS SAN LAZARO"
+        "label": "VELAS SAN LAZARO",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS SAN LAZARO — 7 DIAS"
       },
       {
         "value": "7126",
-        "label": "VELAS SANTA BARBARA"
+        "label": "VELAS SANTA BARBARA",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS SANTA BARBARA — 7 DIAS."
       },
       {
         "value": "7134",
-        "label": "VELAS SANTA CLARA"
+        "label": "VELAS SANTA CLARA",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS SANTA CLARA — 7 DIAS"
       },
       {
         "value": "7114",
-        "label": "VELAS SANTA MARTA"
+        "label": "VELAS SANTA MARTA",
+        "weight": "7 DIAS.",
+        "labelWithWeight": "VELAS SANTA MARTA — 7 DIAS."
       },
       {
         "value": "7104",
-        "label": "VELAS VERDES LISAS"
+        "label": "VELAS VERDES LISAS",
+        "weight": "7 DIAS",
+        "labelWithWeight": "VELAS VERDES LISAS — 7 DIAS"
       }
     ]
   }
