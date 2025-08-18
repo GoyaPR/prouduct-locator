@@ -1,39 +1,183 @@
+Got it! Here’s a single-file HTML that:
+	•	pulls your JSON from jsDelivr,
+	•	shows weight in the product dropdown (uses labelWithWeight or weight if present; otherwise falls back to name),
+	•	matches the clean, centered style in your screenshot,
+	•	includes loading/disabled states and small UX touches.
+
+Just paste this into an .html file and open it.
+
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>Localizador de Tiendas</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Localizador de Tiendas</title>
   <style>
-    body { font-family: system-ui, sans-serif; padding: 24px; }
-    label { display:block; margin: 12px 0 6px; }
-    select { width: 320px; max-width: 100%; padding: 6px; }
-    .hint { color: #666; font-size: 0.9rem; margin-top: 6px; }
+    :root{
+      --brand: #0c4a6e;          /* azul botón */
+      --brand-600:#0b4160;
+      --text:#0f172a;            /* slate-900 */
+      --muted:#64748b;           /* slate-500 */
+      --border:#e2e8f0;          /* slate-200 */
+      --bg:#ffffff;
+      --radius:14px;
+      --shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+    }
+
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: var(--bg);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: 680px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(32px, 5vw, 56px);
+      line-height: 1.05;
+      letter-spacing: -0.5px;
+    }
+
+    .sub {
+      margin: 0 auto 32px;
+      color: var(--muted);
+      font-size: clamp(14px, 2.2vw, 18px);
+      max-width: 52ch;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: clamp(16px, 3.2vw, 28px);
+      box-shadow: var(--shadow);
+      margin: 0 auto;
+    }
+
+    .field {
+      text-align: left;
+      margin-bottom: 14px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0 0 6px;
+    }
+
+    select {
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 16px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: #fff;
+      outline: none;
+      transition: box-shadow .15s ease, border-color .15s ease, background-color .15s ease;
+      appearance: none; /* cleaner look */
+      background-image:
+        linear-gradient(45deg, transparent 50%, #94a3b8 50%),
+        linear-gradient(135deg, #94a3b8 50%, transparent 50%);
+      background-position:
+        calc(100% - 22px) calc(1em + 2px),
+        calc(100% - 16px) calc(1em + 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    select:focus {
+      border-color: #94a3b8;
+      box-shadow: 0 0 0 4px rgba(148,163,184,.20);
+    }
+
+    select:disabled {
+      background-color: #f8fafc;
+      color: #94a3b8;
+      cursor: not-allowed;
+    }
+
+    .actions {
+      margin-top: 10px;
+    }
+
+    button {
+      width: 100%;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 16px 20px;
+      background: var(--brand);
+      color: white;
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform .06s ease, background .15s ease, box-shadow .15s ease;
+      box-shadow: 0 6px 18px rgba(12, 74, 110, .25);
+    }
+    button:hover { background: var(--brand-600); }
+    button:active { transform: translateY(1px); }
+    button:disabled {
+      background: #cbd5e1;
+      box-shadow: none;
+      cursor: not-allowed;
+    }
+
+    .hint {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      min-height: 1.2em;
+      text-align: left;
+    }
   </style>
 </head>
 <body>
-  <h1>Cascading Menu</h1>
+  <main class="wrap">
+    <h1>Localizador de Tiendas</h1>
+    <p class="sub">Encuentra tu producto GOYA favorito fácilmente.</p>
 
-  <label for="cat">Category</label>
-  <select id="cat" disabled>
-    <option>Loading…</option>
-  </select>
+    <section class="card">
+      <div class="field">
+        <label for="cat">Categoría</label>
+        <select id="cat" disabled>
+          <option>Cargando…</option>
+        </select>
+      </div>
 
-  <label for="prod">Product</label>
-  <select id="prod" disabled>
-    <option value="">Choose a category first…</option>
-  </select>
+      <div class="field">
+        <label for="prod">Producto</label>
+        <select id="prod" disabled>
+          <option value="">Selecciona una categoría…</option>
+        </select>
+        <div id="hint" class="hint"></div>
+      </div>
 
-  <div id="hint" class="hint"></div>
+      <div class="actions">
+        <button id="buscar" disabled>Buscar</button>
+      </div>
+    </section>
+  </main>
 
   <script>
+    // Use your jsDelivr file; change URL if needed
     const JSON_URL = "https://cdn.jsdelivr.net/gh/goyapr/product-locator/locator.json";
 
-    const $cat  = document.getElementById("cat");
-    const $prod = document.getElementById("prod");
-    const $hint = document.getElementById("hint");
+    const $cat   = document.getElementById("cat");
+    const $prod  = document.getElementById("prod");
+    const $hint  = document.getElementById("hint");
+    const $go    = document.getElementById("buscar");
 
-    // Helpers
     const opt = (v, t) => {
       const o = document.createElement("option");
       o.value = String(v ?? "");
@@ -41,89 +185,129 @@
       return o;
     };
 
+    // Accepts either the UI-optimized shape or a normalized one
     function normalizeData(raw) {
-      // Case A: UI-optimized: { categories:[{value,label}], byCategory:{slug:[{value,label}]}}
+      // UI shape
       if (raw && Array.isArray(raw.categories) && raw.byCategory && typeof raw.byCategory === "object") {
-        return {
-          categories: raw.categories.map(c => ({ slug: c.value, name: c.label })),
-          productsByCat: Object.fromEntries(
-            Object.entries(raw.byCategory).map(([slug, list]) => [
-              slug,
-              (list || []).map(p => ({ slug: p.value, name: p.label, category: slug }))
-            ])
-          )
-        };
+        const cats = raw.categories.map(c => ({ slug: c.value, name: c.label }))
+          .sort((a,b) => a.name.localeCompare(b.name));
+        const byCat = {};
+        for (const [slug, list] of Object.entries(raw.byCategory)) {
+          byCat[slug] = (list || []).map(p => ({
+            slug: p.value,
+            name: p.label ?? p.value,
+            weight: p.weight,
+            // If your JSON already brings "labelWithWeight", keep it
+            labelWithWeight: p.labelWithWeight
+          })).sort((a,b) => a.name.localeCompare(b.name));
+        }
+        return { categories: cats, productsByCat: byCat };
       }
-
-      // Case B: Normalized: { categories:[{slug,name}], products:[{slug,name,category}] }
+      // Normalized shape
       if (raw && Array.isArray(raw.categories) && Array.isArray(raw.products)) {
+        const cats = raw.categories.map(c => ({ slug: c.slug, name: c.name ?? c.slug }))
+          .sort((a,b) => a.name.localeCompare(b.name));
         const byCat = {};
         for (const p of raw.products) {
-          const cat = String(p.category ?? "").trim();
+          const cat = (p.category ?? "").trim();
           if (!cat) continue;
           (byCat[cat] ||= []).push({
-            slug: String(p.slug ?? ""),
-            name: String(p.name ?? ""),
-            category: cat
+            slug: p.slug,
+            name: p.name ?? p.slug,
+            weight: p.weight,
+            labelWithWeight: p.labelWithWeight
           });
         }
-        // Optional: sort
         for (const k of Object.keys(byCat)) {
           byCat[k].sort((a,b) => a.name.localeCompare(b.name));
         }
-        const cats = raw.categories
-          .map(c => ({ slug: String(c.slug ?? ""), name: String(c.name ?? c.slug ?? "") }))
-          .sort((a,b) => a.name.localeCompare(b.name));
         return { categories: cats, productsByCat: byCat };
       }
-
-      throw new Error("Unsupported JSON structure. Expect UI or normalized shape.");
+      throw new Error("Estructura JSON no soportada.");
     }
 
-    async function main() {
+    function nameWithWeight(p) {
+      // Prefer a prebuilt labelWithWeight; else compose Name — Weight
+      if (p.labelWithWeight) return p.labelWithWeight;
+      if (p.weight) return `${p.name} — ${p.weight}`;
+      return p.name;
+    }
+
+    async function loadData() {
       try {
         const res = await fetch(JSON_URL, { cache: "no-cache" });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const raw = await res.json();
-        const data = normalizeData(raw);
-
-        // Populate categories
+        return normalizeData(raw);
+      } catch (e) {
+        console.error(e);
         $cat.innerHTML = "";
-        $cat.append(opt("", "Choose a category…"));
-        for (const c of data.categories) $cat.append(opt(c.slug, c.name));
-        $cat.disabled = false;
-
-        // Handle category change
-        $cat.addEventListener("change", () => {
-          const slug = $cat.value;
-          const list = data.productsByCat[slug] || [];
-          $prod.innerHTML = "";
-          if (!slug) {
-            $prod.append(opt("", "Choose a category first…"));
-            $prod.disabled = true;
-            $hint.textContent = "";
-            return;
-          }
-          if (!list.length) {
-            $prod.append(opt("", "No products in this category"));
-            $prod.disabled = true;
-            $hint.textContent = "";
-            return;
-          }
-          $prod.append(opt("", "Choose a product…"));
-          for (const p of list) $prod.append(opt(p.slug, p.name));
-          $prod.disabled = false;
-          $hint.textContent = `Loaded ${list.length} product${list.length === 1 ? "" : "s"} for “${$cat.options[$cat.selectedIndex].textContent}”.`;
-        });
-      } catch (err) {
-        console.error(err);
-        $cat.innerHTML = "";
-        $cat.append(opt("", "Failed to load data"));
-        $hint.textContent = "Couldn’t fetch or parse the JSON. Check the URL and structure.";
+        $cat.append(opt("", "No se pudo cargar el catálogo"));
+        $hint.textContent = "Revisa el enlace del JSON o la estructura.";
+        return null;
       }
     }
 
-    main();
+    (async function main() {
+      const data = await loadData();
+      if (!data) return;
+
+      // Populate categories
+      $cat.innerHTML = "";
+      $cat.append(opt("", "Selecciona una categoría…"));
+      for (const c of data.categories) $cat.append(opt(c.slug, c.name));
+      $cat.disabled = false;
+
+      // Category change
+      $cat.addEventListener("change", () => {
+        const slug = $cat.value;
+        const list = data.productsByCat[slug] || [];
+
+        $prod.innerHTML = "";
+        if (!slug) {
+          $prod.append(opt("", "Selecciona una categoría…"));
+          $prod.disabled = true;
+          $go.disabled = true;
+          $hint.textContent = "";
+          return;
+        }
+
+        if (!list.length) {
+          $prod.append(opt("", "No hay productos en esta categoría"));
+          $prod.disabled = true;
+          $go.disabled = true;
+          $hint.textContent = "";
+          return;
+        }
+
+        $prod.append(opt("", "Selecciona un producto…"));
+        for (const p of list) {
+          $prod.append(opt(p.slug, nameWithWeight(p)));
+        }
+        $prod.disabled = false;
+        $go.disabled = true;
+
+        const catLabel = $cat.options[$cat.selectedIndex].textContent;
+        $hint.textContent = `Se cargaron ${list.length} producto${list.length===1?"":"s"} para “${catLabel}”.`;
+      });
+
+      // Enable button when a product is selected
+      $prod.addEventListener("change", () => {
+        $go.disabled = !$prod.value;
+      });
+
+      // Demo action for "Buscar"
+      $go.addEventListener("click", (e) => {
+        e.preventDefault();
+        const cat = $cat.value;
+        const prod = $prod.value;
+        if (!cat || !prod) return;
+        // TODO: Reemplaza con tu lógica real (redirigir, abrir modal, etc.)
+        alert(`Buscar:\n• Categoría: ${cat}\n• Producto: ${prod}`);
+      });
+    })();
   </script>
 </body>
 </html>
+
+If you want the button to redirect somewhere (e.g., /tiendas?cat=...&prod=...) or to fire a Webflow search, say the target URL/behavior and I’ll wire it in.
