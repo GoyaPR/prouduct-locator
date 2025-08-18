@@ -4,41 +4,72 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Localizador de Tiendas</title>
-  <style>
-    :root{--brand:#0c4a6e;--brand-600:#0b4160;--text:#0f172a;--muted:#64748b;--border:#e2e8f0;--bg:#fff;--radius:14px;--shadow:0 10px 30px rgba(2,6,23,.08)}
-    html,body{height:100%}
-    body{margin:0;display:grid;place-items:center;padding:24px;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--text);background:var(--bg)}
-    .wrap{width:100%;max-width:680px;text-align:center}
-    h1{margin:0 0 8px;font-size:clamp(32px,5vw,56px);line-height:1.05;letter-spacing:-.5px}
-    .sub{margin:0 auto 32px;color:var(--muted);font-size:clamp(14px,2.2vw,18px);max-width:52ch}
-    .card{background:#fff;border:1px solid var(--border);border-radius:22px;padding:clamp(16px,3.2vw,28px);box-shadow:var(--shadow)}
-    .field{text-align:left;margin-bottom:14px}
-    label{display:block;font-size:13px;color:var(--muted);margin:0 0 6px}
-    select{
-      width:100%;box-sizing:border-box;font-size:16px;padding:14px 16px;border:1px solid var(--border);
-      border-radius:14px;background:#fff;transition:box-shadow .15s,border-color .15s,background-color .15s;appearance:none;
-      background-image:linear-gradient(45deg,transparent 50%,#94a3b8 50%),linear-gradient(135deg,#94a3b8 50%,transparent 50%);
-      background-position:calc(100% - 22px) calc(1em + 2px), calc(100% - 16px) calc(1em + 2px);
-      background-size:6px 6px,6px 6px;background-repeat:no-repeat
-    }
-    select:focus{border-color:#94a3b8;box-shadow:0 0 0 4px rgba(148,163,184,.20)}
-    select:disabled{background:#f8fafc;color:#94a3b8;cursor:not-allowed}
-    .actions{margin-top:10px}
-    button{
-      width:100%;font-size:18px;font-weight:600;padding:16px 20px;background:var(--brand);color:#fff;border:0;border-radius:999px;cursor:pointer;
-      transition:transform .06s, background .15s, box-shadow .15s; box-shadow:0 6px 18px rgba(12,74,110,.25)
-    }
-    button:hover{background:var(--brand-600)} button:active{transform:translateY(1px)}
-    button:disabled{background:#cbd5e1;box-shadow:none;cursor:not-allowed}
-    .hint{margin-top:10px;color:var(--muted);font-size:13px;min-height:1.2em;text-align:left}
+<style>
+  :root{
+    --brand:#004F8A;
+    --brand-600:#004F8A;
+    --text:#000000;
+    --muted:#368ED0;
+    --border:#e2e8f0;
+    --bg:#fff;
+    --radius:14px;
+    --shadow:0 10px 30px rgba(2,6,23,.08)
+  }
+  html,body{height:100%}
+  body{
+    margin:0;display:grid;place-items:center;padding:24px;
+    font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+    color:var(--text);background:var(--bg)
+  }
+  .wrap{width:100%;max-width:680px;text-align:center}
+  h1{margin:0 0 8px;font-size:clamp(32px,5vw,56px);line-height:1.05;letter-spacing:-.5px}
+  .sub{margin:0 auto 32px;color:var(--muted);font-size:clamp(14px,2.2vw,18px);max-width:52ch}
+  .card{background:#fff;border:1px solid var(--border);border-radius:22px;padding:clamp(16px,3.2vw,28px);box-shadow:var(--shadow)}
+  .field{text-align:left;margin-bottom:14px}
+  label{display:block;font-size:13px;color:var(--muted);margin:0 0 6px}
+  select{
+    width:100%;box-sizing:border-box;font-size:16px;padding:14px 16px;border:1px solid var(--border);
+    border-radius:14px;background:#fff;transition:box-shadow .15s,border-color .15s,background-color .15s;appearance:none;
+    background-image:linear-gradient(45deg,transparent 50%,#94a3b8 50%),linear-gradient(135deg,#94a3b8 50%,transparent 50%);
+    background-position:calc(100% - 22px) calc(1em + 2px), calc(100% - 16px) calc(1em + 2px);
+    background-size:6px 6px,6px 6px;background-repeat:no-repeat
+  }
+  select:focus{border-color:#94a3b8;box-shadow:0 0 0 4px rgba(148,163,184,.20)}
+  select:disabled{background:#f8fafc;color:#94a3b8;cursor:not-allowed}
+  .actions{margin-top:10px}
+  button{
+    width:100%;font-size:18px;font-weight:600;padding:16px 20px;background:var(--brand);color:#fff;border:0;border-radius:999px;cursor:pointer;
+    transition:transform .06s, background .15s, box-shadow .15s; box-shadow:0 6px 18px rgba(12,74,110,.25)
+  }
+  button:hover{background:var(--brand-600)}
+  button:active{transform:translateY(1px)}
+  button:disabled{background:#cbd5e1;box-shadow:none;cursor:not-allowed}
+  .hint{margin-top:10px;color:var(--muted);font-size:13px;min-height:1.2em;text-align:left}
 
-    /* Spinner + results */
-    #spinner{display:none;margin:16px auto;width:28px;height:28px;border:3px solid #e2e8f0;border-top-color:#0c4a6e;border-radius:50%;animation:spin 1s linear infinite}
-    @keyframes spin{to{transform:rotate(360deg)}}
-    #myData{margin-top:18px;text-align:left}
-    #myData .store{padding:12px 0;border-bottom:1px solid var(--border)}
-    #myData .store a{display:inline-block;margin-top:6px}
-  </style>
+  /* ✅ New style for "Localizar tienda" button */
+  .locatorbutton{
+    display:inline-block;
+    font-size:14px;
+    font-weight:600;
+    padding:10px 16px;
+    margin-top:6px;
+    background:var(--brand);
+    color:#fff;
+    border-radius:999px;
+    text-decoration:none;
+    transition:transform .06s ease, background .15s ease, box-shadow .15s ease;
+    box-shadow:0 3px 10px rgba(12,74,110,.25);
+  }
+  .locatorbutton:hover{background:var(--brand-600)}
+  .locatorbutton:active{transform:translateY(1px)}
+
+  /* Spinner + results */
+  #spinner{display:none;margin:16px auto;width:28px;height:28px;border:3px solid #e2e8f0;border-top-color:#0c4a6e;border-radius:50%;animation:spin 1s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  #myData{margin-top:18px;text-align:left}
+  #myData .store{padding:12px 0;border-bottom:1px solid var(--border)}
+  #myData .store a{display:inline-block;margin-top:6px}
+</style>
 </head>
 <body>
   <main class="wrap">
