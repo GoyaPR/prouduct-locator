@@ -1,0 +1,3478 @@
+{
+  "categories": [
+    {
+      "value": "aceites-de-maiz-y-vegetal",
+      "label": "Aceites de Maiz y Vegetal"
+    },
+    {
+      "value": "aceites-de-oliva",
+      "label": "Aceites de Oliva"
+    },
+    {
+      "value": "aceitunas",
+      "label": "Aceitunas"
+    },
+    {
+      "value": "adobos",
+      "label": "Adobos"
+    },
+    {
+      "value": "agave",
+      "label": "Agave"
+    },
+    {
+      "value": "agua-de-florida",
+      "label": "Agua de Florida"
+    },
+    {
+      "value": "aguas-de-coco",
+      "label": "Aguas de Coco"
+    },
+    {
+      "value": "aji-y-salsas-picantes",
+      "label": "Aji y Salsas Picantes"
+    },
+    {
+      "value": "ajo",
+      "label": "Ajo"
+    },
+    {
+      "value": "arroces",
+      "label": "Arroces"
+    },
+    {
+      "value": "arroces-listos",
+      "label": "Arroces Listos"
+    },
+    {
+      "value": "arroz-canilla",
+      "label": "Arroz Canilla"
+    },
+    {
+      "value": "bacalaitos-y-aitos",
+      "label": "Bacalaitos y Aitos"
+    },
+    {
+      "value": "carnes",
+      "label": "Carnes"
+    },
+    {
+      "value": "cherries",
+      "label": "Cherries"
+    },
+    {
+      "value": "chocolate",
+      "label": "Chocolate"
+    },
+    {
+      "value": "crema-de-coco-y-leche-coco",
+      "label": "Crema de Coco y Leche Coco"
+    },
+    {
+      "value": "cubitos",
+      "label": "Cubitos"
+    },
+    {
+      "value": "especias",
+      "label": "Especias"
+    },
+    {
+      "value": "fideos",
+      "label": "Fideos"
+    },
+    {
+      "value": "frutas",
+      "label": "Frutas"
+    },
+    {
+      "value": "galletas-dux",
+      "label": "Galletas D"
+    },
+    {
+      "value": "galletas-maria",
+      "label": "Galletas Maria"
+    },
+    {
+      "value": "galletas-wafers",
+      "label": "Galletas Wafers"
+    },
+    {
+      "value": "gandules",
+      "label": "Gandules"
+    },
+    {
+      "value": "granos-agua-y-sal",
+      "label": "Granos Agua y Sal"
+    },
+    {
+      "value": "granos-guisados",
+      "label": "Granos Guisados"
+    },
+    {
+      "value": "granos-secos",
+      "label": "Granos Secos"
+    },
+    {
+      "value": "harinas",
+      "label": "Harinas"
+    },
+    {
+      "value": "jaleas-y-mermeladas",
+      "label": "Jaleas y Mermeladas"
+    },
+    {
+      "value": "jugos-y-nectares",
+      "label": "Jugos y Nectares"
+    },
+    {
+      "value": "leche-evaporada-y-condensada",
+      "label": "Leche Evaporada y Condensada"
+    },
+    {
+      "value": "malta",
+      "label": "Malta"
+    },
+    {
+      "value": "mantecas",
+      "label": "Mantecas"
+    },
+    {
+      "value": "marinados",
+      "label": "Marinados"
+    },
+    {
+      "value": "mariscos",
+      "label": "Mariscos"
+    },
+    {
+      "value": "mayonesa-y-ketchup",
+      "label": "Mayonesa y Ketchup"
+    },
+    {
+      "value": "miel-de-abeja",
+      "label": "Miel de Abeja"
+    },
+    {
+      "value": "pastas",
+      "label": "Pastas"
+    },
+    {
+      "value": "pimientos-morrones",
+      "label": "Pimientos Morrones"
+    },
+    {
+      "value": "postres",
+      "label": "Postres"
+    },
+    {
+      "value": "prisma",
+      "label": "Prisma"
+    },
+    {
+      "value": "productos-ancel",
+      "label": "Productos Ancel"
+    },
+    {
+      "value": "productos-cortes",
+      "label": "Productos Cortes"
+    },
+    {
+      "value": "productos-de-tomate",
+      "label": "Productos de Tomate"
+    },
+    {
+      "value": "productos-el-jibarito",
+      "label": "Productos El Jibarito"
+    },
+    {
+      "value": "productos-limpiolin",
+      "label": "Productos Limpiolin"
+    },
+    {
+      "value": "productos-mejicanos",
+      "label": "Productos Mejicanos"
+    },
+    {
+      "value": "quinoa",
+      "label": "Quinoa"
+    },
+    {
+      "value": "refrescos",
+      "label": "Refrescos"
+    },
+    {
+      "value": "sales",
+      "label": "Sales"
+    },
+    {
+      "value": "salsa-de-tomates",
+      "label": "Salsa de Tomates"
+    },
+    {
+      "value": "salsa-para-pastas",
+      "label": "Salsa para Pastas"
+    },
+    {
+      "value": "sancocho-y-mondongo",
+      "label": "Sancocho y Mondongo"
+    },
+    {
+      "value": "sazonador-total",
+      "label": "Sazonador Total"
+    },
+    {
+      "value": "sazones",
+      "label": "Sazones"
+    },
+    {
+      "value": "sazon",
+      "label": "Sazón"
+    },
+    {
+      "value": "smoothies",
+      "label": "Smoothies"
+    },
+    {
+      "value": "sofritos-y-recaito",
+      "label": "Sofritos y Recaito"
+    },
+    {
+      "value": "turrones",
+      "label": "Turrones"
+    },
+    {
+      "value": "vegetales",
+      "label": "Vegetales"
+    },
+    {
+      "value": "velas",
+      "label": "Velas"
+    },
+    {
+      "value": "vinagres",
+      "label": "Vinagres"
+    },
+    {
+      "value": "vinos",
+      "label": "Vinos"
+    }
+  ],
+  "byCategory": {
+    "aceites-de-oliva": [
+      {
+        "value": "1108",
+        "label": "ACEITE DE OLIVA EXTRA VIRGEN"
+      },
+      {
+        "value": "1111",
+        "label": "ACEITE DE OLIVA EXTRA VIRGEN"
+      },
+      {
+        "value": "1152",
+        "label": "ACEITE DE OLIVA LIGHT"
+      },
+      {
+        "value": "1154",
+        "label": "ACEITE DE OLIVA LIGHT"
+      },
+      {
+        "value": "1156",
+        "label": "ACEITE DE OLIVA LIGHT"
+      },
+      {
+        "value": "1158",
+        "label": "ACEITE DE OLIVA LIGHT"
+      },
+      {
+        "value": "1159",
+        "label": "ACEITE DE OLIVA LIGHT"
+      },
+      {
+        "value": "1140",
+        "label": "ACEITE DE OLIVA PURO"
+      },
+      {
+        "value": "1141",
+        "label": "ACEITE DE OLIVA PURO"
+      },
+      {
+        "value": "1142",
+        "label": "ACEITE DE OLIVA PURO"
+      },
+      {
+        "value": "1144",
+        "label": "ACEITE DE OLIVA PURO"
+      },
+      {
+        "value": "1145",
+        "label": "ACEITE DE OLIVA PURO"
+      },
+      {
+        "value": "1103",
+        "label": "ACEITE OLIVA EXTRA VIRGEN"
+      },
+      {
+        "value": "1105",
+        "label": "ACEITE OLIVA EXTRA VIRGEN"
+      },
+      {
+        "value": "1107",
+        "label": "ACEITE OLIVA EXTRA VIRGEN"
+      },
+      {
+        "value": "1109",
+        "label": "ACEITE OLIVA EXTRA VIRGEN"
+      },
+      {
+        "value": "1114",
+        "label": "ACEITE OLIVA EXTRA VIRGEN"
+      },
+      {
+        "value": "1128",
+        "label": "ACEITE OLIVA EXTRA VIRGEN"
+      },
+      {
+        "value": "1133",
+        "label": "ACEITE OLIVA ORGANICO EXTRA VIRGEN"
+      },
+      {
+        "value": "1130",
+        "label": "ACEITE OLIVA UNICO"
+      }
+    ],
+    "vinagres": [
+      {
+        "value": "1190",
+        "label": "VINAGRE BALSAMICO"
+      },
+      {
+        "value": "3935",
+        "label": "VINAGRE BLANCO"
+      },
+      {
+        "value": "3937",
+        "label": "VINAGRE BLANCO"
+      },
+      {
+        "value": "3938",
+        "label": "VINAGRE BLANCO"
+      },
+      {
+        "value": "3931",
+        "label": "VINAGRE CIDRA"
+      },
+      {
+        "value": "3933",
+        "label": "VINAGRE CIDRA"
+      },
+      {
+        "value": "1191",
+        "label": "VINAGRE DE JEREZ"
+      },
+      {
+        "value": "1192",
+        "label": "VINAGRE DE JEREZ RESERVA"
+      },
+      {
+        "value": "3939",
+        "label": "VINAGRE VINO"
+      }
+    ],
+    "aceites-de-maiz-y-vegetal": [
+      {
+        "value": "1246",
+        "label": "ACEITE DE CANOLA"
+      },
+      {
+        "value": "1248",
+        "label": "ACEITE DE CANOLA"
+      },
+      {
+        "value": "1249",
+        "label": "ACEITE DE CANOLA"
+      },
+      {
+        "value": "1250",
+        "label": "ACEITE DE CANOLA"
+      },
+      {
+        "value": "1227",
+        "label": "ACEITE DE MAIZ"
+      },
+      {
+        "value": "1229",
+        "label": "ACEITE DE MAIZ"
+      },
+      {
+        "value": "1231",
+        "label": "ACEITE DE MAIZ"
+      },
+      {
+        "value": "1233",
+        "label": "ACEITE DE MAIZ"
+      },
+      {
+        "value": "1234",
+        "label": "ACEITE DE MAIZ"
+      },
+      {
+        "value": "1235",
+        "label": "ACEITE VEGETAL"
+      },
+      {
+        "value": "1237",
+        "label": "ACEITE VEGETAL"
+      },
+      {
+        "value": "1239",
+        "label": "ACEITE VEGETAL"
+      },
+      {
+        "value": "1240",
+        "label": "ACEITE VEGETAL"
+      },
+      {
+        "value": "1241",
+        "label": "ACEITE VEGETAL"
+      },
+      {
+        "value": "1242",
+        "label": "ACEITE VEGETAL"
+      }
+    ],
+    "aceitunas": [
+      {
+        "value": "1353",
+        "label": "ACEITUNAS JUMBO"
+      },
+      {
+        "value": "1473",
+        "label": "ACEITUNAS JUMBO"
+      },
+      {
+        "value": "1303",
+        "label": "ACEITUNAS MANZANILLA"
+      },
+      {
+        "value": "1307",
+        "label": "ACEITUNAS MANZANILLA"
+      },
+      {
+        "value": "1309",
+        "label": "ACEITUNAS MANZANILLA"
+      },
+      {
+        "value": "1319",
+        "label": "ACEITUNAS MANZANILLA DESHUEZADAS"
+      },
+      {
+        "value": "1511",
+        "label": "ACEITUNAS MANZANILLA RELLENAS BAJO EN SODIO"
+      },
+      {
+        "value": "1467",
+        "label": "ACEITUNAS MANZANILLAS"
+      },
+      {
+        "value": "1510",
+        "label": "ACEITUNAS MANZANILLAS BAJO EN SODIO"
+      },
+      {
+        "value": "1340",
+        "label": "ACEITUNAS MANZANILLAS LISAS"
+      },
+      {
+        "value": "1325",
+        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+      },
+      {
+        "value": "1327",
+        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+      },
+      {
+        "value": "1329",
+        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+      },
+      {
+        "value": "1331",
+        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+      },
+      {
+        "value": "1332",
+        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+      },
+      {
+        "value": "1341",
+        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+      },
+      {
+        "value": "1469",
+        "label": "ACEITUNAS MANZANILLAS RELLENAS"
+      },
+      {
+        "value": "1501",
+        "label": "ACEITUNAS NEGRAS EN RODAJAS"
+      },
+      {
+        "value": "1495",
+        "label": "ACEITUNAS NEGRAS GRANDES"
+      },
+      {
+        "value": "1496",
+        "label": "ACEITUNAS NEGRAS MEDIANAS"
+      },
+      {
+        "value": "1494",
+        "label": "ACEITUNAS NEGRAS PEQUENAS"
+      },
+      {
+        "value": "1461",
+        "label": "ACEITUNAS NEGRAS PICADAS"
+      },
+      {
+        "value": "1460",
+        "label": "ACEITUNAS PICADAS"
+      },
+      {
+        "value": "1333",
+        "label": "ACEITUNAS REINAS RELLENAS"
+      },
+      {
+        "value": "1335",
+        "label": "ACEITUNAS REINAS RELLENAS"
+      },
+      {
+        "value": "1475",
+        "label": "ACEITUNAS REINAS RELLENAS"
+      },
+      {
+        "value": "1491",
+        "label": "ACEITUNAS RELLENAS DE ANCHOAS"
+      },
+      {
+        "value": "1490",
+        "label": "ACEITUNAS RELLENAS DE TUNA"
+      },
+      {
+        "value": "1492",
+        "label": "ACEITUNAS RELLENAS HOT PEPPERS"
+      },
+      {
+        "value": "1489",
+        "label": "ACEITUNAS RELLENAS SALMON AHUMADO"
+      },
+      {
+        "value": "1423",
+        "label": "ALCAPARRADO CON PIMIENTO"
+      },
+      {
+        "value": "1425",
+        "label": "ALCAPARRADO CON PIMIENTO"
+      },
+      {
+        "value": "1427",
+        "label": "ALCAPARRADO CON PIMIENTO"
+      },
+      {
+        "value": "1429",
+        "label": "ALCAPARRADO CON PIMIENTO"
+      },
+      {
+        "value": "1431",
+        "label": "ALCAPARRADO CON PIMIENTO"
+      },
+      {
+        "value": "1464",
+        "label": "ALCAPARRADO CON PIMIENTOS"
+      },
+      {
+        "value": "1465",
+        "label": "ALCAPARRADO CON PIMIENTOS"
+      },
+      {
+        "value": "1417",
+        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS"
+      },
+      {
+        "value": "1419",
+        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS"
+      },
+      {
+        "value": "1421",
+        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS"
+      },
+      {
+        "value": "1512",
+        "label": "ALCAPARRADO Y ACEITUNAS DESHUESADAS BAJO EN SODIO"
+      },
+      {
+        "value": "1375",
+        "label": "ALCAPARRAS"
+      },
+      {
+        "value": "1377",
+        "label": "ALCAPARRAS"
+      },
+      {
+        "value": "1373",
+        "label": "ALCAPARRAS CAPOTES"
+      },
+      {
+        "value": "1378",
+        "label": "ALCAPARRAS CAPOTES"
+      },
+      {
+        "value": "1379",
+        "label": "ALCAPARRAS CAPOTES"
+      },
+      {
+        "value": "1368",
+        "label": "ALCAPARRAS CAPOTES BAJO EN SODIO"
+      },
+      {
+        "value": "1370",
+        "label": "ALCAPARRAS NONPAREILS"
+      },
+      {
+        "value": "1367",
+        "label": "ALCAPARRAS NONPAREILS BAJO EN SODIO"
+      },
+      {
+        "value": "1476",
+        "label": "CONDIMENTO"
+      },
+      {
+        "value": "1477",
+        "label": "CONDIMENTO"
+      },
+      {
+        "value": "1478",
+        "label": "CONDIMENTO"
+      },
+      {
+        "value": "1479",
+        "label": "CONDIMENTO"
+      },
+      {
+        "value": "1513",
+        "label": "CONDIMENTO BAJO EN SODIO"
+      },
+      {
+        "value": "1311",
+        "label": "MANZANILLAS LISAS"
+      },
+      {
+        "value": "3924",
+        "label": "MEDITERRANEAN SALAD"
+      }
+    ],
+    "cherries": [
+      {
+        "value": "1557",
+        "label": "RED CHERRIES CON TALLO"
+      },
+      {
+        "value": "1554",
+        "label": "RED PLAIN CHERRIES"
+      },
+      {
+        "value": "1555",
+        "label": "RED PLAIN CHERRIES"
+      },
+      {
+        "value": "1560",
+        "label": "RED PLAIN CHERRIES"
+      }
+    ],
+    "productos-mejicanos": [
+      {
+        "value": "2871",
+        "label": "CHILES CHIPOTLES"
+      },
+      {
+        "value": "2874",
+        "label": "CHILES CHIPOTLES"
+      },
+      {
+        "value": "2861",
+        "label": "CHILES SERRANO EN ESCABECHE"
+      },
+      {
+        "value": "2862",
+        "label": "CHILES SERRANO EN ESCABECHE"
+      },
+      {
+        "value": "3249",
+        "label": "FAJITA SEASONING"
+      },
+      {
+        "value": "3793",
+        "label": "FAJITA SEASONING"
+      },
+      {
+        "value": "2990",
+        "label": "FRIJOLES NEGROS VOLTEADOS"
+      },
+      {
+        "value": "2901",
+        "label": "FRIJOLES PINTOS REFRITOS"
+      },
+      {
+        "value": "2903",
+        "label": "FRIJOLES REFRITOS RANCHER"
+      },
+      {
+        "value": "2905",
+        "label": "GOYA MOLE ROJO"
+      },
+      {
+        "value": "2876",
+        "label": "HUITLACOCHE"
+      },
+      {
+        "value": "2852",
+        "label": "JALAPENO EN ESCABECHE"
+      },
+      {
+        "value": "1685",
+        "label": "JALAPENOS"
+      },
+      {
+        "value": "2851",
+        "label": "JALAPENOS EN ESCABECHE"
+      },
+      {
+        "value": "2866",
+        "label": "JALAPENOS PICKLED NACHOS"
+      },
+      {
+        "value": "3250",
+        "label": "MEZQUITE FAJITA SEASONING"
+      },
+      {
+        "value": "2872",
+        "label": "NOPALITOS"
+      },
+      {
+        "value": "3792",
+        "label": "PICADILLO SEASONING"
+      },
+      {
+        "value": "2892",
+        "label": "PICO DE GALLO HOT SALSA"
+      },
+      {
+        "value": "2870",
+        "label": "PURE TOMATILLO"
+      },
+      {
+        "value": "2857",
+        "label": "RAJAS DE JALAPENO EN ESCABECHE"
+      },
+      {
+        "value": "2858",
+        "label": "RAJAS DE JALAPENO EN ESCABECHE"
+      },
+      {
+        "value": "2900",
+        "label": "REFRITO CON CHORIZO"
+      },
+      {
+        "value": "2891",
+        "label": "SALSA PICO DE GALLO"
+      },
+      {
+        "value": "2877",
+        "label": "SALSA ROJA MEXICANA"
+      },
+      {
+        "value": "2890",
+        "label": "SALSA TAQUERA"
+      },
+      {
+        "value": "2889",
+        "label": "SALSA VERDE"
+      },
+      {
+        "value": "2878",
+        "label": "SALSA VERDE MEXICANA"
+      },
+      {
+        "value": "2887",
+        "label": "SALSITA CHILE ANCHO"
+      },
+      {
+        "value": "2886",
+        "label": "SALSITA CHILE DE ARBOL"
+      },
+      {
+        "value": "2888",
+        "label": "SALSITA HABANERO"
+      },
+      {
+        "value": "2885",
+        "label": "SALSITA JALAPEÑO"
+      },
+      {
+        "value": "3791",
+        "label": "TACO SEASONING"
+      },
+      {
+        "value": "2868",
+        "label": "WHOLE TOMATILLO"
+      },
+      {
+        "value": "2895",
+        "label": "ZANAHORIAS EN ESCABECHE"
+      }
+    ],
+    "gandules": [
+      {
+        "value": "2002",
+        "label": "GANDULES BAJO EN SODIO"
+      },
+      {
+        "value": "2025",
+        "label": "GANDULES SECOS"
+      },
+      {
+        "value": "2026",
+        "label": "GANDULES SECOS"
+      },
+      {
+        "value": "2482",
+        "label": "GANDULES SECOS"
+      },
+      {
+        "value": "2001",
+        "label": "GANDULES VERDES"
+      },
+      {
+        "value": "2003",
+        "label": "GANDULES VERDES"
+      },
+      {
+        "value": "2005",
+        "label": "GANDULES VERDES CON COCO"
+      },
+      {
+        "value": "2006",
+        "label": "GANDULES VERDES CON COCO"
+      }
+    ],
+    "productos-el-jibarito": [
+      {
+        "value": "2021",
+        "label": "GANDULES SECOS  EL JIBARITO"
+      },
+      {
+        "value": "2022",
+        "label": "GANDULES SECOS EL JIBARITO"
+      }
+    ],
+    "granos-guisados": [
+      {
+        "value": "2081",
+        "label": "FRIJOLES NEGROS GUISADOS"
+      },
+      {
+        "value": "2054",
+        "label": "GANDULES GUISADOS"
+      },
+      {
+        "value": "2063",
+        "label": "GARBANZOS GUISADOS"
+      },
+      {
+        "value": "2080",
+        "label": "GARBANZOS GUISADOS"
+      },
+      {
+        "value": "2059",
+        "label": "HABICHUELAS BLANCAS GUISADAS"
+      },
+      {
+        "value": "2078",
+        "label": "HABICHUELAS BLANCAS GUISADAS"
+      },
+      {
+        "value": "2051",
+        "label": "HABICHUELAS COLORADAS GUISADAS"
+      },
+      {
+        "value": "2076",
+        "label": "HABICHUELAS COLORADAS GUISADAS"
+      },
+      {
+        "value": "2043",
+        "label": "HABICHUELAS NEGRAS /FRIJOLES NEGROS BAJO EN SODIO"
+      },
+      {
+        "value": "2067",
+        "label": "HABICHUELAS NEGRAS GUISADAS"
+      },
+      {
+        "value": "2062",
+        "label": "HABICHUELAS PINTAS GUISADAS"
+      },
+      {
+        "value": "2079",
+        "label": "HABICHUELAS PINTAS GUISADAS"
+      },
+      {
+        "value": "2055",
+        "label": "HABICHUELAS ROSADAS GUISADAS"
+      },
+      {
+        "value": "2077",
+        "label": "HABICHUELAS ROSADAS GUISADAS"
+      }
+    ],
+    "vegetales": [
+      {
+        "value": "3918",
+        "label": "ALCACHOFAS MARINADAS"
+      },
+      {
+        "value": "2532",
+        "label": "CALABAZA"
+      },
+      {
+        "value": "2587",
+        "label": "ESPARRAGOS BLANCOS"
+      },
+      {
+        "value": "2589",
+        "label": "ESPARRAGOS VERDES"
+      },
+      {
+        "value": "2597",
+        "label": "GOLDEN HOMINY"
+      },
+      {
+        "value": "2552",
+        "label": "GUISANTES CON ZANAHORIAS"
+      },
+      {
+        "value": "2531",
+        "label": "GUISANTES VERDES"
+      },
+      {
+        "value": "2533",
+        "label": "GUISANTES VERDES"
+      },
+      {
+        "value": "2581",
+        "label": "HABAS VERDES"
+      },
+      {
+        "value": "2535",
+        "label": "HABICHUELAS TIERNAS REBANADAS"
+      },
+      {
+        "value": "2536",
+        "label": "HABICHUELAS TIERNAS REBANADAS"
+      },
+      {
+        "value": "2537",
+        "label": "HABICHUELASTIERNAS CORTADAS"
+      },
+      {
+        "value": "2555",
+        "label": "MAIZ TIERNO"
+      },
+      {
+        "value": "2556",
+        "label": "MAIZ TIERNO"
+      },
+      {
+        "value": "3916",
+        "label": "PALMITOS EN TROZOS"
+      },
+      {
+        "value": "3915",
+        "label": "PALMITOS ENTEROS"
+      },
+      {
+        "value": "2569",
+        "label": "REMOLACHA EN REBANADAS"
+      },
+      {
+        "value": "2571",
+        "label": "REMOLACHA EN REBANADAS"
+      },
+      {
+        "value": "2577",
+        "label": "SETAS ENTERAS"
+      },
+      {
+        "value": "2582",
+        "label": "SETAS ENTERAS"
+      },
+      {
+        "value": "2579",
+        "label": "SETAS REBANADAS"
+      },
+      {
+        "value": "2584",
+        "label": "SETAS REBANADAS"
+      },
+      {
+        "value": "2564",
+        "label": "VEGETALES MIXTOS"
+      },
+      {
+        "value": "2596",
+        "label": "WHITE HOMIN/ MAIZ BLANCO"
+      },
+      {
+        "value": "2089",
+        "label": "YUCA GOYA"
+      },
+      {
+        "value": "2091",
+        "label": "YUCA GOYA"
+      },
+      {
+        "value": "2573",
+        "label": "ZANAHORIAS REBANADAS"
+      }
+    ],
+    "granos-agua-y-sal": [
+      {
+        "value": "2446",
+        "label": "ALUBIAS CANELLINI"
+      },
+      {
+        "value": "2449",
+        "label": "ALUBIAS/CANNELINI"
+      },
+      {
+        "value": "2426",
+        "label": "FRIJOLES"
+      },
+      {
+        "value": "2427",
+        "label": "FRIJOLES"
+      },
+      {
+        "value": "2429",
+        "label": "FRIJOLES"
+      },
+      {
+        "value": "2353",
+        "label": "FRIJOLES NEGROS"
+      },
+      {
+        "value": "2332",
+        "label": "FRIJOLES NEGROS  BAJO EN SODIO"
+      },
+      {
+        "value": "2365",
+        "label": "FRIJOLES NEGROS BAJO EN SODIO"
+      },
+      {
+        "value": "2349",
+        "label": "GARBANZOS"
+      },
+      {
+        "value": "2419",
+        "label": "GARBANZOS"
+      },
+      {
+        "value": "2422",
+        "label": "GARBANZOS"
+      },
+      {
+        "value": "2423",
+        "label": "GARBANZOS"
+      },
+      {
+        "value": "2333",
+        "label": "GARBANZOS BAJO EN SODIO"
+      },
+      {
+        "value": "2363",
+        "label": "GARBANZOS BAJO EN SODIO"
+      },
+      {
+        "value": "2344",
+        "label": "GARBANZOS ORGANICOS"
+      },
+      {
+        "value": "2461",
+        "label": "GUISANTES"
+      },
+      {
+        "value": "2467",
+        "label": "GUISANTES"
+      },
+      {
+        "value": "2444",
+        "label": "HABAS GRANDES"
+      },
+      {
+        "value": "2443",
+        "label": "HABAS GRANDES."
+      },
+      {
+        "value": "2351",
+        "label": "HABICHUELAS BLANCAS"
+      },
+      {
+        "value": "2412",
+        "label": "HABICHUELAS BLANCAS"
+      },
+      {
+        "value": "2413",
+        "label": "HABICHUELAS BLANCAS"
+      },
+      {
+        "value": "2452",
+        "label": "HABICHUELAS BLANCAS"
+      },
+      {
+        "value": "2335",
+        "label": "HABICHUELAS BLANCAS BAJO EN SODIO"
+      },
+      {
+        "value": "2366",
+        "label": "HABICHUELAS BLANCAS BAJO EN SODIO"
+      },
+      {
+        "value": "2400",
+        "label": "HABICHUELAS COLORADA"
+      },
+      {
+        "value": "2348",
+        "label": "HABICHUELAS COLORADAS"
+      },
+      {
+        "value": "2402",
+        "label": "HABICHUELAS COLORADAS"
+      },
+      {
+        "value": "2403",
+        "label": "HABICHUELAS COLORADAS"
+      },
+      {
+        "value": "2330",
+        "label": "HABICHUELAS COLORADAS BAJO EN SODIO"
+      },
+      {
+        "value": "2361",
+        "label": "HABICHUELAS COLORADAS BAJO EN SODIO"
+      },
+      {
+        "value": "2417",
+        "label": "HABICHUELAS COLORADAS PEQUENAS"
+      },
+      {
+        "value": "2420",
+        "label": "HABICHUELAS COLORADAS PEQUEñAS"
+      },
+      {
+        "value": "2431",
+        "label": "HABICHUELAS COLORADAS PEQUEñAS"
+      },
+      {
+        "value": "2169",
+        "label": "HABICHUELAS CON DULCE"
+      },
+      {
+        "value": "2465",
+        "label": "HABICHUELAS NEGRAS"
+      },
+      {
+        "value": "2466",
+        "label": "HABICHUELAS NEGRAS"
+      },
+      {
+        "value": "2469",
+        "label": "HABICHUELAS NEGRAS"
+      },
+      {
+        "value": "2347",
+        "label": "HABICHUELAS PINTAS"
+      },
+      {
+        "value": "2437",
+        "label": "HABICHUELAS PINTAS"
+      },
+      {
+        "value": "2439",
+        "label": "HABICHUELAS PINTAS"
+      },
+      {
+        "value": "2442",
+        "label": "HABICHUELAS PINTAS"
+      },
+      {
+        "value": "2334",
+        "label": "HABICHUELAS PINTAS BAJO EN SODIO"
+      },
+      {
+        "value": "2364",
+        "label": "HABICHUELAS PINTAS BAJO EN SODIO"
+      },
+      {
+        "value": "2432",
+        "label": "HABICHUELAS ROJAS"
+      },
+      {
+        "value": "2415",
+        "label": "HABICHUELAS ROMANAS"
+      },
+      {
+        "value": "2416",
+        "label": "HABICHUELAS ROMANAS"
+      },
+      {
+        "value": "2350",
+        "label": "HABICHUELAS ROSADAS"
+      },
+      {
+        "value": "2406",
+        "label": "HABICHUELAS ROSADAS"
+      },
+      {
+        "value": "2407",
+        "label": "HABICHUELAS ROSADAS"
+      },
+      {
+        "value": "2411",
+        "label": "HABICHUELAS ROSADAS"
+      },
+      {
+        "value": "2331",
+        "label": "HABICHUELAS ROSADAS BAJO EN SODIO"
+      },
+      {
+        "value": "2362",
+        "label": "HABICHUELAS ROSADAS BAJO EN SODIO"
+      },
+      {
+        "value": "2340",
+        "label": "HABS COLORADAS ORGANICAS"
+      },
+      {
+        "value": "2342",
+        "label": "HABS NEGRAS ORGANICAS"
+      },
+      {
+        "value": "2456",
+        "label": "LENTEJAS"
+      },
+      {
+        "value": "2090",
+        "label": "PANA DE PEPITA"
+      },
+      {
+        "value": "2352",
+        "label": "SMALL RED BEANS"
+      }
+    ],
+    "jaleas-y-mermeladas": [
+      {
+        "value": "2105",
+        "label": "CONSERVA DE MANGO"
+      },
+      {
+        "value": "2118",
+        "label": "CONSERVA DE PAPAYA"
+      },
+      {
+        "value": "2103",
+        "label": "CONSERVAS DE FRESAS"
+      },
+      {
+        "value": "2106",
+        "label": "CONSERVAS DE PINA"
+      },
+      {
+        "value": "2104",
+        "label": "CONSERVAS DE UVA"
+      },
+      {
+        "value": "2101",
+        "label": "JALEA DE GUAYABA"
+      },
+      {
+        "value": "2107",
+        "label": "MERMELADA DE PARCHA"
+      }
+    ],
+    "sancocho-y-mondongo": [
+      {
+        "value": "2133",
+        "label": "MONDONGO"
+      },
+      {
+        "value": "2138",
+        "label": "MONDONGO DOMINICANO"
+      },
+      {
+        "value": "2131",
+        "label": "SANCOCHO"
+      }
+    ],
+    "marinados": [
+      {
+        "value": "3441",
+        "label": "DUX INTEGRAL"
+      },
+      {
+        "value": "2145",
+        "label": "GOYA CHIMICHURRI"
+      },
+      {
+        "value": "3057",
+        "label": "JUGO DE LIMON TROPICAL"
+      },
+      {
+        "value": "3139",
+        "label": "JUGO DE LIMON TROPICAL"
+      },
+      {
+        "value": "3059",
+        "label": "MOJO CRIOLLO"
+      },
+      {
+        "value": "3060",
+        "label": "MOJO CRIOLLO"
+      },
+      {
+        "value": "3061",
+        "label": "MOJO CRIOLLO"
+      },
+      {
+        "value": "3091",
+        "label": "MOJO DE CEVICHE"
+      },
+      {
+        "value": "3093",
+        "label": "MOJO DE PINA"
+      },
+      {
+        "value": "3062",
+        "label": "NARANJA AGRIA"
+      },
+      {
+        "value": "3063",
+        "label": "NARANJA AGRIA"
+      }
+    ],
+    "sofritos-y-recaito": [
+      {
+        "value": "3888",
+        "label": "ACHIOTINA"
+      },
+      {
+        "value": "3889",
+        "label": "ACHIOTINA"
+      },
+      {
+        "value": "2150",
+        "label": "RECAITO"
+      },
+      {
+        "value": "2151",
+        "label": "RECAITO"
+      },
+      {
+        "value": "2152",
+        "label": "RECAITO"
+      },
+      {
+        "value": "2146",
+        "label": "SOFRITO"
+      },
+      {
+        "value": "2148",
+        "label": "SOFRITO"
+      },
+      {
+        "value": "2149",
+        "label": "SOFRITO"
+      }
+    ],
+    "sazon": [
+      {
+        "value": "2153",
+        "label": "SAZON LIQUIDO"
+      },
+      {
+        "value": "2154",
+        "label": "SAZON LIQUIDO"
+      }
+    ],
+    "crema-de-coco-y-leche-coco": [
+      {
+        "value": "2776",
+        "label": "BEBIDA LECHE DE COCO"
+      },
+      {
+        "value": "2161",
+        "label": "CREMA DE COCO"
+      },
+      {
+        "value": "2162",
+        "label": "CREMA DE COCO"
+      },
+      {
+        "value": "2163",
+        "label": "CREMA DE COCO"
+      },
+      {
+        "value": "2164",
+        "label": "LECHE DE COCO"
+      },
+      {
+        "value": "2168",
+        "label": "LECHE DE COCO"
+      },
+      {
+        "value": "2165",
+        "label": "LECHE DE COCO LIGHT"
+      },
+      {
+        "value": "2159",
+        "label": "PINA COLADA MIX"
+      }
+    ],
+    "aguas-de-coco": [
+      {
+        "value": "2778",
+        "label": "AGUA DE COCO"
+      },
+      {
+        "value": "2779",
+        "label": "AGUA DE COCO"
+      },
+      {
+        "value": "2786",
+        "label": "AGUA DE COCO"
+      },
+      {
+        "value": "2788",
+        "label": "AGUA DE COCO"
+      },
+      {
+        "value": "2195",
+        "label": "AGUA DE COCO CON TROCITOS"
+      },
+      {
+        "value": "2785",
+        "label": "AGUA DE COCO CON TROCITOS"
+      },
+      {
+        "value": "2787",
+        "label": "AGUA DE COCO CON TROCITOS"
+      }
+    ],
+    "granos-secos": [
+      {
+        "value": "2488",
+        "label": "ALUBIAS CANNELLINI"
+      },
+      {
+        "value": "2502",
+        "label": "BEAN SOUP MIX"
+      },
+      {
+        "value": "2474",
+        "label": "FRIJOLES"
+      },
+      {
+        "value": "2478",
+        "label": "GARBANZOS"
+      },
+      {
+        "value": "2520",
+        "label": "GARBANZOS"
+      },
+      {
+        "value": "2487",
+        "label": "GREEN SPLIT PEAS"
+      },
+      {
+        "value": "2475",
+        "label": "GUISANTES"
+      },
+      {
+        "value": "2526",
+        "label": "HAB. PINTAS"
+      },
+      {
+        "value": "2481",
+        "label": "HABAS GRANDES"
+      },
+      {
+        "value": "2473",
+        "label": "HABAS PEQUENAS"
+      },
+      {
+        "value": "2483",
+        "label": "HABICHUELAS  ROMANAS"
+      },
+      {
+        "value": "2470",
+        "label": "HABICHUELAS BLANCAS"
+      },
+      {
+        "value": "2471",
+        "label": "HABICHUELAS COLORADAS"
+      },
+      {
+        "value": "2519",
+        "label": "HABICHUELAS COLORADAS"
+      },
+      {
+        "value": "2486",
+        "label": "HABICHUELAS COLORADAS PEQUENAS"
+      },
+      {
+        "value": "2479",
+        "label": "HABICHUELAS NEGRAS"
+      },
+      {
+        "value": "2523",
+        "label": "HABICHUELAS NEGRAS"
+      },
+      {
+        "value": "2472",
+        "label": "HABICHUELAS PINTAS"
+      },
+      {
+        "value": "2480",
+        "label": "HABICHUELAS ROJAS"
+      },
+      {
+        "value": "2477",
+        "label": "HABICHUELAS ROSADAS"
+      },
+      {
+        "value": "2515",
+        "label": "HABICHUELAS ROSADAS"
+      },
+      {
+        "value": "2485",
+        "label": "HABICHUELASBLANCA GREAT NORTHERN"
+      },
+      {
+        "value": "2476",
+        "label": "LENTEJAS"
+      },
+      {
+        "value": "2516",
+        "label": "LENTEJAS"
+      },
+      {
+        "value": "2492",
+        "label": "YELLOW POPCORN"
+      },
+      {
+        "value": "2491",
+        "label": "YELLOW SPLIT PEAS"
+      }
+    ],
+    "arroces-listos": [
+      {
+        "value": "2662",
+        "label": "ARROZ AMARILLO"
+      },
+      {
+        "value": "2677",
+        "label": "ARROZ AMARILLO CON COLORADAS"
+      },
+      {
+        "value": "2643",
+        "label": "ARROZ AMARILLO INSTANTANEO"
+      },
+      {
+        "value": "2649",
+        "label": "ARROZ CON COCO"
+      },
+      {
+        "value": "2661",
+        "label": "ARROZ CON GANDULES"
+      },
+      {
+        "value": "2666",
+        "label": "ARROZ CON HABICHUELAS COLORADAS"
+      },
+      {
+        "value": "2665",
+        "label": "ARROZ CON HABICHUELAS NEGEGRAS"
+      },
+      {
+        "value": "2655",
+        "label": "ARROZ CON HABICHUELAS PINTAS"
+      },
+      {
+        "value": "2669",
+        "label": "ARROZ CON POLLO"
+      },
+      {
+        "value": "2667",
+        "label": "ARROZ CON QUESO Y BROCOLI"
+      },
+      {
+        "value": "2657",
+        "label": "ARROZ CON SABOR A POLLO"
+      },
+      {
+        "value": "2668",
+        "label": "ARROZ CURRY"
+      },
+      {
+        "value": "2675",
+        "label": "ARROZ ESPANOL"
+      },
+      {
+        "value": "2595",
+        "label": "ARROZ ESTILO CONGRI"
+      },
+      {
+        "value": "2659",
+        "label": "ARROZ FIESTA"
+      },
+      {
+        "value": "2645",
+        "label": "ARROZ INTEGRAL INSTANTANEO"
+      },
+      {
+        "value": "2663",
+        "label": "ARROZ MEXICANO"
+      },
+      {
+        "value": "2644",
+        "label": "ARROZ MEXICANO INSTANTANEO"
+      },
+      {
+        "value": "2664",
+        "label": "ARROZ PRIMAVERA"
+      }
+    ],
+    "arroces": [
+      {
+        "value": "2611",
+        "label": "ARROZ GRANO LARGO INTEGRAL"
+      },
+      {
+        "value": "2600",
+        "label": "ARROZ GRANO MEDIANO"
+      },
+      {
+        "value": "2603",
+        "label": "ARROZ GRANO MEDIANO"
+      },
+      {
+        "value": "2605",
+        "label": "ARROZ GRANO MEDIANO"
+      },
+      {
+        "value": "2606",
+        "label": "ARROZ GRANO MEDIANO"
+      },
+      {
+        "value": "2607",
+        "label": "ARROZ GRANO MEDIANO"
+      },
+      {
+        "value": "2608",
+        "label": "ARROZ GRANO MEDIANO"
+      },
+      {
+        "value": "2612",
+        "label": "ARROZ INTEGRAL"
+      },
+      {
+        "value": "2613",
+        "label": "ARROZ INTEGRAL"
+      },
+      {
+        "value": "2621",
+        "label": "ARROZ INTEGRAL"
+      },
+      {
+        "value": "2625",
+        "label": "ARROZ TIPO VALENCIANO"
+      },
+      {
+        "value": "2622",
+        "label": "JASMINE RICE"
+      }
+    ],
+    "arroz-canilla": [
+      {
+        "value": "2633",
+        "label": "CANILLA ARROZ GRANO LARGO"
+      },
+      {
+        "value": "2634",
+        "label": "CANILLA ARROZ GRANO LARGO"
+      },
+      {
+        "value": "2635",
+        "label": "CANILLA ARROZ GRANO LARGO"
+      },
+      {
+        "value": "2637",
+        "label": "CANILLA ARROZ GRANO LARGO"
+      },
+      {
+        "value": "2638",
+        "label": "CANILLA ARROZ GRANO LARGO"
+      },
+      {
+        "value": "2639",
+        "label": "CANILLA ARROZ GRANO LARGO"
+      },
+      {
+        "value": "2640",
+        "label": "CANILLA ARROZ GRANO LARGO"
+      },
+      {
+        "value": "2628",
+        "label": "CANILLA DORADO PARBOILED"
+      },
+      {
+        "value": "2629",
+        "label": "CANILLA DORADO PARBOILED"
+      },
+      {
+        "value": "2630",
+        "label": "CANILLA DORADO PARBOILED"
+      },
+      {
+        "value": "2631",
+        "label": "CANILLA DORADO PARBOILED"
+      }
+    ],
+    "quinoa": [
+      {
+        "value": "5928",
+        "label": "AMARANTO ORGANICA"
+      },
+      {
+        "value": "5929",
+        "label": "CHIA ORGANICA"
+      },
+      {
+        "value": "2672",
+        "label": "QUINOA BLEND BRN RICE"
+      },
+      {
+        "value": "2674",
+        "label": "QUINOA BLEND BRN RICE"
+      },
+      {
+        "value": "2680",
+        "label": "QUINOA BLEND WILD RICE"
+      },
+      {
+        "value": "5925",
+        "label": "QUINOA NEGRA ORGANICA"
+      },
+      {
+        "value": "5052",
+        "label": "QUINOA ORGANICA"
+      },
+      {
+        "value": "5926",
+        "label": "QUINOA ROJA ORGANICA"
+      },
+      {
+        "value": "5927",
+        "label": "QUINOA TRICOLOR ORGANICA"
+      }
+    ],
+    "jugos-y-nectares": [
+      {
+        "value": "2784",
+        "label": "GUARAPO DE CANA"
+      },
+      {
+        "value": "2764",
+        "label": "JUGO DE CHINA SIN AZUCAR"
+      },
+      {
+        "value": "2735",
+        "label": "JUGO DE PARCHA"
+      },
+      {
+        "value": "2770",
+        "label": "JUGO DE PARCHA"
+      },
+      {
+        "value": "2780",
+        "label": "JUGO DE PINA"
+      },
+      {
+        "value": "2782",
+        "label": "JUGO DE PINA"
+      },
+      {
+        "value": "2783",
+        "label": "JUGO DE PINA"
+      },
+      {
+        "value": "2774",
+        "label": "JUGO TOMATE"
+      },
+      {
+        "value": "2768",
+        "label": "JUGO TORONJA SIN AZUZAR"
+      },
+      {
+        "value": "2719",
+        "label": "NECTAR DE ALBARICOQUE"
+      },
+      {
+        "value": "2723",
+        "label": "NECTAR DE ALBARICOQUE"
+      },
+      {
+        "value": "2733",
+        "label": "NECTAR DE ALBARICOQUE"
+      },
+      {
+        "value": "2699",
+        "label": "NECTAR DE BANANA"
+      },
+      {
+        "value": "2705",
+        "label": "NECTAR DE DIETA ALBARICOQUE"
+      },
+      {
+        "value": "2718",
+        "label": "NECTAR DE DIETA ALBARICOQUE"
+      },
+      {
+        "value": "2725",
+        "label": "NECTAR DE DIETA GUANABANA"
+      },
+      {
+        "value": "2734",
+        "label": "NECTAR DE DIETA GUANABANA"
+      },
+      {
+        "value": "2726",
+        "label": "NECTAR DE DIETA GUAYABA"
+      },
+      {
+        "value": "2739",
+        "label": "NECTAR DE DIETA GUAYABA"
+      },
+      {
+        "value": "2730",
+        "label": "NECTAR DE DIETA MANGO"
+      },
+      {
+        "value": "2769",
+        "label": "NECTAR DE DIETA MANGO"
+      },
+      {
+        "value": "2703",
+        "label": "NECTAR DE DIETA MELOCOTON"
+      },
+      {
+        "value": "2716",
+        "label": "NECTAR DE DIETA MELOCOTON"
+      },
+      {
+        "value": "2711",
+        "label": "NECTAR DE DIETA PERA"
+      },
+      {
+        "value": "2720",
+        "label": "NECTAR DE DIETA TAMARINDO"
+      },
+      {
+        "value": "2724",
+        "label": "NECTAR DE DIETA TAMARINDO"
+      },
+      {
+        "value": "2698",
+        "label": "NECTAR DE FRESA"
+      },
+      {
+        "value": "2760",
+        "label": "NECTAR DE FRESA"
+      },
+      {
+        "value": "2762",
+        "label": "NECTAR DE FRESA Y GUINEO"
+      },
+      {
+        "value": "2743",
+        "label": "NECTAR DE GUANABANA"
+      },
+      {
+        "value": "2748",
+        "label": "NECTAR DE GUANABANA"
+      },
+      {
+        "value": "2753",
+        "label": "NECTAR DE GUANABANA"
+      },
+      {
+        "value": "2745",
+        "label": "NECTAR DE GUAYABA"
+      },
+      {
+        "value": "2749",
+        "label": "NECTAR DE GUAYABA"
+      },
+      {
+        "value": "2755",
+        "label": "NECTAR DE GUAYABA"
+      },
+      {
+        "value": "2761",
+        "label": "NECTAR DE GUINEO"
+      },
+      {
+        "value": "2746",
+        "label": "NECTAR DE MANGO"
+      },
+      {
+        "value": "2750",
+        "label": "NECTAR DE MANGO"
+      },
+      {
+        "value": "2752",
+        "label": "NECTAR DE MANGO"
+      },
+      {
+        "value": "2717",
+        "label": "NECTAR DE MELOCOTON"
+      },
+      {
+        "value": "2722",
+        "label": "NECTAR DE MELOCOTON"
+      },
+      {
+        "value": "2732",
+        "label": "NECTAR DE MELOCOTON"
+      },
+      {
+        "value": "2744",
+        "label": "NECTAR DE PAPAYA"
+      },
+      {
+        "value": "2754",
+        "label": "NECTAR DE PAPAYA"
+      },
+      {
+        "value": "2756",
+        "label": "NECTAR DE PAPAYA"
+      },
+      {
+        "value": "2715",
+        "label": "NECTAR DE PERA"
+      },
+      {
+        "value": "2721",
+        "label": "NECTAR DE PERA"
+      },
+      {
+        "value": "2731",
+        "label": "NECTAR DE PERA"
+      },
+      {
+        "value": "2741",
+        "label": "NECTAR DE TAMARINDO"
+      },
+      {
+        "value": "2747",
+        "label": "NECTAR DE TAMARINDO"
+      },
+      {
+        "value": "2751",
+        "label": "NECTAR DE TAMARINDO"
+      },
+      {
+        "value": "2736",
+        "label": "NECTAR PERA Y PARCHA"
+      },
+      {
+        "value": "2757",
+        "label": "NECTAR PERA Y PARCHA"
+      },
+      {
+        "value": "2727",
+        "label": "NECTAR PINA Y GUAYABA"
+      },
+      {
+        "value": "2759",
+        "label": "NECTAR PINA Y GUAYABA"
+      },
+      {
+        "value": "2737",
+        "label": "NECTAR PINA Y PARCHA"
+      },
+      {
+        "value": "2758",
+        "label": "NECTAR PINA Y PARCHA"
+      },
+      {
+        "value": "2738",
+        "label": "NECTAR PINA/GUAYABA"
+      },
+      {
+        "value": "2794",
+        "label": "TROPICAL FRUIT PUNCH"
+      },
+      {
+        "value": "2795",
+        "label": "TROPICAL FRUIT PUNCH"
+      },
+      {
+        "value": "2796",
+        "label": "TROPICAL FRUIT PUNCH"
+      }
+    ],
+    "smoothies": [
+      {
+        "value": "2700",
+        "label": "FRESA Y GUINEO SMOOTHIE"
+      }
+    ],
+    "prisma": [
+      {
+        "value": "2808",
+        "label": "PRISMA GUAYABA"
+      },
+      {
+        "value": "2828",
+        "label": "PRISMA LIGHT GUAYABA"
+      },
+      {
+        "value": "2820",
+        "label": "PRISMA LIGHT MANGO"
+      },
+      {
+        "value": "2807",
+        "label": "PRISMA MELOCOTON"
+      },
+      {
+        "value": "2804",
+        "label": "PRISMA PARCHA"
+      },
+      {
+        "value": "2806",
+        "label": "PRISMA PERA"
+      },
+      {
+        "value": "2802",
+        "label": "PRISMA PINA"
+      }
+    ],
+    "frutas": [
+      {
+        "value": "3077",
+        "label": "CASCOS DE GUAYABA"
+      },
+      {
+        "value": "3078",
+        "label": "CASCOS DE GUAYABA"
+      },
+      {
+        "value": "2832",
+        "label": "COCTEL DE FRUTAS"
+      },
+      {
+        "value": "2833",
+        "label": "COCTEL DE FRUTAS"
+      },
+      {
+        "value": "3087",
+        "label": "DULCE DE PAPAYA"
+      },
+      {
+        "value": "3088",
+        "label": "DULCE DE PAPAYA"
+      },
+      {
+        "value": "3084",
+        "label": "LASCAS DE MANGO EN ALMIBAR"
+      },
+      {
+        "value": "2822",
+        "label": "MELOCOTONES MITADES"
+      },
+      {
+        "value": "2826",
+        "label": "MELOCOTONES MITADES"
+      },
+      {
+        "value": "2821",
+        "label": "MELOCOTONES REBANADOS"
+      },
+      {
+        "value": "2825",
+        "label": "MELOCOTONES REBANADOS"
+      },
+      {
+        "value": "2803",
+        "label": "PERAS MITADES"
+      },
+      {
+        "value": "2840",
+        "label": "PINA EN REBANADAS"
+      },
+      {
+        "value": "2841",
+        "label": "PINA EN TROZOS"
+      },
+      {
+        "value": "2842",
+        "label": "PINA MOLIDA"
+      }
+    ],
+    "galletas-dux": [
+      {
+        "value": "3306",
+        "label": "DUX SALTIN PACK X 4"
+      },
+      {
+        "value": "2965",
+        "label": "DUX SODA CRACKERS"
+      },
+      {
+        "value": "3147",
+        "label": "DUX SODA CRACKERS BOX"
+      },
+      {
+        "value": "2964",
+        "label": "DUX SODAS CRACKERS"
+      }
+    ],
+    "productos-ancel": [
+      {
+        "value": "3125",
+        "label": "COCO RALLADO ANCEL"
+      },
+      {
+        "value": "3130",
+        "label": "COCO RALLADO ANCEL"
+      },
+      {
+        "value": "3138",
+        "label": "PASTA DE GUAYABA ANCEL"
+      },
+      {
+        "value": "3133",
+        "label": "TROZOS PAPAYA ANCEL"
+      }
+    ],
+    "postres": [
+      {
+        "value": "3180",
+        "label": "ARROZ CON LECHE"
+      },
+      {
+        "value": "3185",
+        "label": "FLAN"
+      },
+      {
+        "value": "3186",
+        "label": "FLAN"
+      },
+      {
+        "value": "3187",
+        "label": "FLAN CON CARAMELO"
+      },
+      {
+        "value": "3188",
+        "label": "FLAN CON CARAMELO"
+      },
+      {
+        "value": "3179",
+        "label": "MAJARETE"
+      },
+      {
+        "value": "3184",
+        "label": "NATILLA"
+      },
+      {
+        "value": "3176",
+        "label": "PUDIN DE CHOCOLATE"
+      },
+      {
+        "value": "3183",
+        "label": "TEMBLEQUE"
+      }
+    ],
+    "miel-de-abeja": [
+      {
+        "value": "3206",
+        "label": "MIEL ABEJA CON PANAL"
+      },
+      {
+        "value": "3210",
+        "label": "MIEL ABEJA CON PANAL"
+      },
+      {
+        "value": "3200",
+        "label": "MIEL ABEJA SIN PANAL"
+      },
+      {
+        "value": "3202",
+        "label": "MIEL ABEJA SIN PANAL"
+      },
+      {
+        "value": "3204",
+        "label": "MIEL ABEJA SIN PANAL"
+      }
+    ],
+    "agave": [
+      {
+        "value": "3205",
+        "label": "AGAVE ORGANICO"
+      }
+    ],
+    "cubitos": [
+      {
+        "value": "3242",
+        "label": "CUBITOS DE CARNE"
+      },
+      {
+        "value": "3239",
+        "label": "CUBITOS DE CARNE BAJO EN SODIO"
+      },
+      {
+        "value": "3240",
+        "label": "CUBITOS DE POLLO"
+      },
+      {
+        "value": "3245",
+        "label": "CUBITOS DE POLLO"
+      },
+      {
+        "value": "3246",
+        "label": "CUBITOS DE POLLO"
+      },
+      {
+        "value": "3237",
+        "label": "CUBITOS DE POLLO BAJO EN SODIO"
+      },
+      {
+        "value": "3243",
+        "label": "CUBITOS EN POLVO POLLO Y TOMATE"
+      }
+    ],
+    "carnes": [
+      {
+        "value": "3313",
+        "label": "CHORIZOS"
+      },
+      {
+        "value": "3314",
+        "label": "CHORIZOS"
+      },
+      {
+        "value": "3318",
+        "label": "CHORIZOS MENOS SODIO"
+      },
+      {
+        "value": "3361",
+        "label": "CORNED BEEF"
+      },
+      {
+        "value": "3358",
+        "label": "JAMON ENLATADO"
+      },
+      {
+        "value": "3381",
+        "label": "JAMONILLA"
+      },
+      {
+        "value": "3387",
+        "label": "POTTED MEAT"
+      },
+      {
+        "value": "3388",
+        "label": "POTTED MEAT"
+      },
+      {
+        "value": "3327",
+        "label": "SALCHICHAS"
+      },
+      {
+        "value": "3324",
+        "label": "SALCHICHAS PICANTES"
+      }
+    ],
+    "mantecas": [
+      {
+        "value": "3401",
+        "label": "MANTECA"
+      },
+      {
+        "value": "3402",
+        "label": "MANTECA"
+      },
+      {
+        "value": "3403",
+        "label": "MANTECA"
+      }
+    ],
+    "mariscos": [
+      {
+        "value": "3625",
+        "label": "ATUN BLANCO-BONITO NORTE"
+      },
+      {
+        "value": "3624",
+        "label": "BACALAO A LA VIZCAINA"
+      },
+      {
+        "value": "3638",
+        "label": "CALAMAR JUMBO A LA MARINE"
+      },
+      {
+        "value": "3639",
+        "label": "CALAMAR JUMBO AL AJILLO"
+      },
+      {
+        "value": "3607",
+        "label": "CALAMAR JUMBO EN ACEITE OLIVA"
+      },
+      {
+        "value": "3637",
+        "label": "CALAMAR JUMBO EN ACEITE OLIVA"
+      },
+      {
+        "value": "3640",
+        "label": "CALAMAR JUMBO PICANTE"
+      },
+      {
+        "value": "3634",
+        "label": "CALAMARES TROZOS PICANTES"
+      },
+      {
+        "value": "3632",
+        "label": "CALAMARES TROZOS TINTA"
+      },
+      {
+        "value": "3633",
+        "label": "FILETE DE CALAMARES EN TINTA"
+      },
+      {
+        "value": "3621",
+        "label": "MACARELA"
+      },
+      {
+        "value": "3631",
+        "label": "MACARELA EN SALSA TOMATE"
+      },
+      {
+        "value": "3630",
+        "label": "MEJILLONES EN ESCABECHE"
+      },
+      {
+        "value": "3664",
+        "label": "PINK SALMON"
+      },
+      {
+        "value": "3669",
+        "label": "PULPO EN ACEITE DE OLIVA"
+      },
+      {
+        "value": "3617",
+        "label": "SARDINA TINAPA PICANTE"
+      },
+      {
+        "value": "3615",
+        "label": "SARDINA TINAPA SALSA TOMATE"
+      },
+      {
+        "value": "3610",
+        "label": "SARDINAS ACEITE OLIVA"
+      },
+      {
+        "value": "3612",
+        "label": "SARDINAS EN TOMATE"
+      },
+      {
+        "value": "3616",
+        "label": "SARDINAS OVALADAS PICANTE"
+      },
+      {
+        "value": "3611",
+        "label": "SARDINAS PICANTES"
+      },
+      {
+        "value": "3613",
+        "label": "SARDINAS TOMATE OVAL"
+      },
+      {
+        "value": "3627",
+        "label": "SARDINILLA EN ACEITE VEGETAL"
+      }
+    ],
+    "leche-evaporada-y-condensada": [
+      {
+        "value": "3690",
+        "label": "LECHE CONDENSADA"
+      },
+      {
+        "value": "3695",
+        "label": "LECHE CONDENSADA NELA"
+      },
+      {
+        "value": "3691",
+        "label": "LECHE EVAPORADA"
+      }
+    ],
+    "productos-cortes": [
+      {
+        "value": "3957",
+        "label": "CHOCOLATE CORTES BARRA"
+      },
+      {
+        "value": "5139",
+        "label": "CHOCOLATE CORTES CON CANELA"
+      },
+      {
+        "value": "5141",
+        "label": "CHOCOLATE MOLIDO"
+      },
+      {
+        "value": "3721",
+        "label": "CHOCOLATE MOLIDO LITE"
+      },
+      {
+        "value": "5140",
+        "label": "CHOCOLATE MOLIDO LITE"
+      },
+      {
+        "value": "5122",
+        "label": "CORTES INSTANTANEO CHOCALATE"
+      },
+      {
+        "value": "3932",
+        "label": "EMBAJADOR BARRA"
+      }
+    ],
+    "sales": [
+      {
+        "value": "3890",
+        "label": "SAL DE MAR"
+      },
+      {
+        "value": "3734",
+        "label": "SAL KOSHER"
+      },
+      {
+        "value": "3723",
+        "label": "SAL PARRILLERA"
+      },
+      {
+        "value": "3815",
+        "label": "SAL YODADA"
+      },
+      {
+        "value": "3801",
+        "label": "SAL YODADA CON 33% MENOS SODIO"
+      }
+    ],
+    "especias": [
+      {
+        "value": "3831",
+        "label": "ACHIOTE"
+      },
+      {
+        "value": "3832",
+        "label": "ACHIOTE"
+      },
+      {
+        "value": "3733",
+        "label": "AJO CON SAL"
+      },
+      {
+        "value": "3810",
+        "label": "AJO EN POLVO"
+      },
+      {
+        "value": "3748",
+        "label": "AJO MOLIDO"
+      },
+      {
+        "value": "3736",
+        "label": "ANIS EN ESTRELLA"
+      },
+      {
+        "value": "3728",
+        "label": "ANIS EN SEMILLA"
+      },
+      {
+        "value": "3740",
+        "label": "CANELA EN RAMA"
+      },
+      {
+        "value": "3750",
+        "label": "CANELA MOLIDA"
+      },
+      {
+        "value": "3812",
+        "label": "CEBOLLA EN POLVO"
+      },
+      {
+        "value": "3756",
+        "label": "CEBOLLA POLVO"
+      },
+      {
+        "value": "3741",
+        "label": "CHILI MOLIDO"
+      },
+      {
+        "value": "3729",
+        "label": "CLAVOS DE ESPECIAS"
+      },
+      {
+        "value": "3746",
+        "label": "COMINO MOLIDO"
+      },
+      {
+        "value": "3811",
+        "label": "COMINO MOLIDO"
+      },
+      {
+        "value": "3743",
+        "label": "COMINO SEMILLAS"
+      },
+      {
+        "value": "3813",
+        "label": "HOJA DE LAUREL"
+      },
+      {
+        "value": "3737",
+        "label": "HOJAS DE LAUREL"
+      },
+      {
+        "value": "3742",
+        "label": "JAMAICAN CURRY POWDER"
+      },
+      {
+        "value": "3807",
+        "label": "OREGANO EN HOJA"
+      },
+      {
+        "value": "3732",
+        "label": "PIMIENTA EN GRANO"
+      },
+      {
+        "value": "3814",
+        "label": "PIMIENTA MOLIDA"
+      }
+    ],
+    "sazones": [
+      {
+        "value": "3838",
+        "label": "CONCENTRADO DE JAMON"
+      },
+      {
+        "value": "3875",
+        "label": "JAMON CONCEN BAJO EN SODIO"
+      },
+      {
+        "value": "3837",
+        "label": "JAMON CONCENTRADO"
+      },
+      {
+        "value": "3786",
+        "label": "SAZON CILANTRO Y TOMATE"
+      },
+      {
+        "value": "3774",
+        "label": "SAZON CON AJO Y CEBOLLA"
+      },
+      {
+        "value": "3777",
+        "label": "SAZON CON AZAFRAN"
+      },
+      {
+        "value": "3784",
+        "label": "SAZON CON AZAFRAN"
+      },
+      {
+        "value": "3769",
+        "label": "SAZON CON OREGANO BAJO SODIO"
+      },
+      {
+        "value": "3772",
+        "label": "SAZON CULANTRO Y ACHIOTE"
+      },
+      {
+        "value": "3778",
+        "label": "SAZON CULANTRO Y ACHIOTE"
+      },
+      {
+        "value": "3779",
+        "label": "SAZON CULANTRO Y ACHIOTE"
+      },
+      {
+        "value": "3781",
+        "label": "SAZON CULANTRO Y ACHIOTE"
+      },
+      {
+        "value": "3782",
+        "label": "SAZON CULANTRO Y ACHIOTE"
+      },
+      {
+        "value": "3783",
+        "label": "SAZON CULANTRO Y ACHIOTE"
+      },
+      {
+        "value": "3790",
+        "label": "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO"
+      },
+      {
+        "value": "3794",
+        "label": "SAZON CULANTRO Y ACHIOTE BAJO EN SODIO"
+      },
+      {
+        "value": "3776",
+        "label": "SAZON CULANTRO Y ACHIOTE JUMBO"
+      },
+      {
+        "value": "3840",
+        "label": "SEASONING PARA VEGETALES Y ENSALADAS"
+      },
+      {
+        "value": "3841",
+        "label": "SEASONING PARA VEGETALES Y ENSALADAS"
+      }
+    ],
+    "vinos": [
+      {
+        "value": "3804",
+        "label": "VINO BLANCO DE COCINAR"
+      },
+      {
+        "value": "3808",
+        "label": "VINO DORADO DE COCINAR"
+      },
+      {
+        "value": "3785",
+        "label": "VINO DORADO LA VINA"
+      },
+      {
+        "value": "3789",
+        "label": "VINO LA VINA BLANCO"
+      },
+      {
+        "value": "3787",
+        "label": "VINO LA VINA ROJO"
+      },
+      {
+        "value": "3805",
+        "label": "VINO TINTO DE COCINAR"
+      }
+    ],
+    "sazonador-total": [
+      {
+        "value": "3882",
+        "label": "SAZONADOR TOTAL"
+      },
+      {
+        "value": "3883",
+        "label": "SAZONADOR TOTAL"
+      },
+      {
+        "value": "3884",
+        "label": "SAZONADOR TOTAL"
+      },
+      {
+        "value": "3885",
+        "label": "SAZONADOR TOTAL"
+      },
+      {
+        "value": "3876",
+        "label": "SAZONADOR TOTAL BREAD CRUMBS"
+      },
+      {
+        "value": "3802",
+        "label": "SAZONADOR TOTAL CON PIMIETA"
+      }
+    ],
+    "adobos": [
+      {
+        "value": "3856",
+        "label": "ADOBO CON AZAFRAN"
+      },
+      {
+        "value": "3858",
+        "label": "ADOBO CON AZAFRAN"
+      },
+      {
+        "value": "3820",
+        "label": "ADOBO CON COMINO"
+      },
+      {
+        "value": "3821",
+        "label": "ADOBO CON COMINO"
+      },
+      {
+        "value": "3822",
+        "label": "ADOBO CON COMINO"
+      },
+      {
+        "value": "3844",
+        "label": "ADOBO CON COMINO"
+      },
+      {
+        "value": "3903",
+        "label": "ADOBO CON CULANTRO Y ACHIOTE"
+      },
+      {
+        "value": "3904",
+        "label": "ADOBO CON CULANTRO Y ACHIOTE"
+      },
+      {
+        "value": "3816",
+        "label": "ADOBO CON LIMON"
+      },
+      {
+        "value": "3835",
+        "label": "ADOBO CON LIMON"
+      },
+      {
+        "value": "3874",
+        "label": "ADOBO CON LIMON"
+      },
+      {
+        "value": "3877",
+        "label": "ADOBO CON NARANJA"
+      },
+      {
+        "value": "3817",
+        "label": "ADOBO CON NARANJA AGRIA"
+      },
+      {
+        "value": "3834",
+        "label": "ADOBO CON NARANJA AGRIA"
+      },
+      {
+        "value": "3824",
+        "label": "ADOBO CON PIMIENTA"
+      },
+      {
+        "value": "3826",
+        "label": "ADOBO CON PIMIENTA"
+      },
+      {
+        "value": "3827",
+        "label": "ADOBO CON PIMIENTA"
+      },
+      {
+        "value": "3828",
+        "label": "ADOBO CON PIMIENTA"
+      },
+      {
+        "value": "3842",
+        "label": "ADOBO CON PIMIENTA"
+      },
+      {
+        "value": "3819",
+        "label": "ADOBO CON PIQUE"
+      },
+      {
+        "value": "3836",
+        "label": "ADOBO LIGHT CON PIMIENTA"
+      },
+      {
+        "value": "3860",
+        "label": "ADOBO LIGHT CON PIMIENTA"
+      },
+      {
+        "value": "3839",
+        "label": "ADOBO LIGHT SIN PIMIENTA"
+      },
+      {
+        "value": "3861",
+        "label": "ADOBO LIGHT SIN PIMIENTA"
+      },
+      {
+        "value": "3823",
+        "label": "ADOBO SIN PIMIENTA"
+      },
+      {
+        "value": "3825",
+        "label": "ADOBO SIN PIMIENTA"
+      },
+      {
+        "value": "3829",
+        "label": "ADOBO SIN PIMIENTA"
+      },
+      {
+        "value": "3830",
+        "label": "ADOBO SIN PIMIENTA"
+      },
+      {
+        "value": "3843",
+        "label": "ADOBO SIN PIMIENTA"
+      }
+    ],
+    "aji-y-salsas-picantes": [
+      {
+        "value": "3852",
+        "label": "AJIES ROJOS PICANTES"
+      },
+      {
+        "value": "3854",
+        "label": "AJIES VERDES PICANTES"
+      },
+      {
+        "value": "3855",
+        "label": "SALSA PICANTE"
+      },
+      {
+        "value": "3857",
+        "label": "SALSA PICANTE"
+      },
+      {
+        "value": "3859",
+        "label": "SALSA PICANTE"
+      }
+    ],
+    "mayonesa-y-ketchup": [
+      {
+        "value": "3862",
+        "label": "KETCHUP"
+      },
+      {
+        "value": "3871",
+        "label": "MAYO KETCHUP"
+      }
+    ],
+    "salsa-para-pastas": [
+      {
+        "value": "3878",
+        "label": "SALSA DE ESPAGUETI CILANTRO"
+      },
+      {
+        "value": "3880",
+        "label": "SALSA DE ESPAGUETI CON CARNE"
+      },
+      {
+        "value": "3879",
+        "label": "SALSA DE ESPAGUETI MARINA"
+      },
+      {
+        "value": "3881",
+        "label": "SALSA DE ESPAGUETI TOMATE Y ALBAHACA"
+      },
+      {
+        "value": "3864",
+        "label": "SALSA DE ESPAGUETI TRADICIONAL"
+      }
+    ],
+    "ajo": [
+      {
+        "value": "3912",
+        "label": "AJO PICADO"
+      },
+      {
+        "value": "3913",
+        "label": "AJO PICADO"
+      },
+      {
+        "value": "3914",
+        "label": "AJO PICADO"
+      },
+      {
+        "value": "3905",
+        "label": "AJO PICADO SQUEEZE IT"
+      }
+    ],
+    "productos-de-tomate": [
+      {
+        "value": "3909",
+        "label": "TOMATES EN TROZOS"
+      }
+    ],
+    "pimientos-morrones": [
+      {
+        "value": "3926",
+        "label": "PIMIENTO MORRON ASADO"
+      },
+      {
+        "value": "3920",
+        "label": "PIMIENTO PIQUILLO"
+      },
+      {
+        "value": "3921",
+        "label": "PIMIENTOS MORRONES"
+      },
+      {
+        "value": "3923",
+        "label": "PIMIENTOS MORRONES"
+      },
+      {
+        "value": "3925",
+        "label": "PIMIENTOS MORRONES"
+      },
+      {
+        "value": "3927",
+        "label": "PIMIENTOS MORRONES"
+      },
+      {
+        "value": "3928",
+        "label": "PIMIENTOS MORRONES"
+      },
+      {
+        "value": "3929",
+        "label": "PIMIENTOS MORRONES"
+      },
+      {
+        "value": "3930",
+        "label": "PIMIENTOS MORRONES REBANADOS"
+      }
+    ],
+    "salsa-de-tomates": [
+      {
+        "value": "3953",
+        "label": "SALSA DE TOMATE"
+      },
+      {
+        "value": "3961",
+        "label": "SALSA DE TOMATE"
+      },
+      {
+        "value": "3963",
+        "label": "SALSA DE TOMATE"
+      },
+      {
+        "value": "3948",
+        "label": "SALSA DE TOMATE GOYA BAJA EN SODIO"
+      },
+      {
+        "value": "3934",
+        "label": "SALSA DE TOMATE PICANTE"
+      },
+      {
+        "value": "3936",
+        "label": "SALSA DE TOMATE Y CEBOLLA/A"
+      }
+    ],
+    "pastas": [
+      {
+        "value": "3967",
+        "label": "CABELLO DE ANGEL"
+      },
+      {
+        "value": "3979",
+        "label": "CODITOS"
+      },
+      {
+        "value": "4384",
+        "label": "CODITOS"
+      },
+      {
+        "value": "3965",
+        "label": "CODOS"
+      },
+      {
+        "value": "3966",
+        "label": "CONCHAS"
+      },
+      {
+        "value": "3982",
+        "label": "CONCHAS"
+      },
+      {
+        "value": "4383",
+        "label": "CONCHAS"
+      },
+      {
+        "value": "3958",
+        "label": "CUT ZITI"
+      },
+      {
+        "value": "4388",
+        "label": "FETTUCCINE"
+      },
+      {
+        "value": "3959",
+        "label": "FUSILLI"
+      },
+      {
+        "value": "4386",
+        "label": "LASAGNA"
+      },
+      {
+        "value": "3951",
+        "label": "LASAGNE"
+      },
+      {
+        "value": "3977",
+        "label": "LETRAS"
+      },
+      {
+        "value": "4389",
+        "label": "LINGUINE"
+      },
+      {
+        "value": "4381",
+        "label": "MACARRONES"
+      },
+      {
+        "value": "3941",
+        "label": "PASTA BOWTIE"
+      },
+      {
+        "value": "3968",
+        "label": "PASTA DE TOMATE"
+      },
+      {
+        "value": "3970",
+        "label": "PASTA DE TOMATE"
+      },
+      {
+        "value": "3969",
+        "label": "PASTA DE TOMATE GOYA"
+      },
+      {
+        "value": "3962",
+        "label": "PENNE RIGATE"
+      },
+      {
+        "value": "4385",
+        "label": "PENNE RIGATE"
+      },
+      {
+        "value": "3952",
+        "label": "RIGATONI"
+      },
+      {
+        "value": "4380",
+        "label": "RIGATONI"
+      },
+      {
+        "value": "4382",
+        "label": "ROTINI"
+      },
+      {
+        "value": "3964",
+        "label": "SPAGHETTI"
+      },
+      {
+        "value": "3980",
+        "label": "SPAGHETTI"
+      },
+      {
+        "value": "4387",
+        "label": "SPAGHETTI"
+      }
+    ],
+    "chocolate": [
+      {
+        "value": "3955",
+        "label": "CHOCOLATE"
+      }
+    ],
+    "fideos": [
+      {
+        "value": "3975",
+        "label": "CABELLO DE ANGEL FINO"
+      },
+      {
+        "value": "3976",
+        "label": "CABELLO DE ANGEL FINO"
+      },
+      {
+        "value": "3971",
+        "label": "FIDEOS"
+      },
+      {
+        "value": "3973",
+        "label": "FIDEOS FIDELINI"
+      },
+      {
+        "value": "3983",
+        "label": "FIDEOS GRUESOS"
+      }
+    ],
+    "malta": [
+      {
+        "value": "4018",
+        "label": "EXTRAC. MALTA MORENA"
+      },
+      {
+        "value": "3984",
+        "label": "MALTA GOYA 4/6 PACK"
+      }
+    ],
+    "refrescos": [
+      {
+        "value": "3998",
+        "label": "COLA CHAMPAGNE SODA"
+      },
+      {
+        "value": "3996",
+        "label": "FRUIT PUNCH SODA"
+      },
+      {
+        "value": "4000",
+        "label": "REFRESCO DE COCO"
+      },
+      {
+        "value": "4004",
+        "label": "REFRESCO DE FRESA GOYA"
+      },
+      {
+        "value": "3988",
+        "label": "REFRESCO DE PINA"
+      },
+      {
+        "value": "3990",
+        "label": "REFRESCO DE TAMARINDO"
+      },
+      {
+        "value": "4021",
+        "label": "REFRESCO DE UVA"
+      }
+    ],
+    "agua-de-florida": [
+      {
+        "value": "4170",
+        "label": "AGUA DE FLORIDA"
+      }
+    ],
+    "galletas-maria": [
+      {
+        "value": "4942",
+        "label": "GALLETAS MARIA 100"
+      },
+      {
+        "value": "4943",
+        "label": "GALLETAS MARIA 200"
+      },
+      {
+        "value": "4951",
+        "label": "GALLETAS MARIA FLOW PACK"
+      },
+      {
+        "value": "4962",
+        "label": "LADY FINGERS"
+      },
+      {
+        "value": "4947",
+        "label": "PALMERITAS"
+      },
+      {
+        "value": "4967",
+        "label": "PALMERITAS"
+      }
+    ],
+    "galletas-wafers": [
+      {
+        "value": "4988",
+        "label": "WAFERS CHOCO-VAINILLA"
+      },
+      {
+        "value": "5011",
+        "label": "WAFERS DE CHOCOLATE"
+      },
+      {
+        "value": "5010",
+        "label": "WAFERS DE COCO"
+      },
+      {
+        "value": "5015",
+        "label": "WAFERS DE DULCE DE LECHE"
+      },
+      {
+        "value": "5017",
+        "label": "WAFERS DE FRESA"
+      },
+      {
+        "value": "5016",
+        "label": "WAFERS DE GUAYABA"
+      },
+      {
+        "value": "5018",
+        "label": "WAFERS DE MANGO"
+      },
+      {
+        "value": "5009",
+        "label": "WAFERS DE PINA"
+      },
+      {
+        "value": "5019",
+        "label": "WAFERS DE VAINILLA"
+      },
+      {
+        "value": "4989",
+        "label": "WAFERS FRESA-CHOCO"
+      },
+      {
+        "value": "4987",
+        "label": "WAFERS VAINILLA-FRESA"
+      }
+    ],
+    "harinas": [
+      {
+        "value": "5080",
+        "label": "BULGAR WHEAT KIEPE"
+      },
+      {
+        "value": "5079",
+        "label": "BULGAR WHEAT-KIEPE"
+      },
+      {
+        "value": "5105",
+        "label": "HARINA DE ARROZ"
+      },
+      {
+        "value": "5106",
+        "label": "HARINA DE ARROZ"
+      },
+      {
+        "value": "5108",
+        "label": "HARINA DE MAIZ EXTRA FINA"
+      },
+      {
+        "value": "5109",
+        "label": "HARINA DE MAIZ EXTRA FINA"
+      },
+      {
+        "value": "5086",
+        "label": "HARINA DE MAIZ FINA"
+      },
+      {
+        "value": "5100",
+        "label": "HARINA DE MAIZ FINA"
+      },
+      {
+        "value": "5101",
+        "label": "HARINA DE MAIZ FINA"
+      },
+      {
+        "value": "5087",
+        "label": "HARINA DE MAIZ GRUESA"
+      },
+      {
+        "value": "5099",
+        "label": "HARINA DE MAIZ GRUESA"
+      },
+      {
+        "value": "5103",
+        "label": "HARINA DE TRIGO"
+      },
+      {
+        "value": "5104",
+        "label": "HARINA DE TRIGO"
+      },
+      {
+        "value": "5093",
+        "label": "HARINA DE YUCA"
+      },
+      {
+        "value": "5102",
+        "label": "HARINA MAIZ GRUESA"
+      },
+      {
+        "value": "5076",
+        "label": "MASAREPA AMARILLA"
+      },
+      {
+        "value": "5078",
+        "label": "MASAREPA AMARILLA"
+      },
+      {
+        "value": "5075",
+        "label": "MASAREPA BLANCA"
+      },
+      {
+        "value": "5077",
+        "label": "MASAREPA HARINA MAIZ BLANCA"
+      }
+    ],
+    "bacalaitos-y-aitos": [
+      {
+        "value": "5090",
+        "label": "AITOS CAMARONES"
+      },
+      {
+        "value": "5098",
+        "label": "BACALAITOS"
+      },
+      {
+        "value": "5097",
+        "label": "BACALAITOS DISPLAY"
+      }
+    ],
+    "turrones": [
+      {
+        "value": "6291",
+        "label": "ARCA NAVID PEQUENO"
+      },
+      {
+        "value": "6269",
+        "label": "BARQ CAFE MOCA"
+      },
+      {
+        "value": "6264",
+        "label": "BARQ DE TURRON"
+      },
+      {
+        "value": "6263",
+        "label": "FIG DE MAZAPAN"
+      },
+      {
+        "value": "6259",
+        "label": "PORCIONES ALICANTE 4 CS/2"
+      },
+      {
+        "value": "6220",
+        "label": "S/M ALICANTE"
+      },
+      {
+        "value": "6221",
+        "label": "S/M ALICANTE"
+      },
+      {
+        "value": "6225",
+        "label": "S/M JIJONA"
+      },
+      {
+        "value": "6150",
+        "label": "SANCHIS MIRA MEMBRILLO"
+      },
+      {
+        "value": "6274",
+        "label": "TURR ALICAN S/A"
+      },
+      {
+        "value": "6273",
+        "label": "TURR JIJONA S/A"
+      }
+    ],
+    "productos-limpiolin": [
+      {
+        "value": "6959",
+        "label": "CERAMIKA CLEANER"
+      },
+      {
+        "value": "6953",
+        "label": "LIMPIOLIN BEBE"
+      },
+      {
+        "value": "6951",
+        "label": "LIMPIOLIN FLORAL"
+      },
+      {
+        "value": "6950",
+        "label": "LIMPIOLIN LAVANDA"
+      },
+      {
+        "value": "6955",
+        "label": "LIMPIOLIN PRIMAVERAL"
+      }
+    ],
+    "velas": [
+      {
+        "value": "7156",
+        "label": "50 HORAS AMARILLAS"
+      },
+      {
+        "value": "7157",
+        "label": "50 HORAS VELAS ROJAS"
+      },
+      {
+        "value": "7158",
+        "label": "50 HORAS VERDES"
+      },
+      {
+        "value": "7150",
+        "label": "NUESTRA SRA. DE FATIMA"
+      },
+      {
+        "value": "7128",
+        "label": "VELAS 7 POTENCIAS AFRICAN"
+      },
+      {
+        "value": "7108",
+        "label": "VELAS AMARILLAS LISAS"
+      },
+      {
+        "value": "7103",
+        "label": "VELAS AZULES LISA"
+      },
+      {
+        "value": "7102",
+        "label": "VELAS BLANCAS LISA"
+      },
+      {
+        "value": "7124",
+        "label": "VELAS CARIDAD DEL COBRE"
+      },
+      {
+        "value": "7154",
+        "label": "VELAS DIVINO NINO"
+      },
+      {
+        "value": "7116",
+        "label": "VELAS GRAN PODER"
+      },
+      {
+        "value": "7164",
+        "label": "VELAS JUAN PABLO II"
+      },
+      {
+        "value": "7146",
+        "label": "VELAS JUSTO JUEZ"
+      },
+      {
+        "value": "7130",
+        "label": "VELAS MADRE DE LA MILAGRO"
+      },
+      {
+        "value": "7119",
+        "label": "VELAS MANO PODEROSA"
+      },
+      {
+        "value": "7106",
+        "label": "VELAS ROJAS LISAS"
+      },
+      {
+        "value": "7120",
+        "label": "VELAS SAGRADO CORAZON"
+      },
+      {
+        "value": "7147",
+        "label": "VELAS SAN JOSE"
+      },
+      {
+        "value": "7122",
+        "label": "VELAS SAN JUDAS"
+      },
+      {
+        "value": "7121",
+        "label": "VELAS SAN LAZARO"
+      },
+      {
+        "value": "7126",
+        "label": "VELAS SANTA BARBARA"
+      },
+      {
+        "value": "7134",
+        "label": "VELAS SANTA CLARA"
+      },
+      {
+        "value": "7114",
+        "label": "VELAS SANTA MARTA"
+      },
+      {
+        "value": "7104",
+        "label": "VELAS VERDES LISAS"
+      }
+    ]
+  }
+}
