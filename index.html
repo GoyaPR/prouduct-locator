@@ -7,39 +7,30 @@
   <style>
     :root{--brand:#0c4a6e;--brand-600:#0b4160;--text:#0f172a;--muted:#64748b;--border:#e2e8f0;--bg:#fff;--radius:14px;--shadow:0 10px 30px rgba(2,6,23,.08)}
     html,body{height:100%}
-    body{
-      margin:0; display:grid; place-items:center; padding:24px;
-      font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
-      color:var(--text); background:var(--bg)
-    }
-    .wrap{width:100%; max-width:680px; text-align:center}
-    h1{margin:0 0 8px; font-size:clamp(32px,5vw,56px); line-height:1.05; letter-spacing:-.5px}
-    .sub{margin:0 auto 32px; color:var(--muted); font-size:clamp(14px,2.2vw,18px); max-width:52ch}
-    .card{background:#fff; border:1px solid var(--border); border-radius:22px; padding:clamp(16px,3.2vw,28px); box-shadow:var(--shadow)}
-    .field{text-align:left; margin-bottom:14px}
-    label{display:block; font-size:13px; color:var(--muted); margin:0 0 6px}
+    body{margin:0;display:grid;place-items:center;padding:24px;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--text);background:var(--bg)}
+    .wrap{width:100%;max-width:680px;text-align:center}
+    h1{margin:0 0 8px;font-size:clamp(32px,5vw,56px);line-height:1.05;letter-spacing:-.5px}
+    .sub{margin:0 auto 32px;color:var(--muted);font-size:clamp(14px,2.2vw,18px);max-width:52ch}
+    .card{background:#fff;border:1px solid var(--border);border-radius:22px;padding:clamp(16px,3.2vw,28px);box-shadow:var(--shadow)}
+    .field{text-align:left;margin-bottom:14px}
+    label{display:block;font-size:13px;color:var(--muted);margin:0 0 6px}
     select{
-      width:100%; box-sizing:border-box; font-size:16px; padding:14px 16px;
-      border:1px solid var(--border); border-radius:14px; background:#fff;
-      transition:box-shadow .15s, border-color .15s, background-color .15s;
-      appearance:none;
+      width:100%;box-sizing:border-box;font-size:16px;padding:14px 16px;border:1px solid var(--border);
+      border-radius:14px;background:#fff;transition:box-shadow .15s,border-color .15s,background-color .15s;appearance:none;
       background-image:linear-gradient(45deg,transparent 50%,#94a3b8 50%),linear-gradient(135deg,#94a3b8 50%,transparent 50%);
       background-position:calc(100% - 22px) calc(1em + 2px), calc(100% - 16px) calc(1em + 2px);
-      background-size:6px 6px, 6px 6px; background-repeat:no-repeat
+      background-size:6px 6px,6px 6px;background-repeat:no-repeat
     }
-    select:focus{border-color:#94a3b8; box-shadow:0 0 0 4px rgba(148,163,184,.20)}
-    select:disabled{background:#f8fafc; color:#94a3b8; cursor:not-allowed}
+    select:focus{border-color:#94a3b8;box-shadow:0 0 0 4px rgba(148,163,184,.20)}
+    select:disabled{background:#f8fafc;color:#94a3b8;cursor:not-allowed}
     .actions{margin-top:10px}
     button{
-      width:100%; font-size:18px; font-weight:600; padding:16px 20px;
-      background:var(--brand); color:#fff; border:0; border-radius:999px; cursor:pointer;
-      transition:transform .06s, background .15s, box-shadow .15s;
-      box-shadow:0 6px 18px rgba(12,74,110,.25)
+      width:100%;font-size:18px;font-weight:600;padding:16px 20px;background:var(--brand);color:#fff;border:0;border-radius:999px;cursor:pointer;
+      transition:transform .06s, background .15s, box-shadow .15s; box-shadow:0 6px 18px rgba(12,74,110,.25)
     }
-    button:hover{background:var(--brand-600)}
-    button:active{transform:translateY(1px)}
-    button:disabled{background:#cbd5e1; box-shadow:none; cursor:not-allowed}
-    .hint{margin-top:10px; color:var(--muted); font-size:13px; min-height:1.2em; text-align:left}
+    button:hover{background:var(--brand-600)} button:active{transform:translateY(1px)}
+    button:disabled{background:#cbd5e1;box-shadow:none;cursor:not-allowed}
+    .hint{margin-top:10px;color:var(--muted);font-size:13px;min-height:1.2em;text-align:left}
   </style>
 </head>
 <body>
@@ -70,10 +61,9 @@
   </main>
 
   <script>
-    // Always use labelWithWeight from the JSON
-    // Add a cache-busting query string to avoid stale CDN content while iterating.
+    // Use the UI-shaped JSON directly and prefer labelWithWeight.
     const BASE_URL = "https://cdn.jsdelivr.net/gh/goyapr/product-locator/locator.json";
-    const JSON_URL = `${BASE_URL}?v=${Date.now()}`;
+    const JSON_URL = `${BASE_URL}?v=${Date.now()}`; // cache-buster
 
     const $cat  = document.getElementById("cat");
     const $prod = document.getElementById("prod");
@@ -82,74 +72,31 @@
 
     const opt = (v,t) => { const o=document.createElement("option"); o.value=String(v??""); o.textContent=String(t??v??""); return o; };
 
-    // Accepts UI-shape or normalized shape, but carries labelWithWeight through.
-    function normalizeData(raw){
-      // UI shape: { categories:[{value,label}], byCategory:{slug:[{value,label,labelWithWeight}]} }
-      if (raw && Array.isArray(raw.categories) && raw.byCategory && typeof raw.byCategory==="object"){
-        const categories = raw.categories.map(c=>({slug:c.value, name:c.label}))
-          .sort((a,b)=>a.name.localeCompare(b.name));
-        const productsByCat = {};
-        for (const [slug, list] of Object.entries(raw.byCategory)){
-          productsByCat[slug] = (list||[]).map(p => ({
-            slug: p.value,
-            // keep base name too (optional)
-            name: p.label ?? p.value,
-            labelWithWeight: p.labelWithWeight || p.label // assume it’s present
-          })).sort((a,b)=> (a.labelWithWeight||a.name).localeCompare(b.labelWithWeight||b.name));
-        }
-        return { categories, productsByCat };
-      }
-      // Normalized: { categories:[{slug,name}], products:[{slug,name,category,labelWithWeight}] }
-      if (raw && Array.isArray(raw.categories) && Array.isArray(raw.products)){
-        const categories = raw.categories.map(c=>({slug:c.slug, name:c.name ?? c.slug}))
-          .sort((a,b)=>a.name.localeCompare(b.name));
-        const productsByCat = {};
-        for (const p of raw.products){
-          const cat = (p.category ?? "").trim(); if (!cat) continue;
-          (productsByCat[cat] ||= []).push({
-            slug: p.slug,
-            name: p.name ?? p.slug,
-            labelWithWeight: p.labelWithWeight || p.name
-          });
-        }
-        for (const k of Object.keys(productsByCat)){
-          productsByCat[k].sort((a,b)=> (a.labelWithWeight||a.name).localeCompare(b.labelWithWeight||b.name));
-        }
-        return { categories, productsByCat };
-      }
-      throw new Error("Estructura JSON no soportada.");
-    }
-
-    // Always show "Product Name - Weight" via labelWithWeight
-    const productLabel = (p) => p.labelWithWeight || p.name;
-
-    async function loadData(){
+    async function getData(){
       const res = await fetch(JSON_URL, { cache: "no-cache" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const raw = await res.json();
-      return normalizeData(raw);
+      return res.json();
     }
 
     (async function main(){
       let data;
-      try { data = await loadData(); }
-      catch (err) {
-        console.error(err);
+      try { data = await getData(); }
+      catch (e) {
+        console.error(e);
         $cat.innerHTML = ""; $cat.append(opt("", "No se pudo cargar el catálogo"));
         $hint.textContent = "Revisa el enlace del JSON o la estructura.";
         return;
       }
 
-      // Populate categories
+      // Expect data.categories: [{value,label}]
       $cat.innerHTML = "";
       $cat.append(opt("", "Selecciona una categoría…"));
-      for (const c of data.categories) $cat.append(opt(c.slug, c.name));
+      for (const c of (data.categories || [])) $cat.append(opt(c.value, c.label));
       $cat.disabled = false;
 
-      // On category change, populate products
       $cat.addEventListener("change", () => {
         const slug = $cat.value;
-        const list = data.productsByCat[slug] || [];
+        const list = (data.byCategory && data.byCategory[slug]) ? data.byCategory[slug] : [];
 
         $prod.innerHTML = "";
         if (!slug){
@@ -163,9 +110,19 @@
           return;
         }
 
+        // Count items missing labelWithWeight (debug help)
+        const missing = list.filter(p => !p.labelWithWeight).length;
+        if (missing > 0) {
+          console.warn(`Productos sin labelWithWeight en "${slug}":`, missing, list.slice(0,3));
+        } else {
+          console.log(`Ejemplo producto con labelWithWeight:`, list[0]);
+        }
+
         $prod.append(opt("", "Selecciona un producto…"));
         for (const p of list){
-          $prod.append(opt(p.slug, productLabel(p)));
+          // *** USE labelWithWeight ALWAYS (fallback to label if absent) ***
+          const text = p.labelWithWeight || p.label || p.value;
+          $prod.append(opt(p.value, text));
         }
         $prod.disabled = false; $go.disabled = true;
 
@@ -173,10 +130,8 @@
         $hint.textContent = `Se cargaron ${list.length} producto${list.length===1?"":"s"} para “${catLabel}”.`;
       });
 
-      // Enable button when a product is chosen
       $prod.addEventListener("change", () => { $go.disabled = !$prod.value; });
 
-      // Demo action for the button (replace with your logic)
       $go.addEventListener("click", (e) => {
         e.preventDefault();
         const cat = $cat.value, prod = $prod.value;
