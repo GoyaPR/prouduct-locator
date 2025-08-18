@@ -61,9 +61,9 @@
   </main>
 
   <script>
-    // Use the UI-shaped JSON directly and prefer labelWithWeight.
-    const BASE_URL = "https://cdn.jsdelivr.net/gh/goyapr/product-locator/locator.json";
-    const JSON_URL = `${BASE_URL}?v=${Date.now()}`; // cache-buster
+    // Fetch latest JSON directly from GitHub Raw (avoid CDN staleness)
+    const RAW_BASE = "https://raw.githubusercontent.com/goyapr/product-locator/refs/heads/main/locator.json";
+    const JSON_URL = `${RAW_BASE}?t=${Date.now()}`; // cache-buster
 
     const $cat  = document.getElementById("cat");
     const $prod = document.getElementById("prod");
@@ -73,7 +73,8 @@
     const opt = (v,t) => { const o=document.createElement("option"); o.value=String(v??""); o.textContent=String(t??v??""); return o; };
 
     async function getData(){
-      const res = await fetch(JSON_URL, { cache: "no-cache" });
+      const res = await fetch(JSON_URL, { cache: "no-store" });
+      console.log("Fetching:", res.url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
     }
@@ -88,15 +89,20 @@
         return;
       }
 
-      // Expect data.categories: [{value,label}]
+      // Expect UI shape: { categories:[{value,label}], byCategory:{slug:[{value,label,labelWithWeight}]}}
+      const categories = Array.isArray(data.categories) ? data.categories : [];
+      const byCategory = data.byCategory || {};
+
+      // Populate categories
       $cat.innerHTML = "";
       $cat.append(opt("", "Selecciona una categoría…"));
-      for (const c of (data.categories || [])) $cat.append(opt(c.value, c.label));
+      for (const c of categories) $cat.append(opt(c.value, c.label));
       $cat.disabled = false;
 
+      // When category changes, populate products using labelWithWeight
       $cat.addEventListener("change", () => {
         const slug = $cat.value;
-        const list = (data.byCategory && data.byCategory[slug]) ? data.byCategory[slug] : [];
+        const list = Array.isArray(byCategory[slug]) ? byCategory[slug] : [];
 
         $prod.innerHTML = "";
         if (!slug){
@@ -110,17 +116,15 @@
           return;
         }
 
-        // Count items missing labelWithWeight (debug help)
+        // Debug: check first product
+        console.log("Sample product:", list[0]);
+
+        // Warn if any product lacks labelWithWeight
         const missing = list.filter(p => !p.labelWithWeight).length;
-        if (missing > 0) {
-          console.warn(`Productos sin labelWithWeight en "${slug}":`, missing, list.slice(0,3));
-        } else {
-          console.log(`Ejemplo producto con labelWithWeight:`, list[0]);
-        }
+        if (missing > 0) console.warn(`Productos sin labelWithWeight en "${slug}":`, missing);
 
         $prod.append(opt("", "Selecciona un producto…"));
         for (const p of list){
-          // *** USE labelWithWeight ALWAYS (fallback to label if absent) ***
           const text = p.labelWithWeight || p.label || p.value;
           $prod.append(opt(p.value, text));
         }
@@ -132,6 +136,7 @@
 
       $prod.addEventListener("change", () => { $go.disabled = !$prod.value; });
 
+      // Demo action — replace with your redirect/search logic
       $go.addEventListener("click", (e) => {
         e.preventDefault();
         const cat = $cat.value, prod = $prod.value;
