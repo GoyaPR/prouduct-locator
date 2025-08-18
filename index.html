@@ -31,6 +31,13 @@
     button:hover{background:var(--brand-600)} button:active{transform:translateY(1px)}
     button:disabled{background:#cbd5e1;box-shadow:none;cursor:not-allowed}
     .hint{margin-top:10px;color:var(--muted);font-size:13px;min-height:1.2em;text-align:left}
+
+    /* Spinner + results */
+    #spinner{display:none;margin:16px auto;width:28px;height:28px;border:3px solid #e2e8f0;border-top-color:#0c4a6e;border-radius:50%;animation:spin 1s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    #myData{margin-top:18px;text-align:left}
+    #myData .store{padding:12px 0;border-bottom:1px solid var(--border)}
+    #myData .store a{display:inline-block;margin-top:6px}
   </style>
 </head>
 <body>
@@ -56,12 +63,16 @@
 
       <div class="actions">
         <button id="buscar" disabled>Buscar</button>
+        <div id="spinner" aria-hidden="true"></div>
       </div>
     </section>
+
+    <!-- Results -->
+    <div id="myData"></div>
   </main>
 
   <script>
-    // Fetch latest JSON directly from GitHub Raw (avoid CDN staleness)
+    // --- Load catalog from GitHub Raw (fresh) ---
     const RAW_BASE = "https://raw.githubusercontent.com/goyapr/product-locator/refs/heads/main/locator.json";
     const JSON_URL = `${RAW_BASE}?t=${Date.now()}`; // cache-buster
 
@@ -69,19 +80,20 @@
     const $prod = document.getElementById("prod");
     const $hint = document.getElementById("hint");
     const $go   = document.getElementById("buscar");
+    const $spinner = document.getElementById("spinner");
+    const $results = document.getElementById("myData");
 
     const opt = (v,t) => { const o=document.createElement("option"); o.value=String(v??""); o.textContent=String(t??v??""); return o; };
 
-    async function getData(){
+    async function getCatalog(){
       const res = await fetch(JSON_URL, { cache: "no-store" });
-      console.log("Fetching:", res.url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
     }
 
-    (async function main(){
+    (async function init(){
       let data;
-      try { data = await getData(); }
+      try { data = await getCatalog(); }
       catch (e) {
         console.error(e);
         $cat.innerHTML = ""; $cat.append(opt("", "No se pudo cargar el catálogo"));
@@ -89,7 +101,6 @@
         return;
       }
 
-      // Expect UI shape: { categories:[{value,label}], byCategory:{slug:[{value,label,labelWithWeight}]}}
       const categories = Array.isArray(data.categories) ? data.categories : [];
       const byCategory = data.byCategory || {};
 
@@ -99,7 +110,7 @@
       for (const c of categories) $cat.append(opt(c.value, c.label));
       $cat.disabled = false;
 
-      // When category changes, populate products using labelWithWeight
+      // When category changes, populate products (use labelWithWeight)
       $cat.addEventListener("change", () => {
         const slug = $cat.value;
         const list = Array.isArray(byCategory[slug]) ? byCategory[slug] : [];
@@ -116,15 +127,9 @@
           return;
         }
 
-        // Debug: check first product
-        console.log("Sample product:", list[0]);
-
-        // Warn if any product lacks labelWithWeight
-        const missing = list.filter(p => !p.labelWithWeight).length;
-        if (missing > 0) console.warn(`Productos sin labelWithWeight en "${slug}":`, missing);
-
         $prod.append(opt("", "Selecciona un producto…"));
         for (const p of list){
+          // value = SKU, text = labelWithWeight (fallback label)
           const text = p.labelWithWeight || p.label || p.value;
           $prod.append(opt(p.value, text));
         }
@@ -134,16 +139,112 @@
         $hint.textContent = `Se cargaron ${list.length} producto${list.length===1?"":"s"} para “${catLabel}”.`;
       });
 
+      // Enable the button when a product is selected
       $prod.addEventListener("change", () => { $go.disabled = !$prod.value; });
 
-      // Demo action — replace with your redirect/search logic
+      // Wire the button to geolocation + API lookup
       $go.addEventListener("click", (e) => {
         e.preventDefault();
-        const cat = $cat.value, prod = $prod.value;
-        if (!cat || !prod) return;
-        alert(`Buscar:\n• Categoría: ${cat}\n• Producto: ${prod}`);
+        getLocation(); // <--- call your flow
       });
     })();
+
+    // --------------------------
+    // Geolocation + API workflow
+    // --------------------------
+
+    const getLocation = () => {
+      const sku = document.getElementById("prod")?.value || "";
+
+      if (!sku) {
+        alert("Selecciona un producto primero.");
+        return;
+      }
+
+      // Clear previous results
+      if ($results) $results.innerHTML = "";
+
+      // Show spinner
+      if ($spinner) $spinner.style.display = "block";
+
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          (pos) => showPosition(pos, sku),
+          () => {
+            if ($spinner) $spinner.style.display = "none";
+            alert("Habilite la opción de geolocalización para poder usar la función de localizar productos.");
+          },
+          { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 }
+        );
+      } else {
+        if ($spinner) $spinner.style.display = "none";
+        alert("Geolocation is not supported by this browser.");
+      }
+    };
+
+    // Build API URL and fetch
+    const showPosition = (position, sku) => {
+      const lat = position.coords.latitude;
+      const long = position.coords.longitude;
+      const baseURL = "https://portal.goya.com/goyaapi/pr/productdistance";
+      const miles = 2.5; // adjust if needed
+
+      // API expects: /{sku}/{miles}/{long}/{lat}/
+      const locationUrl = `${baseURL}/${encodeURIComponent(sku)}/${miles}/${long}/${lat}/`;
+      console.log("[Locator] URL:", locationUrl);
+
+      return fetch(locationUrl)
+        .then((response) => {
+          if ($spinner) $spinner.style.display = "none";
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .then((data) => {
+          appendData(Array.isArray(data) ? data : []);
+        })
+        .catch((err) => {
+          console.error("Locator error:", err);
+          alert("Ocurrió un error obteniendo las tiendas. Intente nuevamente.");
+        });
+    };
+
+    const appendData = (data) => {
+      const mainContainer = document.getElementById("myData");
+      if (!mainContainer) return;
+
+      if (data.length === 0) {
+        const div = document.createElement("div");
+        div.innerHTML = `
+          <div style="text-align:center">
+            <strong class="AuthLocation">No hubo resultados.</strong>
+          </div>`;
+        mainContainer.appendChild(div);
+        return;
+      }
+
+      // Sort by distance ascending
+      data.sort((a, b) => {
+        const da = Number(a.distance ?? Infinity);
+        const db = Number(b.distance ?? Infinity);
+        return da - db;
+      });
+
+      data.forEach((i) => {
+        const div = document.createElement("div");
+        div.className = "store";
+        div.innerHTML =
+          "<strong>NOMBRE: </strong>" + (i.name ?? "") + "<br />" +
+          "<strong>DIRECCIÓN: </strong>" + (i.adreS1 ?? "") + "<br />" +
+          (i.adreS2 ?? "") + "<br />" +
+          "<strong>CIUDAD: </strong>" + (i.city ?? "") + "<br />" +
+          "<strong>ESTADO: </strong>" + (i.state ?? "") + "<br />" +
+          "<strong>ZIPCODE: </strong>" + (i.zipcod ?? "") + "<br />" +
+          "<strong>DISTANCIA EN MILLAS: </strong>" + (i.distance ?? "") + "<br /><br />" +
+          "<a class='locatorbutton button' target='_blank' href='https://www.google.com/maps/@" +
+          (i.latitu ?? "") + "," + (i.longit ?? "") + ",19.22z'>Localizar tienda</a>";
+        mainContainer.appendChild(div);
+      });
+    };
   </script>
 </body>
 </html>
