@@ -6,132 +6,45 @@
   <title>Localizador de Tiendas</title>
   <style>
     :root{
-      --brand: #0c4a6e;          /* azul botón */
-      --brand-600:#0b4160;
-      --text:#0f172a;            /* slate-900 */
-      --muted:#64748b;           /* slate-500 */
-      --border:#e2e8f0;          /* slate-200 */
-      --bg:#ffffff;
-      --radius:14px;
-      --shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+      --brand:#0c4a6e; --brand-600:#0b4160;
+      --text:#0f172a; --muted:#64748b;
+      --border:#e2e8f0; --bg:#ffffff;
+      --radius:14px; --shadow:0 10px 30px rgba(2,6,23,.08);
     }
-
-    html, body { height: 100%; }
-    body {
-      margin: 0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
-      color: var(--text);
-      background: var(--bg);
-      display: grid;
-      place-items: center;
-      padding: 24px;
+    html,body{height:100%}
+    body{
+      margin:0; display:grid; place-items:center; padding:24px;
+      font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      color:var(--text); background:var(--bg);
     }
-
-    .wrap {
-      width: 100%;
-      max-width: 680px;
-      text-align: center;
+    .wrap{width:100%; max-width:680px; text-align:center}
+    h1{margin:0 0 8px; font-size:clamp(32px,5vw,56px); line-height:1.05; letter-spacing:-.5px}
+    .sub{margin:0 auto 32px; color:var(--muted); font-size:clamp(14px,2.2vw,18px); max-width:52ch}
+    .card{background:#fff; border:1px solid var(--border); border-radius:22px; padding:clamp(16px,3.2vw,28px); box-shadow:var(--shadow)}
+    .field{text-align:left; margin-bottom:14px}
+    label{display:block; font-size:13px; color:var(--muted); margin:0 0 6px}
+    select{
+      width:100%; box-sizing:border-box; font-size:16px; padding:14px 16px;
+      border:1px solid var(--border); border-radius:var(--radius); background:#fff;
+      transition:box-shadow .15s ease,border-color .15s ease,background-color .15s ease;
+      appearance:none;
+      background-image:linear-gradient(45deg,transparent 50%,#94a3b8 50%),linear-gradient(135deg,#94a3b8 50%,transparent 50%);
+      background-position:calc(100% - 22px) calc(1em + 2px), calc(100% - 16px) calc(1em + 2px);
+      background-size:6px 6px,6px 6px; background-repeat:no-repeat;
     }
-
-    h1 {
-      margin: 0 0 8px;
-      font-size: clamp(32px, 5vw, 56px);
-      line-height: 1.05;
-      letter-spacing: -0.5px;
+    select:focus{border-color:#94a3b8; box-shadow:0 0 0 4px rgba(148,163,184,.20)}
+    select:disabled{background:#f8fafc; color:#94a3b8; cursor:not-allowed}
+    .actions{margin-top:10px}
+    button{
+      width:100%; font-size:18px; font-weight:600; padding:16px 20px;
+      background:var(--brand); color:#fff; border:0; border-radius:999px; cursor:pointer;
+      transition:transform .06s ease, background .15s ease, box-shadow .15s ease;
+      box-shadow:0 6px 18px rgba(12,74,110,.25);
     }
-
-    .sub {
-      margin: 0 auto 32px;
-      color: var(--muted);
-      font-size: clamp(14px, 2.2vw, 18px);
-      max-width: 52ch;
-    }
-
-    .card {
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      padding: clamp(16px, 3.2vw, 28px);
-      box-shadow: var(--shadow);
-      margin: 0 auto;
-    }
-
-    .field {
-      text-align: left;
-      margin-bottom: 14px;
-    }
-
-    label {
-      display: block;
-      font-size: 13px;
-      color: var(--muted);
-      margin: 0 0 6px;
-    }
-
-    select {
-      width: 100%;
-      box-sizing: border-box;
-      font-size: 16px;
-      padding: 14px 16px;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      background: #fff;
-      outline: none;
-      transition: box-shadow .15s ease, border-color .15s ease, background-color .15s ease;
-      appearance: none; /* cleaner look */
-      background-image:
-        linear-gradient(45deg, transparent 50%, #94a3b8 50%),
-        linear-gradient(135deg, #94a3b8 50%, transparent 50%);
-      background-position:
-        calc(100% - 22px) calc(1em + 2px),
-        calc(100% - 16px) calc(1em + 2px);
-      background-size: 6px 6px, 6px 6px;
-      background-repeat: no-repeat;
-    }
-
-    select:focus {
-      border-color: #94a3b8;
-      box-shadow: 0 0 0 4px rgba(148,163,184,.20);
-    }
-
-    select:disabled {
-      background-color: #f8fafc;
-      color: #94a3b8;
-      cursor: not-allowed;
-    }
-
-    .actions {
-      margin-top: 10px;
-    }
-
-    button {
-      width: 100%;
-      font-size: 18px;
-      font-weight: 600;
-      padding: 16px 20px;
-      background: var(--brand);
-      color: white;
-      border: 0;
-      border-radius: 999px;
-      cursor: pointer;
-      transition: transform .06s ease, background .15s ease, box-shadow .15s ease;
-      box-shadow: 0 6px 18px rgba(12, 74, 110, .25);
-    }
-    button:hover { background: var(--brand-600); }
-    button:active { transform: translateY(1px); }
-    button:disabled {
-      background: #cbd5e1;
-      box-shadow: none;
-      cursor: not-allowed;
-    }
-
-    .hint {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 13px;
-      min-height: 1.2em;
-      text-align: left;
-    }
+    button:hover{background:var(--brand-600)}
+    button:active{transform:translateY(1px)}
+    button:disabled{background:#cbd5e1; box-shadow:none; cursor:not-allowed}
+    .hint{margin-top:10px; color:var(--muted); font-size:13px; min-height:1.2em; text-align:left}
   </style>
 </head>
 <body>
@@ -139,7 +52,7 @@
     <h1>Localizador de Tiendas</h1>
     <p class="sub">Encuentra tu producto GOYA favorito fácilmente.</p>
 
-    <section class="card">
+    <section class="card" aria-label="Formulario de búsqueda de productos">
       <div class="field">
         <label for="cat">Categoría</label>
         <select id="cat" disabled>
@@ -152,7 +65,7 @@
         <select id="prod" disabled>
           <option value="">Selecciona una categoría…</option>
         </select>
-        <div id="hint" class="hint"></div>
+        <div id="hint" class="hint" aria-live="polite"></div>
       </div>
 
       <div class="actions">
@@ -162,139 +75,115 @@
   </main>
 
   <script>
-    // Use your jsDelivr file; change URL if needed
+    // JSON en jsDelivr
     const JSON_URL = "https://cdn.jsdelivr.net/gh/goyapr/product-locator/locator.json";
 
-    const $cat   = document.getElementById("cat");
-    const $prod  = document.getElementById("prod");
-    const $hint  = document.getElementById("hint");
-    const $go    = document.getElementById("buscar");
+    const $cat  = document.getElementById("cat");
+    const $prod = document.getElementById("prod");
+    const $hint = document.getElementById("hint");
+    const $go   = document.getElementById("buscar");
 
-    const opt = (v, t) => {
-      const o = document.createElement("option");
-      o.value = String(v ?? "");
-      o.textContent = String(t ?? v ?? "");
-      return o;
-    };
+    const opt = (v,t) => { const o=document.createElement("option"); o.value=String(v??""); o.textContent=String(t??v??""); return o; };
 
-    // Accepts either the UI-optimized shape or a normalized one
-    function normalizeData(raw) {
-      // UI shape
-      if (raw && Array.isArray(raw.categories) && raw.byCategory && typeof raw.byCategory === "object") {
-        const cats = raw.categories.map(c => ({ slug: c.value, name: c.label }))
-          .sort((a,b) => a.name.localeCompare(b.name));
-        const byCat = {};
-        for (const [slug, list] of Object.entries(raw.byCategory)) {
-          byCat[slug] = (list || []).map(p => ({
+    // Acepta dos formas: UI ({categories:[{value,label}], byCategory:{slug:[...]}})
+    // o Normalizado ({categories:[{slug,name}], products:[{slug,name,category,weight}]})
+    function normalizeData(raw){
+      if (raw && Array.isArray(raw.categories) && raw.byCategory && typeof raw.byCategory==="object"){
+        const categories = raw.categories.map(c=>({slug:c.value, name:c.label}))
+          .sort((a,b)=>a.name.localeCompare(b.name));
+        const productsByCat = {};
+        for(const [slug, list] of Object.entries(raw.byCategory)){
+          productsByCat[slug] = (list||[]).map(p=>({
             slug: p.value,
             name: p.label ?? p.value,
-            weight: p.weight,
-            // If your JSON already brings "labelWithWeight", keep it
-            labelWithWeight: p.labelWithWeight
-          })).sort((a,b) => a.name.localeCompare(b.name));
+            weight: p.weight // si existe
+          })).sort((a,b)=>a.name.localeCompare(b.name));
         }
-        return { categories: cats, productsByCat: byCat };
+        return {categories, productsByCat};
       }
-      // Normalized shape
-      if (raw && Array.isArray(raw.categories) && Array.isArray(raw.products)) {
-        const cats = raw.categories.map(c => ({ slug: c.slug, name: c.name ?? c.slug }))
-          .sort((a,b) => a.name.localeCompare(b.name));
-        const byCat = {};
-        for (const p of raw.products) {
-          const cat = (p.category ?? "").trim();
-          if (!cat) continue;
-          (byCat[cat] ||= []).push({
-            slug: p.slug,
-            name: p.name ?? p.slug,
-            weight: p.weight,
-            labelWithWeight: p.labelWithWeight
+      if (raw && Array.isArray(raw.categories) && Array.isArray(raw.products)){
+        const categories = raw.categories.map(c=>({slug:c.slug, name:c.name ?? c.slug}))
+          .sort((a,b)=>a.name.localeCompare(b.name));
+        const productsByCat = {};
+        for (const p of raw.products){
+          const cat = (p.category??"").trim(); if(!cat) continue;
+          (productsByCat[cat] ||= []).push({
+            slug: p.slug, name: p.name ?? p.slug, weight: p.weight
           });
         }
-        for (const k of Object.keys(byCat)) {
-          byCat[k].sort((a,b) => a.name.localeCompare(b.name));
+        for (const k of Object.keys(productsByCat)){
+          productsByCat[k].sort((a,b)=>a.name.localeCompare(b.name));
         }
-        return { categories: cats, productsByCat: byCat };
+        return {categories, productsByCat};
       }
       throw new Error("Estructura JSON no soportada.");
     }
 
-    function nameWithWeight(p) {
-      // Prefer a prebuilt labelWithWeight; else compose Name — Weight
-      if (p.labelWithWeight) return p.labelWithWeight;
-      if (p.weight) return `${p.name} — ${p.weight}`;
+    // Construye la etiqueta que verá el usuario: "Nombre — Peso" si hay weight
+    function productLabel(p){
+      if (p && p.weight && String(p.weight).trim()) return `${p.name} — ${p.weight}`;
       return p.name;
     }
 
-    async function loadData() {
-      try {
-        const res = await fetch(JSON_URL, { cache: "no-cache" });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const raw = await res.json();
-        return normalizeData(raw);
-      } catch (e) {
-        console.error(e);
-        $cat.innerHTML = "";
-        $cat.append(opt("", "No se pudo cargar el catálogo"));
-        $hint.textContent = "Revisa el enlace del JSON o la estructura.";
-        return null;
-      }
+    async function loadData(){
+      const res = await fetch(JSON_URL, {cache:"no-cache"});
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const raw = await res.json();
+      return normalizeData(raw);
     }
 
-    (async function main() {
-      const data = await loadData();
-      if (!data) return;
+    (async function main(){
+      let data;
+      try{
+        data = await loadData();
+      }catch(err){
+        console.error(err);
+        $cat.innerHTML = ""; $cat.append(opt("", "No se pudo cargar el catálogo"));
+        $hint.textContent = "Revisa el enlace del JSON o la estructura de datos.";
+        return;
+      }
 
-      // Populate categories
+      // Poblar categorías
       $cat.innerHTML = "";
       $cat.append(opt("", "Selecciona una categoría…"));
       for (const c of data.categories) $cat.append(opt(c.slug, c.name));
       $cat.disabled = false;
 
-      // Category change
       $cat.addEventListener("change", () => {
         const slug = $cat.value;
         const list = data.productsByCat[slug] || [];
 
         $prod.innerHTML = "";
-        if (!slug) {
+        if (!slug){
           $prod.append(opt("", "Selecciona una categoría…"));
-          $prod.disabled = true;
-          $go.disabled = true;
-          $hint.textContent = "";
+          $prod.disabled = true; $go.disabled = true; $hint.textContent = "";
           return;
         }
-
-        if (!list.length) {
+        if (!list.length){
           $prod.append(opt("", "No hay productos en esta categoría"));
-          $prod.disabled = true;
-          $go.disabled = true;
-          $hint.textContent = "";
+          $prod.disabled = true; $go.disabled = true; $hint.textContent = "";
           return;
         }
 
         $prod.append(opt("", "Selecciona un producto…"));
-        for (const p of list) {
-          $prod.append(opt(p.slug, nameWithWeight(p)));
+        for (const p of list){
+          $prod.append(opt(p.slug, productLabel(p)));
         }
-        $prod.disabled = false;
-        $go.disabled = true;
+        $prod.disabled = false; $go.disabled = true;
 
         const catLabel = $cat.options[$cat.selectedIndex].textContent;
         $hint.textContent = `Se cargaron ${list.length} producto${list.length===1?"":"s"} para “${catLabel}”.`;
       });
 
-      // Enable button when a product is selected
-      $prod.addEventListener("change", () => {
-        $go.disabled = !$prod.value;
-      });
+      $prod.addEventListener("change", () => { $go.disabled = !$prod.value; });
 
-      // Demo action for "Buscar"
+      // Acción demo del botón (cámbiala por tu lógica)
       $go.addEventListener("click", (e) => {
         e.preventDefault();
-        const cat = $cat.value;
-        const prod = $prod.value;
+        const cat = $cat.value, prod = $prod.value;
         if (!cat || !prod) return;
-        // TODO: Reemplaza con tu lógica real (redirigir, abrir modal, etc.)
+        // Ejemplo: redirigir con query params
+        // window.location.href = `/tiendas?cat=${encodeURIComponent(cat)}&prod=${encodeURIComponent(prod)}`;
         alert(`Buscar:\n• Categoría: ${cat}\n• Producto: ${prod}`);
       });
     })();
